@@ -1,6 +1,6 @@
 Empty IG
 ---
-This is an empty IG
+This is the Open HIE Case Reporting Implementation Guide
 <br> </br>
 ###
 ### Publication
