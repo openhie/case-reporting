@@ -1,6 +1,6 @@
-Empty IG
+Case Reporiting IG
 ---
-This is the Open HIE Case Reporting Implementation Guide.
+This is the OpenHIE Case Reporting Implementation Guide.
 <br> </br>
 ###
 ### Publication
