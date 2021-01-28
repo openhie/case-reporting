@@ -3,20 +3,108 @@
 
 err = 4, warn = 2, info = 0
 IG Publisher Version: 1.1.59
-Generated Thu Jan 28 22:18:59 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Thu Jan 28 22:25:43 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
- Build Errors : 7 / 1 / 0
+ Build Errors : 5 / 1 / 0
  /github/workspace/input/myig : 4 / 1 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be openhie.fhir.casereporting
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 191, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 190, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 226, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/a at Line 173, column 157: The link '#transaction' for "transactions" cannot be resolved (valid targets: 28 targets)
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/dl/dd/a at Line 265, column 374: The link 'expected_actions' for "expected actions" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 375, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 179, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/index.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 444 column 45
+ERROR: /github/workspace/output/artifacts.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 260 column 45
+ERROR: /github/workspace/output/changes.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 259 column 45
+ERROR: /github/workspace/output/toc.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 248 column 45
+ERROR: /github/workspace/output/downloads.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 295 column 45
 == /github/workspace/input/myig.xml ==
 ERROR: ImplementationGuide.where(url = 'http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting'): Conformance resource /github/workspace/input/myig.xml - the canonical URL (http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereportingv) does not match the URL (http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: openhie.fhir.casereportingv/http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting
