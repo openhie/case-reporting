@@ -3,7 +3,7 @@
 
 err = 4, warn = 2, info = 0
 IG Publisher Version: 1.1.59
-Generated Thu Jan 28 14:01:52 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Thu Jan 28 21:03:42 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
  Build Errors : 7 / 1 / 0
  /github/workspace/input/myig : 4 / 1 / 1
@@ -13,9 +13,9 @@ WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be 
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 190, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 189, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 225, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/a at Line 173, column 157: The link '#transaction' for "transactions" cannot be resolved (valid targets: 27 targets)
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/dl/dd/a at Line 262, column 374: The link 'expected_actions' for "expected actions" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 371, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/a at Line 173, column 157: The link '#transaction' for "transactions" cannot be resolved (valid targets: 28 targets)
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/dl/dd/a at Line 265, column 374: The link 'expected_actions' for "expected actions" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 374, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 178, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 == /github/workspace/input/myig.xml ==
 ERROR: ImplementationGuide.where(url = 'http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting'): Conformance resource /github/workspace/input/myig.xml - the canonical URL (http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereportingv) does not match the URL (http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting)
