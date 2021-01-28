@@ -1,0 +1,26 @@
+﻿openhie-case-reporting : Validation Results
+=========================================
+
+err = 4, warn = 2, info = 0
+IG Publisher Version: 1.1.59
+Generated Thu Jan 28 13:08:01 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+
+ Build Errors : 7 / 1 / 0
+ /github/workspace/input/myig : 4 / 1 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be openhie.fhir.casereporting
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 193, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 192, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 228, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/a at Line 175, column 157: The link '#transaction' for "transactions" cannot be resolved (valid targets: 27 targets)
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/dl/dd/a at Line 264, column 374: The link 'expected_actions' for "expected actions" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 374, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 181, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+== /github/workspace/input/myig.xml ==
+ERROR: ImplementationGuide.where(url = 'http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting'): Conformance resource /github/workspace/input/myig.xml - the canonical URL (http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereportingv) does not match the URL (http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: openhie.fhir.casereportingv/http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting
+INFORMATION: ImplementationGuide/openhie.fhir.casereportingv: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+WARNING: ImplementationGuide/openhie.fhir.casereportingv: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+ERROR: ImplementationGuide/openhie.fhir.casereportingv: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+ERROR: /github/workspace/input/myig: URL Mismatch http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereportingv vs http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting

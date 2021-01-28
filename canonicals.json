@@ -1,0 +1,9 @@
+[
+  {
+    "id": "openhie.fhir.casereportingv",
+    "type": "ImplementationGuide",
+    "url": "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting",
+    "version": "0.1.0-test",
+    "name": "openhie-case-reporting"
+  }
+]
