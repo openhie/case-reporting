@@ -1,6 +1,9 @@
 @startuml
 skinparam componentStyle rectangle
 
+'!include ./style.iuml
+!pragma graphviz_dot smetana
+
 agent [Case Report\n Submitter] as CRS
 agent [Case Report\n Transformer] as CRT
 agent [Case Report\n Repository] as CRR
