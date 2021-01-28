@@ -1,0 +1,13 @@
+@startuml
+
+agent Case Report Submitter
+agent Case Report Transformer
+agent Case Report Repository
+
+
+Case Report Submitter --> Case Report Transformer : Submit Case Report
+Case Report Transformer --> Case Report Repository : Store Case Report
+
+
+
+@enduml
