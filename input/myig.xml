@@ -2,9 +2,9 @@
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
   <id value="openhie.fhir.casereportingv"/>
-<!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
-    <valueString value="resources-spreadsheet.xml"/>
-  </extension>-->
+  <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
+       <valueString value="resources-spreadsheet.xml"/>
+       </extension>-->
   <url value="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.1.0-test"/>
@@ -28,8 +28,8 @@
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>
       <!-- Change to this if the IG is country-specific
-      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="001"/>
+	   <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+	   <code value="001"/>
       -->
     </coding>
   </jurisdiction>
@@ -40,7 +40,7 @@
   <fhirVersion value="4.0.1"/>
   <definition>
     <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
-      inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
+	 inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
@@ -52,21 +52,94 @@
         <generation value="html"/>
       </page>
       <page>
+        <nameUrl value="overview.html"/>
+        <title value="Overview"/>
+        <generation value="html"/>
+	<page>
+          <nameUrl value="concepts.html"/>
+          <title value="Concepts"/>
+          <generation value="html"/>	
+	</page>
+      </page>
+
+      <page>
+        <nameUrl value="usecases.html"/>
+        <title value="Use Cases "/>
+        <generation value="html"/>
+        <page>
+          <nameUrl value="usecase_1.html"/>
+          <title value="Use Case: Case Reporting - Public Health Response"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="usecase_2.html"/>
+          <title value="Use Case 2"/>
+          <generation value="html"/>
+        </page>
+      </page>
+
+      <page>
+        <nameUrl value="actors.html"/>
+        <title value="Actors "/>
+        <generation value="html"/>
+        <page>
+          <nameUrl value="actor_1.html"/>
+          <title value="Actor : Case Report Submitter"/>
+          <generation value="html"/>
+        </page>
+	<page>
+          <nameUrl value="actor_2.html"/>
+          <title value="Actor : Case Report Mediator"/>
+          <generation value="html"/>
+        </page>
+	<page>
+          <nameUrl value="actor_3.html"/>
+          <title value="Actor : Case Report Repository"/>
+          <generation value="html"/>
+        </page>
+      </page>
+
+      <page>
+        <nameUrl value="transactions.html"/>
+        <title value="Transactions "/>
+        <generation value="html"/>
+        <page>
+          <nameUrl value="transaction_1.html"/>
+          <title value="Transaction: Submit Case Report"/>
+          <generation value="html"/>
+        </page>
+	<page>
+          <nameUrl value="transaction_2.html"/>
+          <title value="Transaction: Store Case Report"/>
+          <generation value="html"/>
+        </page>
+	<page>
+          <nameUrl value="expected_actions.html"/>
+          <title value="Expected Actions"/>
+          <generation value="html"/>
+        </page>
+
+      </page>
+
+
+      <page>	
+        <nameUrl value="instant_openhie.html"/>
+        <title value="Instant OpenHIE"/>
+        <generation value="html"/>
+      </page>
+
+      <page>	
         <nameUrl value="downloads.html"/>
         <title value="Useful Downloads"/>
         <generation value="html"/>
       </page>
-    <!-- change history page -->
-      <page>
-        <nameUrl value="changes.html"/>
-        <title value="IG Change History"/>
-        <generation value="html"/>
-      </page>
     </page>
+      
+
     <!-- copyright year is a mandatory parameter -->
     <parameter>
       <code value="copyrightyear"/>
-      <value value="2019+"/>
+      <value value="2021+"/>
     </parameter>
     <!-- releaselabel should be the ballot status for HL7-published IGs. -->
     <parameter>
@@ -93,22 +166,22 @@
       <code value="path-liquid"/>
       <value value="templates\liquid"/>
     </parameter>
-<!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings
-    <parameter>
-      <code value="excludexml"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="excludejson"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="excludettl"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="excludemap"/>
-      <value value="true"/>
-    </parameter>-->
+    <!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings
+	 <parameter>
+	 <code value="excludexml"/>
+	 <value value="true"/>
+	 </parameter>
+	 <parameter>
+	 <code value="excludejson"/>
+	 <value value="true"/>
+	 </parameter>
+	 <parameter>
+	 <code value="excludettl"/>
+	 <value value="true"/>
+	 </parameter>
+	 <parameter>
+	 <code value="excludemap"/>
+	 <value value="true"/>
+	 </parameter>-->
   </definition>
 </ImplementationGuide>

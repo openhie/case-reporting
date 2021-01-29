@@ -1,0 +1,37 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <h4>FHIR Maturity Levels</h4><a name="maturity"></a>
+  <p>
+    
+    <dl>
+      <dt>FHIR Naive</dt>
+      <dd>Existing tool with limited resources or desire to upgrade to include FHIR support.  Have back-end access to database or way to generate tabular reports.  </dd>
+
+      <dt>FHIR Aware</dt>
+      <dd>Basic FHIR Questionnaire support available for simple data exports from template reports.  Can initiate FHIR API calls.  Metadata synchronized using IHE profiless (SVCM, mCSD)</dd>
+
+      <dt>FHIR Native</dt>
+      <dd>Full FHIR stack, data model and supporting tools are within the system.  Can generate robust FHIR resources and data models and metadata has been synchronized using IHE profiles (SVCM, mCSD)</dd>
+    </dl>
+
+    
+  </p>
+
+
+  <h4>Case Report Forms</h4><a name="case_report"></a>  
+  <p>
+    The specification of a case report form comprises two things:
+    <ul>
+      <li> The specific data fields expected in the case report are defined through the specification of a <a href="https://www.hl7.org/fhir/questionnaire.html">Questionnaire</a> with a Structured <a href="http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract">Definition Based Extract</a> as defined in  the Structured Data Capture Implementation Guide.  The Questionnaire is inteded to ease data collection, particularly from systems with lower FHIR <a href="$concepts.html#matutiy">maturity</a> </li>
+      
+      <li> A profile of the <a href="https://www.hl7.org/fhir/composition.html">Composition</a> which will define where the content (e.g.  demographic, clinical) of a case report form should reside.  This profile also represents the domain of resources onto which a <a href="https://www.hl7.org/fhir/composition.html">QuestionnaireResponse</a> extracts.</li>
+    </ul>
+
+
+    <figure>
+      <img src="transformers.png" width="80%"></img>
+      <figurecaption>Case Report Transformation Workflow</figurecaption>
+    </figure>
+
+  </p>
+
+</div>

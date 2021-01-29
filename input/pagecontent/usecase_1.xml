@@ -1,0 +1,8 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  Case Reporting as a part of the public health response is descibed in the following documents:
+  <ul>
+    <li><a href="https://www.who.int/healthsystems/topics/health-law/chapter9.pdf">Advancing the right to health: the vital role of law, Chapter 9</a> for legal and policy considerations</li>
+    <li><a href="https://www.who.int/hiv/pub/guidelines/person-centred-hiv-monitoring-guidelines/en/">Consolidated Guidelines On Person-Centered HIV Patient Monitoring and Case Surveillance</a></li>
+    <li></li>
+  </ul>
+</div>

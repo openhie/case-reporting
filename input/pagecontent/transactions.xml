@@ -1,0 +1,21 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+    This implementation guide contains the full set of specifications for general case reporting workflows.  These workflows are designed for reporting system operating at a variety of FHIR <a href="#maturity">maturity levels.</a>
+    
+    There are three <a href="#actors">actors </a> (Case Report Submitter, Case Report Transformer, and Case Report Repository) involved in two case report <a href="#transaction">transactions</a>.
+
+
+
+
+
+  <h4>Transactions</h4><a name="transactions"></a>
+  <p>
+    There are two transactions defined by this implementaiton guide:
+    <dl>
+
+      <dt>Store Case Report</dt>
+      <dd>The Store Case Report transaction is initiated by the Case Report Transfomer after processing a case report form received from a Case Report Submitter.  The Case Report Transformer sends a Transaction Bundle to the Case Report Repository which stores the resources for later user and analysis. </dd>
+    </dl>
+  </p>
+
+  
+</div>

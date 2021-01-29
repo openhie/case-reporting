@@ -1,0 +1,6 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+
+	The Submit Case Report transaction is initiated by the Case Report Submitter based on periodically defined report time, when triggered by a sentinel event, or in batch when online. There are three options for the Submit Case Report transaction defined by the <a href="concepts.html##maturity">maturity level</a> of the Case Report Submitter.  The  Case Report Transformer has a set of <a href="expected_actions.html">expected actions</a> to take depending on the option
+
+
+</div>
