@@ -60,6 +60,12 @@
           <title value="Concepts"/>
           <generation value="html"/>	
 	</page>
+	<page>
+          <nameUrl value="dependencies.html"/>
+          <title value="Dependencies"/>
+          <generation value="html"/>	
+	</page>
+
       </page>
 
       <page>
