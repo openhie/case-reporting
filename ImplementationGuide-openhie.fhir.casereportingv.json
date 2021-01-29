@@ -11,7 +11,7 @@
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-01-29T05:18:34+00:00",
+  "date": "2021-01-29T18:55:08+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -346,6 +346,11 @@
             {
               "nameUrl": "concepts.html",
               "title": "Concepts",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "dependencies.html",
+              "title": "Dependencies",
               "generation": "html"
             }
           ]

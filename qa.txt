@@ -3,9 +3,9 @@
 
 err = 4, warn = 5, info = 0
 IG Publisher Version: 1.1.59
-Generated Fri Jan 29 05:18:39 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Fri Jan 29 18:55:13 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
- Build Errors : 18 / 1 / 0
+ Build Errors : 19 / 1 / 0
  /github/workspace/input/myig : 4 / 4 / 1
 </table>
 == n/a ==
@@ -257,6 +257,25 @@ ERROR: /github/workspace/output/instant_openhie.html: unable to parse character 
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 253 column 45
+ERROR: /github/workspace/output/dependencies.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 281 column 45
 ERROR: /github/workspace/output/concepts.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');

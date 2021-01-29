@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>OPENHIE.FHIR.CASEREPORTINGV\Use Case: Case Reporting - Public Health Response - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.CASEREPORTINGV\Dependencies - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.1"}
-    h3,h4,h5,h6{--heading-prefix:"3.1"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.2"}
+    h3,h4,h5,h6{--heading-prefix:"2.2"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -133,7 +133,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='usecases.html'><b>Use Cases </b></a></li><li><b>Use Case: Case Reporting - Public Health Response</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='overview.html'><b>Overview</b></a></li><li><b>Dependencies</b></li>
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
@@ -152,15 +152,41 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
-  <h2>Use Case: Case Reporting - Public Health Response</h2>
+  <h2>Dependencies</h2>
   
   <div xmlns="http://www.w3.org/1999/xhtml">
-  Case Reporting as a part of the public health response is descibed in the following documents:
-  <ul>
-    <li><a href="https://www.who.int/healthsystems/topics/health-law/chapter9.pdf">Advancing the right to health: the vital role of law, Chapter 9</a> for legal and policy considerations</li>
-    <li><a href="https://www.who.int/hiv/pub/guidelines/person-centred-hiv-monitoring-guidelines/en/">Consolidated Guidelines On Person-Centered HIV Patient Monitoring and Case Surveillance</a></li>
-    <li/>
-  </ul>
+
+  <a name="1"/><h4>Dependencies</h4><a name="dependencies">  </a>
+  <p>
+    This Implementation Guide depends on the following standards and profiles:
+
+
+    <dl>
+      <dt><a href="https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_SVCM.pdf">Sharing Value Sets and Concept Maos (SVCM)</a></dt>
+      <dd><i>FHIR Aware</i> and <i>FHIR Native</i> case reporting systems should use SVCM to synchronize value sets used for reporting (e.g. disaggregators/stratifiers) and to specify concept maps between local code systems and required reporting value sets.</dd>
+    </dl>
+
+    <dl>
+      <dt><a href="https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_mCSD.pdf">Mobile Care Services Discovery (mCSD)</a></dt>
+      <dd><i>FHIR Aware</i> and <i>FHIR Native</i> case reporting systems should use mCSD to synchorinze location data  (e.g. health facility, site, community, distrct, region) use for reporting</dd>
+    </dl>
+
+    <dl>
+      <dt><a href="https://wiki.ihe.net/index.php/Audit_Trail_and_Node_Authentication">Audit Trail and Node Authentication (ATNA)</a></dt>
+      <dd>Used by the Case Report Transformer to  provide patient information confidentiality, data integrity and user accountability.   </dd>
+    </dl>
+    
+    <dl>
+      <dt><a href="http://build.fhir.org/ig/HL7/sdc/index.html">Structured Data Captyre (SDC)</a></dt>
+      <dd>Under the FHIR-Aware option, a Case Report Transformer should use <a href="http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract">Definition Based Extract</a>, defined in  Structured Data Capture, to transform a incoming case report Questionnaire resource into a Composition resource before submitting to the Case Report Repository.</dd>      
+    </dl>
+
+
+    <dl>
+      <dt>Data Analytics (forthcoming) </dt>
+      <dd>Recommended Implementation Guide for providing a platform for  business intelligence tools used for further data analysis and use of case report forms.</dd> 
+    </dl>
+  </p>
 </div>
 </div>
 

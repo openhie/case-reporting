@@ -12,7 +12,7 @@
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-01-29T05:18:34+00:00"/>
+  <date value="2021-01-29T18:55:08+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -223,6 +223,11 @@
         <page>
           <nameUrl value="concepts.html"/>
           <title value="Concepts"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="dependencies.html"/>
+          <title value="Dependencies"/>
           <generation value="html"/>
         </page>
       </page>
