@@ -12,7 +12,7 @@
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-01-28T22:25:38+00:00"/>
+  <date value="2021-01-29T05:14:00+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -36,7 +36,7 @@
         <valueString value="copyrightyear"/>
       </extension>
       <extension url="value">
-        <valueString value="2019+"/>
+        <valueString value="2021+"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -217,13 +217,78 @@
         <generation value="html"/>
       </page>
       <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Useful Downloads"/>
+        <nameUrl value="overview.html"/>
+        <title value="Overview"/>
+        <generation value="html"/>
+        <page>
+          <nameUrl value="concepts.html"/>
+          <title value="Concepts"/>
+          <generation value="html"/>
+        </page>
+      </page>
+      <page>
+        <nameUrl value="usecases.html"/>
+        <title value="Use Cases "/>
+        <generation value="html"/>
+        <page>
+          <nameUrl value="usecase_1.html"/>
+          <title value="Use Case: Case Reporting - Public Health Response"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="usecase_2.html"/>
+          <title value="Use Case 2"/>
+          <generation value="html"/>
+        </page>
+      </page>
+      <page>
+        <nameUrl value="actors.html"/>
+        <title value="Actors "/>
+        <generation value="html"/>
+        <page>
+          <nameUrl value="actor_1.html"/>
+          <title value="Actor : Case Report Submitter"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="actor_2.html"/>
+          <title value="Actor : Case Report Mediator"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="actor_3.html"/>
+          <title value="Actor : Case Report Repository"/>
+          <generation value="html"/>
+        </page>
+      </page>
+      <page>
+        <nameUrl value="transactions.html"/>
+        <title value="Transactions "/>
+        <generation value="html"/>
+        <page>
+          <nameUrl value="transaction_1.html"/>
+          <title value="Transaction: Submit Case Report"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="transaction_2.html"/>
+          <title value="Transaction: Store Case Report"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="expected_actions.html"/>
+          <title value="Expected Actions"/>
+          <generation value="html"/>
+        </page>
+      </page>
+      <page>
+        <nameUrl value="instant_openhie.html"/>
+        <title value="Instant OpenHIE"/>
         <generation value="html"/>
       </page>
       <page>
-        <nameUrl value="changes.html"/>
-        <title value="IG Change History"/>
+        <nameUrl value="downloads.html"/>
+        <title value="Useful Downloads"/>
         <generation value="html"/>
       </page>
     </page>

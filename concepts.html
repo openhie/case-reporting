@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>OPENHIE.FHIR.CASEREPORTINGV\Useful Downloads - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.CASEREPORTINGV\Concepts - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7"}
-    h3,h4,h5,h6{--heading-prefix:"7"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.1"}
+    h3,h4,h5,h6{--heading-prefix:"2.1"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -133,7 +133,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Useful Downloads</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='overview.html'><b>Overview</b></a></li><li><b>Concepts</b></li>
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
@@ -152,55 +152,44 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
-  <h2>Useful Downloads</h2>
+  <h2>Concepts</h2>
   
   <div xmlns="http://www.w3.org/1999/xhtml">
+  <a name="1"/><h4>FHIR Maturity Levels</h4><a name="maturity"> </a>
+  <p>
+    
+    <dl>
+      <dt>FHIR Naive</dt>
+      <dd>Existing tool with limited resources or desire to upgrade to include FHIR support.  Have back-end access to database or way to generate tabular reports.  </dd>
+
+      <dt>FHIR Aware</dt>
+      <dd>Basic FHIR Questionnaire support available for simple data exports from template reports.  Can initiate FHIR API calls.  Metadata synchronized using IHE profiless (SVCM, mCSD)</dd>
+
+      <dt>FHIR Native</dt>
+      <dd>Full FHIR stack, data model and supporting tools are within the system.  Can generate robust FHIR resources and data models and metadata has been synchronized using IHE profiles (SVCM, mCSD)</dd>
+    </dl>
+
+    
+  </p>
 
 
-
-	<p>
-    Download the entire implementation guide <a href="full-ig.zip">here</a>
-	</p>
-	<table>
-		<tbody>
-			<tr>
-				<th>Artifact Definitions</th>
-
-				<td>
-					<a href="definitions.xml.zip">XML</a>
-				</td>
+  <a name="2"/><h4>Case Report Forms</h4><a name="case_report"> </a>  
+  <p>
+    The specification of a case report form comprises two things:
+    <ul>
+      <li> The specific data fields expected in the case report are defined through the specification of a <a href="https://www.hl7.org/fhir/questionnaire.html">Questionnaire</a> with a Structured <a href="http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract">Definition Based Extract</a> as defined in  the Structured Data Capture Implementation Guide.  The Questionnaire is inteded to ease data collection, particularly from systems with lower FHIR <a href="$concepts.html#matutiy">maturity</a> </li>
+      
+      <li> A profile of the <a href="https://www.hl7.org/fhir/composition.html">Composition</a> which will define where the content (e.g.  demographic, clinical) of a case report form should reside.  This profile also represents the domain of resources onto which a <a href="https://www.hl7.org/fhir/composition.html">QuestionnaireResponse</a> extracts.</li>
+    </ul>
 
 
-				<td>
-					<a href="definitions.json.zip">JSON</a>
-				</td>
+    <figure>
+      <img src="transformers.png" width="80%"/>
+      <figurecaption>Case Report Transformation Workflow</figurecaption>
+    </figure>
 
+  </p>
 
-				<td>
-					<a href="definitions.ttl.zip">Turtle</a>
-				</td>
-
-			</tr>
-			<tr>
-				<th>Examples</th>
-
-				<td>
-					<a href="examples.xml.zip">XML</a>
-				</td>
-
-
-				<td>
-					<a href="examples.json.zip">JSON</a>
-				</td>
-
-
-				<td>
-					<a href="examples.ttl.zip">Turtle</a>
-				</td>
-
-			</tr>
-		</tbody>
-	</table>
 </div>
 </div>
 

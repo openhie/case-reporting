@@ -11,7 +11,7 @@
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-01-28T22:25:38+00:00",
+  "date": "2021-01-29T05:14:00+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -49,7 +49,7 @@
           },
           {
             "url": "value",
-            "valueString": "2019+"
+            "valueString": "2021+"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -339,13 +339,86 @@
           "generation": "html"
         },
         {
-          "nameUrl": "downloads.html",
-          "title": "Useful Downloads",
+          "nameUrl": "overview.html",
+          "title": "Overview",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "concepts.html",
+              "title": "Concepts",
+              "generation": "html"
+            }
+          ]
+        },
+        {
+          "nameUrl": "usecases.html",
+          "title": "Use Cases ",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "usecase_1.html",
+              "title": "Use Case: Case Reporting - Public Health Response",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "usecase_2.html",
+              "title": "Use Case 2",
+              "generation": "html"
+            }
+          ]
+        },
+        {
+          "nameUrl": "actors.html",
+          "title": "Actors ",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "actor_1.html",
+              "title": "Actor : Case Report Submitter",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "actor_2.html",
+              "title": "Actor : Case Report Mediator",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "actor_3.html",
+              "title": "Actor : Case Report Repository",
+              "generation": "html"
+            }
+          ]
+        },
+        {
+          "nameUrl": "transactions.html",
+          "title": "Transactions ",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "transaction_1.html",
+              "title": "Transaction: Submit Case Report",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "transaction_2.html",
+              "title": "Transaction: Store Case Report",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "expected_actions.html",
+              "title": "Expected Actions",
+              "generation": "html"
+            }
+          ]
+        },
+        {
+          "nameUrl": "instant_openhie.html",
+          "title": "Instant OpenHIE",
           "generation": "html"
         },
         {
-          "nameUrl": "changes.html",
-          "title": "IG Change History",
+          "nameUrl": "downloads.html",
+          "title": "Useful Downloads",
           "generation": "html"
         }
       ]
