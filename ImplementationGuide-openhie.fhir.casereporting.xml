@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="openhie.fhir.casereporting"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>openhie-case-reporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/openhie.fhir.casereporting</pre><div><p>General case reporting workflow for OpenHIE</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>openhie-case-reporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting</pre><div><p>General case reporting workflow for OpenHIE</p>
 </div></div>
   </text>
-  <url value="http://openhie.org/fhir/openhie.fhir.casereporting"/>
+  <url value="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting"/>
   <version value="0.1.0-test"/>
   <name value="openhie-case-reporting"/>
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-01-30T21:55:38+00:00"/>
+  <date value="2021-01-30T23:55:02+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -124,7 +124,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="history.html"/>
+        <valueString value="http://openhie.org/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

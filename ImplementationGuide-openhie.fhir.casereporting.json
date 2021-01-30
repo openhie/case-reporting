@@ -3,15 +3,15 @@
   "id": "openhie.fhir.casereporting",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>openhie-case-reporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/openhie.fhir.casereporting</pre><div><p>General case reporting workflow for OpenHIE</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>openhie-case-reporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting</pre><div><p>General case reporting workflow for OpenHIE</p>\n</div></div>"
   },
-  "url": "http://openhie.org/fhir/openhie.fhir.casereporting",
+  "url": "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting",
   "version": "0.1.0-test",
   "name": "openhie-case-reporting",
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-01-30T21:55:38+00:00",
+  "date": "2021-01-30T23:55:02+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -192,7 +192,7 @@
           },
           {
             "url": "value",
-            "valueString": "history.html"
+            "valueString": "http://openhie.org/fhir/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
