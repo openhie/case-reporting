@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="openhie.fhir.casereportingv"/>
+  <id value="openhie.fhir.casereporting"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>openhie-case-reporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting</pre><div><p>General case reporting workflow for OpenHIE</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>openhie-case-reporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/openhie.fhir.casereporting</pre><div><p>General case reporting workflow for OpenHIE</p>
 </div></div>
   </text>
-  <url value="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting"/>
+  <url value="http://openhie.org/fhir/openhie.fhir.casereporting"/>
   <version value="0.1.0-test"/>
   <name value="openhie-case-reporting"/>
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-01-30T18:50:17+00:00"/>
+  <date value="2021-01-30T21:55:38+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -124,7 +124,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://openhie.org/fhir/history.html"/>
+        <valueString value="history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -226,63 +226,53 @@
           <generation value="html"/>
         </page>
         <page>
+          <nameUrl value="personas.html"/>
+          <title value="Personas"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="workflows.html"/>
+          <title value="Workflows"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="usecases.html"/>
+          <title value="Use Cases"/>
+          <generation value="html"/>
+        </page>
+      </page>
+      <page>
+        <nameUrl value="data_exchange.html"/>
+        <title value="Data Exchange Standards"/>
+        <generation value="html"/>
+        <page>
           <nameUrl value="dependencies.html"/>
           <title value="Dependencies"/>
           <generation value="html"/>
         </page>
-      </page>
-      <page>
-        <nameUrl value="usecases.html"/>
-        <title value="Use Cases "/>
-        <generation value="html"/>
         <page>
-          <nameUrl value="usecase_1.html"/>
-          <title value="Use Case: Case Reporting - Public Health Response"/>
+          <nameUrl value="actors.html"/>
+          <title value="Actors"/>
           <generation value="html"/>
         </page>
         <page>
-          <nameUrl value="usecase_2.html"/>
-          <title value="Use Case 2"/>
-          <generation value="html"/>
-        </page>
-      </page>
-      <page>
-        <nameUrl value="actors.html"/>
-        <title value="Actors "/>
-        <generation value="html"/>
-        <page>
-          <nameUrl value="actor_1.html"/>
-          <title value="Actor : Case Report Submitter"/>
-          <generation value="html"/>
-        </page>
-        <page>
-          <nameUrl value="actor_2.html"/>
-          <title value="Actor : Case Report Mediator"/>
-          <generation value="html"/>
-        </page>
-        <page>
-          <nameUrl value="actor_3.html"/>
-          <title value="Actor : Case Report Repository"/>
-          <generation value="html"/>
-        </page>
-      </page>
-      <page>
-        <nameUrl value="transactions.html"/>
-        <title value="Transactions "/>
-        <generation value="html"/>
-        <page>
-          <nameUrl value="transaction_1.html"/>
-          <title value="Transaction: Submit Case Report"/>
-          <generation value="html"/>
-        </page>
-        <page>
-          <nameUrl value="transaction_2.html"/>
-          <title value="Transaction: Store Case Report"/>
+          <nameUrl value="transactions.html"/>
+          <title value="Transactions"/>
           <generation value="html"/>
         </page>
         <page>
           <nameUrl value="expected_actions.html"/>
           <title value="Expected Actions"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="security_privacy.html"/>
+          <title value="Security and Privacy Considerations"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="content_profiles.html"/>
+          <title value="Content Profiles"/>
           <generation value="html"/>
         </page>
       </page>

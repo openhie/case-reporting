@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereportingv> a fhir:ImplementationGuide;
+<http://openhie.org/fhir/openhie.fhir.casereporting/ImplementationGuide/openhie.fhir.casereporting> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "openhie.fhir.casereportingv"];
+  fhir:Resource.id [ fhir:value "openhie.fhir.casereporting"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>openhie-case-reporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting</pre><div><p>General case reporting workflow for OpenHIE</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>openhie-case-reporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/openhie.fhir.casereporting</pre><div><p>General case reporting workflow for OpenHIE</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting"];
+  fhir:ImplementationGuide.url [ fhir:value "http://openhie.org/fhir/openhie.fhir.casereporting"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0-test"];
   fhir:ImplementationGuide.name [ fhir:value "openhie-case-reporting"];
   fhir:ImplementationGuide.title [ fhir:value "OpenHIE Case Reporting"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-01-30T18:50:17+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-01-30T21:55:38+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -185,7 +185,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://openhie.org/fhir/history.html" ]
+         fhir:Extension.valueString [ fhir:value "history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -330,75 +330,63 @@
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
          ], [
            fhir:index 1;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "dependencies.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Dependencies" ];
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "personas.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Personas" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 2;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "workflows.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Workflows" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 3;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "usecases.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
          ]
        ], [
          fhir:index 2;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "usecases.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases " ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "data_exchange.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Data Exchange Standards" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
          fhir:ImplementationGuide.definition.page.page [
            fhir:index 0;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "usecase_1.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Case: Case Reporting - Public Health Response" ];
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "dependencies.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Dependencies" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
          ], [
            fhir:index 1;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "usecase_2.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Case 2" ];
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "actors.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Actors" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 2;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "transactions.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Transactions" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 3;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "expected_actions.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Expected Actions" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 4;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "security_privacy.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Security and Privacy Considerations" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 5;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "content_profiles.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Content Profiles" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
          ]
        ], [
          fhir:index 3;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "actors.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Actors " ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
-         fhir:ImplementationGuide.definition.page.page [
-           fhir:index 0;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "actor_1.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Actor : Case Report Submitter" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-         ], [
-           fhir:index 1;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "actor_2.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Actor : Case Report Mediator" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-         ], [
-           fhir:index 2;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "actor_3.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Actor : Case Report Repository" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-         ]
-       ], [
-         fhir:index 4;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "transactions.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Transactions " ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
-         fhir:ImplementationGuide.definition.page.page [
-           fhir:index 0;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "transaction_1.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Transaction: Submit Case Report" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-         ], [
-           fhir:index 1;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "transaction_2.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Transaction: Store Case Report" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-         ], [
-           fhir:index 2;
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "expected_actions.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Expected Actions" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
-         ]
-       ], [
-         fhir:index 5;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "instant_openhie.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Instant OpenHIE" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
-         fhir:index 6;
+         fhir:index 4;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Useful Downloads" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
@@ -473,7 +461,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereportingv.ttl> a owl:Ontology;
+<http://openhie.org/fhir/openhie.fhir.casereporting/ImplementationGuide/openhie.fhir.casereporting.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
