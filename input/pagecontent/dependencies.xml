@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 
-  <h4>Dependencies</h4><a name="dependencies"> </a>
+  <h3>Dependencies</h3><a name="dependencies"> </a>
   <p>
     This Implementation Guide depends on the following standards and profiles:
 
@@ -21,7 +21,7 @@
     </dl>
     
     <dl>
-      <dt><a href="http://build.fhir.org/ig/HL7/sdc/index.html">Structured Data Captyre (SDC)</a></dt>
+      <dt><a href="http://build.fhir.org/ig/HL7/sdc/index.html">Structured Data Capture (SDC)</a></dt>
       <dd>Under the FHIR-Aware option, a Case Report Transformer should use <a href="http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract">Definition Based Extract</a>, defined in  Structured Data Capture, to transform a incoming case report Questionnaire resource into a Composition resource before submitting to the Case Report Repository.</dd>      
     </dl>
 

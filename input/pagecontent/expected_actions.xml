@@ -1,5 +1,8 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 
+
+
+  <h3>Authentication and Audits</h3><a name="atna"/>
   <p>
     The Case Report Transformer should perform the following actions:
     <ul>
@@ -13,7 +16,11 @@
       <li>Resolve local identifiers for location using a canonical identifier, as defined by mCSD</li>
       <li>Validate any location identifiers against a facility directory, as defined by mCSD</li>
     </ul>
+  </p>
 
+  <h3>Transformation Options</h3><a name="transform"/>
+  <p>
+    
     For Case Report Transform should be able perform three options for the Submit Case Report transaction.  These options are defined for differing <a href="concepts.html#maturity">maturity</a> levels of a Case Report Submitter.  These options have the following expected actions:
     <dl>
       <dt>FHIR Naive</dt>
