@@ -171,6 +171,10 @@
       <value value="CI Build"/>
     </parameter>
     <parameter>
+      <code value="label"/>
+      <value value="L"/>
+    </parameter>
+    <parameter>
       <code value="find-other-resources"/>
       <value value="true"/>
     </parameter>
