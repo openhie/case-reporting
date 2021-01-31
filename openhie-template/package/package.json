@@ -5,8 +5,8 @@
   "license": "CC0-1.0",
   "description": "Template for OpenHIE Implementation Guides",
   "author": "http://openhie.org",
-	"base":  "fhir.base.template",
+	"base":  "hl7.be.fhir.template",
   "dependencies": {
-    "fhir.base.template": "current"
+    "hl7.be.fhir.template": "current"
   }
 }
