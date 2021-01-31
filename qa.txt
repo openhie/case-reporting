@@ -3,7 +3,7 @@
 
 err = 1, warn = 1, info = 0
 IG Publisher Version: 1.1.59
-Generated Sun Jan 31 03:28:09 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Sun Jan 31 04:04:13 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
  Build Errors : 17 / 0 / 0
  /github/workspace/input/case-reporting : 1 / 1 / 1
