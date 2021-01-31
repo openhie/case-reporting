@@ -12,7 +12,7 @@
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-01-31T04:51:54+00:00"/>
+  <date value="2021-01-31T11:10:47+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -213,12 +213,17 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="OpenHIE Case Reporting Home Page"/>
+        <title value="L1: OpenHIE Case Reporting"/>
         <generation value="html"/>
+        <page>
+          <nameUrl value="references.html"/>
+          <title value="References"/>
+          <generation value="html"/>
+        </page>
       </page>
       <page>
         <nameUrl value="requirements.html"/>
-        <title value="Data Requirements"/>
+        <title value="L2: Data Requirements"/>
         <generation value="html"/>
         <page>
           <nameUrl value="concepts.html"/>
@@ -243,7 +248,7 @@
       </page>
       <page>
         <nameUrl value="data_exchange.html"/>
-        <title value="Data Exchange Standards"/>
+        <title value="L3: Data Exchange Standards"/>
         <generation value="html"/>
         <page>
           <nameUrl value="dependencies.html"/>
@@ -266,25 +271,30 @@
           <generation value="html"/>
         </page>
         <page>
-          <nameUrl value="security_privacy.html"/>
-          <title value="Security and Privacy Considerations"/>
-          <generation value="html"/>
-        </page>
-        <page>
           <nameUrl value="content_profiles.html"/>
           <title value="Content Profiles"/>
           <generation value="html"/>
         </page>
       </page>
       <page>
-        <nameUrl value="instant_openhie.html"/>
-        <title value="Instant OpenHIE"/>
+        <nameUrl value="deployment.html"/>
+        <title value="L4: Deployment Guidance"/>
         <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Useful Downloads"/>
-        <generation value="html"/>
+        <page>
+          <nameUrl value="security_privacy.html"/>
+          <title value="Security and Privacy Considerations"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="instant_openhie.html"/>
+          <title value="Instant OpenHIE"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="downloads.html"/>
+          <title value="Useful Downloads"/>
+          <generation value="html"/>
+        </page>
       </page>
     </page>
     <parameter>

@@ -11,7 +11,7 @@
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-01-31T04:51:54+00:00",
+  "date": "2021-01-31T11:10:47+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -335,12 +335,19 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "OpenHIE Case Reporting Home Page",
-          "generation": "html"
+          "title": "L1: OpenHIE Case Reporting",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "references.html",
+              "title": "References",
+              "generation": "html"
+            }
+          ]
         },
         {
           "nameUrl": "requirements.html",
-          "title": "Data Requirements",
+          "title": "L2: Data Requirements",
           "generation": "html",
           "page": [
             {
@@ -367,7 +374,7 @@
         },
         {
           "nameUrl": "data_exchange.html",
-          "title": "Data Exchange Standards",
+          "title": "L3: Data Exchange Standards",
           "generation": "html",
           "page": [
             {
@@ -391,11 +398,6 @@
               "generation": "html"
             },
             {
-              "nameUrl": "security_privacy.html",
-              "title": "Security and Privacy Considerations",
-              "generation": "html"
-            },
-            {
               "nameUrl": "content_profiles.html",
               "title": "Content Profiles",
               "generation": "html"
@@ -403,14 +405,26 @@
           ]
         },
         {
-          "nameUrl": "instant_openhie.html",
-          "title": "Instant OpenHIE",
-          "generation": "html"
-        },
-        {
-          "nameUrl": "downloads.html",
-          "title": "Useful Downloads",
-          "generation": "html"
+          "nameUrl": "deployment.html",
+          "title": "L4: Deployment Guidance",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "security_privacy.html",
+              "title": "Security and Privacy Considerations",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "instant_openhie.html",
+              "title": "Instant OpenHIE",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "downloads.html",
+              "title": "Useful Downloads",
+              "generation": "html"
+            }
+          ]
         }
       ]
     },

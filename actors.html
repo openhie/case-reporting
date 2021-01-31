@@ -91,10 +91,10 @@
               <ul
 	xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
 	<li>
-		<a href="index.html">IG Home</a>
-	</li>
-	<li>
-		<a href="toc.html">Table of Contents</a>
+	  <a href="index.html">L1: Case Reporting</a>
+	  <ul class="dropdown-menu">
+	    <li><a href="references.html">References</a></li>
+	  </ul>
 	</li>
 <!--
 	<li class="dropdown">
@@ -109,18 +109,40 @@
 	</li>
 -->
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
+		<a data-toggle="dropdown" href="requirements.html" class="dropdown-toggle">L2: Requirements<b class="caret"></b>
 		</a>
 		<ul class="dropdown-menu">
-		  <li><a href="requirements.html">Requirements</a></li>
-		  <li><a href="data_exchange.html">Data Exchange</a></li>
+		  <li><a href="concepts.html">Key Concepts</a></li>
+		  <li><a href="personas.html">Personas</a></li>
+		  <li><a href="workflows.html">Workflows</a></li>      
+		  <li>
+		    <a href="usecases.html">Use Cases</a>
+		    <ul class="dropdown-menu">
+		      <li> <a href="usecases.html#usecase_phr">Use Case: Public Health Response</a> case reporting as part of the public health response.</li>
+		    </ul>
+		  </li>
+		  <li><a href="dictionary.html">Data Dictionary</a></li>
+
+		</ul>
+	</li>
+
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="data_exchange.html" class="dropdown-toggle">L3: Data Exchange<b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu">
+		  <li><a href="dependencies.html">Dependencies</a></li>
+		  <li><a href="actors.html">Actors</a></li>
+		  <li><a href="transactions.html">Transactions</a></li>
+		  <li><a href="expected_actions.html">Expected Actions</a></li>
+		  <li><a href="content_profiles.html">Content Profiles</a></li>
 		  <li><a href="artifacts.html">Artifact Index</a></li>
 		</ul>
 	</li>
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Implementation<b class="caret"></b></a>
+		<a data-toggle="dropdown" href="deployment.html" class="dropdown-toggle">L4: Deployment<b class="caret"></b></a>
 		<ul class="dropdown-menu">
-		  <li><a href="instant_openhie.html">Instant OpenHIE</a></li>
+		  <li><a href="security_privacy.html">Security and Privacy Considerations</a></li>
+		  <li><a href="instant_openhie.html">Instant OpenHIE</a></li>		  
 		  <li><a href="downloads.html">Downloads</a></li>
 		</ul>
 	</li>
@@ -136,7 +158,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='data_exchange.html'><b>Data Exchange Standards</b></a></li><li><b>Actors</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='data_exchange.html'><b>L3: Data Exchange Standards</b></a></li><li><b>Actors</b></li>
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
@@ -206,7 +228,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package openhie.fhir.casereporting#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jan 31, 2021 04:51+0000">2021-01-31</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package openhie.fhir.casereporting#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jan 31, 2021 11:10+0000">2021-01-31</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

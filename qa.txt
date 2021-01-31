@@ -3,9 +3,9 @@
 
 err = 1, warn = 1, info = 0
 IG Publisher Version: 1.1.59
-Generated Sun Jan 31 04:52:00 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Sun Jan 31 11:10:54 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
- Build Errors : 17 / 0 / 0
+ Build Errors : 19 / 0 / 0
  /github/workspace/input/case-reporting : 1 / 1 / 1
 </table>
 == n/a ==
@@ -27,7 +27,7 @@ ERROR: /github/workspace/output/index.html: unable to parse character reference 
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 332 column 45
+/* ' at line 362 column 45
 ERROR: /github/workspace/output/artifacts.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -46,7 +46,7 @@ ERROR: /github/workspace/output/artifacts.html: unable to parse character refere
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 271 column 45
+/* ' at line 293 column 45
 ERROR: /github/workspace/output/security_privacy.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -65,7 +65,7 @@ ERROR: /github/workspace/output/security_privacy.html: unable to parse character
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 264 column 45
+/* ' at line 286 column 45
 ERROR: /github/workspace/output/content_profiles.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -84,7 +84,7 @@ ERROR: /github/workspace/output/content_profiles.html: unable to parse character
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 269 column 45
+/* ' at line 291 column 45
 ERROR: /github/workspace/output/workflows.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -103,7 +103,26 @@ ERROR: /github/workspace/output/workflows.html: unable to parse character refere
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 264 column 45
+/* ' at line 286 column 45
+ERROR: /github/workspace/output/deployment.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 296 column 45
 ERROR: /github/workspace/output/toc.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -122,7 +141,7 @@ ERROR: /github/workspace/output/toc.html: unable to parse character reference ''
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 259 column 45
+/* ' at line 281 column 45
 ERROR: /github/workspace/output/transactions.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -141,7 +160,7 @@ ERROR: /github/workspace/output/transactions.html: unable to parse character ref
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 282 column 45
+/* ' at line 304 column 45
 ERROR: /github/workspace/output/data_exchange.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -160,7 +179,7 @@ ERROR: /github/workspace/output/data_exchange.html: unable to parse character re
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 274 column 45
+/* ' at line 296 column 45
 ERROR: /github/workspace/output/expected_actions.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -179,7 +198,7 @@ ERROR: /github/workspace/output/expected_actions.html: unable to parse character
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 329 column 45
+/* ' at line 351 column 45
 ERROR: /github/workspace/output/personas.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -198,7 +217,7 @@ ERROR: /github/workspace/output/personas.html: unable to parse character referen
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 264 column 45
+/* ' at line 286 column 45
 ERROR: /github/workspace/output/actors.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -217,7 +236,7 @@ ERROR: /github/workspace/output/actors.html: unable to parse character reference
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 286 column 45
+/* ' at line 308 column 45
 ERROR: /github/workspace/output/usecases.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -236,7 +255,7 @@ ERROR: /github/workspace/output/usecases.html: unable to parse character referen
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 285 column 45
+/* ' at line 292 column 45
 ERROR: /github/workspace/output/requirements.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -255,7 +274,7 @@ ERROR: /github/workspace/output/requirements.html: unable to parse character ref
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 279 column 45
+/* ' at line 303 column 45
 ERROR: /github/workspace/output/instant_openhie.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -274,7 +293,7 @@ ERROR: /github/workspace/output/instant_openhie.html: unable to parse character 
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 264 column 45
+/* ' at line 286 column 45
 ERROR: /github/workspace/output/dependencies.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -293,7 +312,26 @@ ERROR: /github/workspace/output/dependencies.html: unable to parse character ref
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 292 column 45
+/* ' at line 314 column 45
+ERROR: /github/workspace/output/references.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 302 column 45
 ERROR: /github/workspace/output/concepts.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -312,7 +350,7 @@ ERROR: /github/workspace/output/concepts.html: unable to parse character referen
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 295 column 45
+/* ' at line 317 column 45
 ERROR: /github/workspace/output/downloads.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -331,7 +369,7 @@ ERROR: /github/workspace/output/downloads.html: unable to parse character refere
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 306 column 45
+/* ' at line 328 column 45
 == /github/workspace/input/case-reporting.xml ==
 INFORMATION: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
 WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
