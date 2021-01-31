@@ -14,45 +14,53 @@
 
   <h3>Summary</h3> <a name="summary"> </a>
 
+
   <p>
-
-    <p>
-      This Implementation Guide contains the full set of specifications for general case reporting workflows. It has been developed to support case reporting as part of the <a href="usecase_1.html">public health response</a> use case.
-    </p>
-
-    <p>
-      This Implementation Guide is intended to be supplemented by one or more <a href="content_profiles.html">content profiles</a> guides developed for specific health program areas which will define the details of the case report.  Examples of such content guides include:
-      <ul>
-	<li><a href="http://build.fhir.org/ig/openhie/hiv-ig/index.html">HIV </a></li>
-	<li><a href="https://openhie.github.io/covid-ig/">Covid-19</a></li>
-      </ul>
-    </p>
-
-
-    <p>
-      This Implementation Guide defines three <a href="actors.html">actors</a> involved in the submission of a case report into a case report repository.  These actors engage in the <a href="transactions.html">transactions</a> to submit, transform and store case reports into a case report repository.
-    </p>
-
-
-    <figure>
-      {% include actors_transactions.svg %}
-      <figcaption>Actors and Transactions</figcaption>
-    </figure>
-
-
-
-	
-    <p>
-      This Implementation Guide is broken into the following parts:
-      <ul>
-	<li><a href="requirements.html">Part I: Requirements</a> Contains the requirements for this Implementation Guide including the defintition of key concepts, user personas, use cases and workflows.
-	</li>
-	<li><a href="data_exchange.html">Part II: Data Exchange</a> Contains the data models and data exchange protocles defined in this Implementation Guide.</li>
-	<li><a href="instant_openhie.html">Part III: Instant OpenHIE</a> Contains the technical specification for the Instant OpenHIE reference implementation.</li>
-      </ul>
-    </p>  
+    This Implementation Guide contains the full set of specifications for general case reporting pipeline. It has been developed to support case reporting as part of the <a href="usecase_1.html">public health response</a> use case.
   </p>
   
+  <p>
+    This Implementation Guide is intended to be supplemented by one or more <a href="content_profiles.html">content profiles</a> guides developed for specific health program areas which will define the details of the case report.  Examples of such content guides include:
+    <ul>
+      <li><a href="http://build.fhir.org/ig/openhie/hiv-ig/index.html">HIV </a></li>
+      <li><a href="https://openhie.github.io/covid-ig/">Covid-19</a></li>
+      <li>AEFI?</li>
+    </ul>
+  </p>
+
+
+  <p>
+    This Implmentation Guide is underpinned by supporting <a href="references.html">guidelines, policies and recommendations</a>
+  </p>
+  
+  <p>
+    This Implementation Guide defines three <a href="actors.html">actors</a> involved in the submission of a case report into a case report repository.  These actors engage in the <a href="transactions.html">transactions</a> to submit, transform and store case reports into a case report repository.
+  </p>
+
+
+  <figure>
+    {% include actors_transactions.svg %}
+    <figcaption>Actors and Transactions</figcaption>
+  </figure>
+
+
+
+
+  <h3>About This Implemention Guide</h3> <a name="about"> </a>
+  
+  <p>
+    This Implementation Guide is broken into the following levels of <a href="http://hl7.org/fhir/uv/cpg/2019Sep/documentation-approach.html">knowledge representation</a>:
+    <ul>
+      <li><a href="index.html">Level I: Narrative</a> Contains references to the guidance, guidlines, policies and recommemndations underpinning this Implementation Guide</li>
+      <li><a href="requirements.html">Level II: Requirements</a> Contains the requirements for this Implementation Guide including the defintition of key concepts, user personas, use cases and workflows.
+      </li>
+      <li><a href="data_exchange.html">Level III: Data Exchange</a> Contains the data models and data exchange protocles defined in this Implementation Guide.</li>
+      <li><a href="deployment.html">Level IV - &epislon; : Deployment Guidance </a>
+      Contains <a href="instant_openhie.html">Instant OpenHIE</a> Technical Specfications relevant to this Implemenation Guide and supporting guidance for adaptation in local environments.</li>
+    </ul>
+  </p>  
+
+
 
   <h3>Intellectual Property Considerations</h3>  <a name="ip"> </a>
   <p>
@@ -61,11 +69,11 @@
     any other constraints of terminologies, questionnaires, and other components used as part of their implementation process. In some cases, 
     licensing requirements may limit the systems that data captured using certain questionnaires may be shared with.
   </p>
-  
+
   <h3>Disclaimer</h3>  <a name="disclaimer"> </a>
   <p>
     The specification herewith documented is a demo working specification, and may not be used for any implementation purposes. 
     This draft is provided without warranty of completeness or consistency, and the official publication supersedes this draft.
-  b  No liability can be inferred from the use or misuse of this specification, or its consequences.
+    b  No liability can be inferred from the use or misuse of this specification, or its consequences.
   </p>
 </div>  

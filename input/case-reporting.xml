@@ -51,12 +51,20 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="OpenHIE Case Reporting Home Page"/>
+        <title value="L1: OpenHIE Case Reporting"/>
         <generation value="html"/>
+
+	<page>
+          <nameUrl value="refernces.html"/>
+          <title value="References"/>
+          <generation value="html"/>
+	</page>
+	
       </page>
+      
       <page>
         <nameUrl value="requirements.html"/>
-        <title value="Data Requirements"/>
+        <title value="L2: Data Requirements"/>
         <generation value="html"/>
 	<page>
           <nameUrl value="concepts.html"/>
@@ -86,7 +94,7 @@
 
       <page>
 	<nameUrl value="data_exchange.html"/>
-	<title value="Data Exchange Standards"/>
+	<title value="L3: Data Exchange Standards"/>
 	<generation value="html"/>
 
 	<page>
@@ -114,14 +122,6 @@
           <generation value="html"/>
 	</page>
 
-
-      	<page>
-          <nameUrl value="security_privacy.html"/>
-          <title value="Security and Privacy Considerations"/>
-          <generation value="html"/>
-	</page>
-
-
 	<page>
           <nameUrl value="content_profiles.html"/>
           <title value="Content Profiles"/>
@@ -133,16 +133,29 @@
 
 
 
-      <page>	
-        <nameUrl value="instant_openhie.html"/>
-        <title value="Instant OpenHIE"/>
-        <generation value="html"/>
-      </page>
+      <page>
+	<nameUrl value="deployment.html"/>
+	<title value="L4: Deployment Guidance"/>
+	<generation value="html"/>
 
-      <page>	
-        <nameUrl value="downloads.html"/>
-        <title value="Useful Downloads"/>
-        <generation value="html"/>
+      	<page>
+          <nameUrl value="security_privacy.html"/>
+          <title value="Security and Privacy Considerations"/>
+          <generation value="html"/>
+	</page>
+
+	
+	<page>	
+          <nameUrl value="instant_openhie.html"/>
+          <title value="Instant OpenHIE"/>
+          <generation value="html"/>
+	</page>
+	
+	<page>	
+          <nameUrl value="downloads.html"/>
+          <title value="Useful Downloads"/>
+          <generation value="html"/>
+	</page>
       </page>
     </page>
       
