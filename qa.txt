@@ -3,7 +3,7 @@
 
 err = 1, warn = 1, info = 0
 IG Publisher Version: 1.1.59
-Generated Sat Jan 30 23:55:09 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Sun Jan 31 03:28:09 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
  Build Errors : 17 / 0 / 0
  /github/workspace/input/case-reporting : 1 / 1 / 1
@@ -27,7 +27,7 @@ ERROR: /github/workspace/output/index.html: unable to parse character reference 
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 329 column 45
+/* ' at line 331 column 45
 ERROR: /github/workspace/output/artifacts.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');

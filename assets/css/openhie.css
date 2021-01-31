@@ -82,3 +82,23 @@ dd {
 
 }
 
+figcaption {
+  caption-side: top;
+  font-weight: bold;
+  font-size: smaller;
+  text-align:center;
+  width:100%;
+}
+
+figure {
+  display : block;
+  width: 100%;
+  text-align: center;
+  text-indent: 0;
+  border: thin silver solid;
+
+  
+}
+figure > img {
+    max-width: 100%
+}
