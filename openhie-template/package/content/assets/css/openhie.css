@@ -83,7 +83,6 @@ dd {
 }
 
 figcaption {
-
   caption-side: top;
   font-weight: bold;
   font-size: smaller;
@@ -99,4 +98,7 @@ figure {
   border: thin silver solid;
 
   
+}
+figure > img {
+    max-width: 100%
 }
