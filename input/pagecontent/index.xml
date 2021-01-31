@@ -31,12 +31,14 @@
 
     <p>
       This Implementation Guide defines three <a href="actors.html">actors</a> involved in the submission of a case report into a case report repository.  These actors engage in the <a href="transactions.html">transactions</a> to submit, transform and store case reports into a case report repository.
-      
-      <figure>
-	{% include actors_transactions.svg %}
-	<figcaption>Actors and Transactions</figcaption>
-      </figure>
     </p>
+
+
+    <figure>
+      {% include actors_transactions.svg %}
+      <figcaption>Actors and Transactions</figcaption>
+    </figure>
+
 
 
 	
