@@ -22,15 +22,16 @@
 		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
 		</a>
 		<ul class="dropdown-menu">
-			<li>
-				<a href="artifacts.html">Artifact Index</a>
-			</li>
+		  <li><a href="requirements.html">Requirements</a></li>
+		  <li><a href="data_exchange.html">Data Exchange</a></li>
+		  <li><a href="artifacts.html">Artifact Index</a></li>
 		</ul>
 	</li>
 	<li class="dropdown">
 		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Implementation<b class="caret"></b></a>
 		<ul class="dropdown-menu">
-			<li><a href="downloads.html">Downloads</a></li>
+		  <li><a href="instant_openhie.html">Instant OpenHIE</a></li>
+		  <li><a href="downloads.html">Downloads</a></li>
 		</ul>
 	</li>
 </ul>      

@@ -45,8 +45,7 @@
     <p>
       This Implementation Guide is broken into the following parts:
       <ul>
-	<li><a href="overview.html">Part I: Overview</a> Contains an overview of the Implementation Guide including the defintition of key concepts, user personas, use cases and workflows.
-	accomponied with an <a href="instant_openhie.html">Instant OpenHIE</a> technical specification.
+	<li><a href="requirements.html">Part I: Requirements</a> Contains the requirements for this Implementation Guide including the defintition of key concepts, user personas, use cases and workflows.
 	</li>
 	<li><a href="data_exchange.html">Part II: Data Exchange</a> Contains the data models and data exchange protocles defined in this Implementation Guide.</li>
 	<li><a href="instant_openhie.html">Part III: Instant OpenHIE</a> Contains the technical specification for the Instant OpenHIE reference implementation.</li>
