@@ -15,7 +15,7 @@
   </blockquote>
   
 
-  <h2>Summary</h2> <a name="summary"> </a>
+  <h3>Summary</h3> <a name="summary"> </a>
 
 
   <p>
@@ -49,7 +49,7 @@
 
 
 
-  <h2>About This Implemention Guide</h2> <a name="about"> </a>
+  <h3>About This Implemention Guide</h3> <a name="about"> </a>
   
   <p>
     This Implementation Guide is broken into the following levels of <a href="http://hl7.org/fhir/uv/cpg/2019Sep/documentation-approach.html">knowledge representation</a>:
