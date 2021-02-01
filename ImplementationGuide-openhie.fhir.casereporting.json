@@ -11,7 +11,7 @@
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-01-31T18:38:37+00:00",
+  "date": "2021-02-01T13:04:36+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -63,19 +63,6 @@
           {
             "url": "value",
             "valueString": "CI Build"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "label"
-          },
-          {
-            "url": "value",
-            "valueString": "L"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
