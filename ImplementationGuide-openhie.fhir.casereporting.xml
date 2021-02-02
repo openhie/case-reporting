@@ -12,7 +12,7 @@
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-02-01T13:04:36+00:00"/>
+  <date value="2021-02-02T13:26:51+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -223,11 +223,16 @@
       </page>
       <page>
         <nameUrl value="requirements.html"/>
-        <title value="L2: Data Requirements"/>
+        <title value="L2: Business Requirements"/>
         <generation value="html"/>
         <page>
           <nameUrl value="concepts.html"/>
           <title value="Concepts"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="functional.html"/>
+          <title value="Functional Requirements"/>
           <generation value="html"/>
         </page>
         <page>
@@ -248,7 +253,7 @@
       </page>
       <page>
         <nameUrl value="data_exchange.html"/>
-        <title value="L3: Data Exchange Standards"/>
+        <title value="L3: Data Models and Exchange "/>
         <generation value="html"/>
         <page>
           <nameUrl value="dependencies.html"/>
@@ -283,6 +288,11 @@
         <page>
           <nameUrl value="security_privacy.html"/>
           <title value="Security and Privacy Considerations"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <nameUrl value="testing.html"/>
+          <title value="Testing"/>
           <generation value="html"/>
         </page>
         <page>

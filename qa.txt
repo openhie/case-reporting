@@ -1,12 +1,12 @@
 ﻿openhie-case-reporting : Validation Results
 =========================================
 
-err = 1, warn = 1, info = 0
+err = 1, warn = 2, info = 0
 IG Publisher Version: 1.1.59
-Generated Mon Feb 01 13:04:41 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Tue Feb 02 13:26:58 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
- Build Errors : 19 / 0 / 0
- /github/workspace/input/case-reporting : 1 / 1 / 1
+ Build Errors : 21 / 0 / 0
+ /github/workspace/input/case-reporting : 1 / 2 / 1
 </table>
 == n/a ==
 ERROR: /github/workspace/output/index.html: unable to parse character reference '''' (last text = '
@@ -27,7 +27,7 @@ ERROR: /github/workspace/output/index.html: unable to parse character reference 
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 365 column 45
+/* ' at line 367 column 45
 ERROR: /github/workspace/output/artifacts.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -46,198 +46,8 @@ ERROR: /github/workspace/output/artifacts.html: unable to parse character refere
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 293 column 45
-ERROR: /github/workspace/output/security_privacy.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 286 column 45
-ERROR: /github/workspace/output/content_profiles.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 291 column 45
-ERROR: /github/workspace/output/workflows.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 286 column 45
-ERROR: /github/workspace/output/deployment.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 296 column 45
-ERROR: /github/workspace/output/toc.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 281 column 45
-ERROR: /github/workspace/output/transactions.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 304 column 45
-ERROR: /github/workspace/output/data_exchange.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 296 column 45
-ERROR: /github/workspace/output/expected_actions.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 351 column 45
-ERROR: /github/workspace/output/personas.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 286 column 45
-ERROR: /github/workspace/output/actors.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 308 column 45
-ERROR: /github/workspace/output/usecases.html: unable to parse character reference '''' (last text = '
+/* ' at line 295 column 45
+ERROR: /github/workspace/output/testing.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
           var formVars = new Set();  
@@ -256,6 +66,234 @@ ERROR: /github/workspace/output/usecases.html: unable to parse character referen
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 292 column 45
+ERROR: /github/workspace/output/security_privacy.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 288 column 45
+ERROR: /github/workspace/output/content_profiles.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 293 column 45
+ERROR: /github/workspace/output/workflows.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 288 column 45
+ERROR: /github/workspace/output/deployment.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 298 column 45
+ERROR: /github/workspace/output/toc.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 283 column 45
+ERROR: /github/workspace/output/transactions.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 306 column 45
+ERROR: /github/workspace/output/data_exchange.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 298 column 45
+ERROR: /github/workspace/output/functional.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 301 column 45
+ERROR: /github/workspace/output/expected_actions.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 353 column 45
+ERROR: /github/workspace/output/personas.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 288 column 45
+ERROR: /github/workspace/output/actors.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 310 column 45
+ERROR: /github/workspace/output/usecases.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 294 column 45
 ERROR: /github/workspace/output/requirements.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -274,7 +312,7 @@ ERROR: /github/workspace/output/requirements.html: unable to parse character ref
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 303 column 45
+/* ' at line 306 column 45
 ERROR: /github/workspace/output/instant_openhie.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -293,7 +331,7 @@ ERROR: /github/workspace/output/instant_openhie.html: unable to parse character 
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 286 column 45
+/* ' at line 288 column 45
 ERROR: /github/workspace/output/dependencies.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -312,7 +350,7 @@ ERROR: /github/workspace/output/dependencies.html: unable to parse character ref
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 314 column 45
+/* ' at line 316 column 45
 ERROR: /github/workspace/output/references.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -331,7 +369,7 @@ ERROR: /github/workspace/output/references.html: unable to parse character refer
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 302 column 45
+/* ' at line 304 column 45
 ERROR: /github/workspace/output/concepts.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -350,7 +388,7 @@ ERROR: /github/workspace/output/concepts.html: unable to parse character referen
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 317 column 45
+/* ' at line 319 column 45
 ERROR: /github/workspace/output/downloads.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -369,8 +407,9 @@ ERROR: /github/workspace/output/downloads.html: unable to parse character refere
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 328 column 45
+/* ' at line 330 column 45
 == /github/workspace/input/case-reporting.xml ==
 INFORMATION: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
 WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 ERROR: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide.definition.page.page[2].title: value should not start or finish with whitespace

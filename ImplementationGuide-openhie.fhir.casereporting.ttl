@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "OpenHIE Case Reporting"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-02-01T13:04:36+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-02-02T13:26:51+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -327,7 +327,7 @@
        ], [
          fhir:index 1;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "requirements.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "L2: Data Requirements" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "L2: Business Requirements" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
          fhir:ImplementationGuide.definition.page.page [
            fhir:index 0;
@@ -336,16 +336,21 @@
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
          ], [
            fhir:index 1;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "functional.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Functional Requirements" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 2;
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "personas.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "Personas" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
          ], [
-           fhir:index 2;
+           fhir:index 3;
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "workflows.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "Workflows" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
          ], [
-           fhir:index 3;
+           fhir:index 4;
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "usecases.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
@@ -353,7 +358,7 @@
        ], [
          fhir:index 2;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "data_exchange.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "L3: Data Exchange Standards" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "L3: Data Models and Exchange " ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
          fhir:ImplementationGuide.definition.page.page [
            fhir:index 0;
@@ -393,11 +398,16 @@
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
          ], [
            fhir:index 1;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "testing.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Testing" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 2;
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "instant_openhie.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "Instant OpenHIE" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
          ], [
-           fhir:index 2;
+           fhir:index 3;
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "Useful Downloads" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]

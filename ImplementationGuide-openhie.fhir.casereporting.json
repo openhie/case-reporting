@@ -11,7 +11,7 @@
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-02-01T13:04:36+00:00",
+  "date": "2021-02-02T13:26:51+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -347,12 +347,17 @@
         },
         {
           "nameUrl": "requirements.html",
-          "title": "L2: Data Requirements",
+          "title": "L2: Business Requirements",
           "generation": "html",
           "page": [
             {
               "nameUrl": "concepts.html",
               "title": "Concepts",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "functional.html",
+              "title": "Functional Requirements",
               "generation": "html"
             },
             {
@@ -374,7 +379,7 @@
         },
         {
           "nameUrl": "data_exchange.html",
-          "title": "L3: Data Exchange Standards",
+          "title": "L3: Data Models and Exchange ",
           "generation": "html",
           "page": [
             {
@@ -412,6 +417,11 @@
             {
               "nameUrl": "security_privacy.html",
               "title": "Security and Privacy Considerations",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "testing.html",
+              "title": "Testing",
               "generation": "html"
             },
             {
