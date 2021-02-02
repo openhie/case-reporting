@@ -19,10 +19,11 @@
 	</li>
 -->
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="requirements.html" class="dropdown-toggle">L2: Requirements<b class="caret"></b>
+		<a data-toggle="dropdown" href="requirements.html" class="dropdown-toggle">L2: Business Requirements<b class="caret"></b>
 		</a>
 		<ul class="dropdown-menu">
 		  <li><a href="concepts.html">Key Concepts</a></li>
+		  <li><a href="functional.html">Functional Requirements</a></li>
 		  <li><a href="personas.html">Personas</a></li>
 		  <li><a href="workflows.html">Workflows</a></li>      
 		  <li>
@@ -37,7 +38,7 @@
 	</li>
 
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="data_exchange.html" class="dropdown-toggle">L3: Data Exchange<b class="caret"></b>
+		<a data-toggle="dropdown" href="data_exchange.html" class="dropdown-toggle">L3: Data Models and Exchange<b class="caret"></b>
 		</a>
 		<ul class="dropdown-menu">
 		  <li><a href="dependencies.html">Dependencies</a></li>
@@ -52,6 +53,7 @@
 		<a data-toggle="dropdown" href="deployment.html" class="dropdown-toggle">L4: Deployment<b class="caret"></b></a>
 		<ul class="dropdown-menu">
 		  <li><a href="security_privacy.html">Security and Privacy Considerations</a></li>
+		  <li><a href="testing.html">Testing</a></li>
 		  <li><a href="instant_openhie.html">Instant OpenHIE</a></li>		  
 		  <li><a href="downloads.html">Downloads</a></li>
 		</ul>
