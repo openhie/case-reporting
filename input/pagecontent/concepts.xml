@@ -28,8 +28,8 @@
 
 
     <figure>
-      <img src="transformers.png" width="80%"></img>
-      <figurecaption>Case Report Transformation Workflow</figurecaption>
+      <img src="transformers.png" ></img>
+      <figcaption>Case Report Transformation Workflow</figcaption>
     </figure>
 
   </p>
