@@ -12,7 +12,7 @@
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-02-02T13:26:51+00:00"/>
+  <date value="2021-02-03T14:44:27+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -30,6 +30,11 @@
   <packageId value="openhie.fhir.casereporting"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="sdc">
+    <uri value="http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"/>
+    <packageId value="hl7.fhir.uv.sdc"/>
+    <version value="current"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
