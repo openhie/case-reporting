@@ -3,7 +3,7 @@
 
 err = 1, warn = 2, info = 0
 IG Publisher Version: 1.1.59
-Generated Wed Feb 03 14:44:34 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Wed Feb 03 22:58:38 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
  Build Errors : 21 / 0 / 0
  /github/workspace/input/case-reporting : 1 / 2 / 1
@@ -407,7 +407,7 @@ ERROR: /github/workspace/output/downloads.html: unable to parse character refere
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 330 column 45
+/* ' at line 333 column 45
 == /github/workspace/input/case-reporting.xml ==
 INFORMATION: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
 WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
