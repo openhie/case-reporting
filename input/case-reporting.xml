@@ -12,12 +12,12 @@
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <publisher value="xxxYour Work Group"/>
+  <publisher value="OpenHIE"/>
   <contact>
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url"/>
-      <value value="xxxhttp://hl7.org/Special/committees/[something]"/>
+      <value value="http://ohie.org"/>
     </telecom>
   </contact>
   <description value="General case reporting workflow for OpenHIE "/>
