@@ -6,8 +6,17 @@
   "extensions": [],
   "profiles": {},
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/maxValue": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "Questionnaire.item.item.item"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
     ]
   }
 }

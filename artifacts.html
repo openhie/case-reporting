@@ -43,7 +43,7 @@
 	  <script src="assets/js/prism.js"></script>
 
     <style type="text/css">h2{--heading-prefix:"5"}
-    h3,h4,h5,h6{--heading-prefix:"5"}</style>
+    h3,h4,h5,h6{--heading-prefix:"5.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -186,12 +186,99 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:f="http://hl7.org/fhir"
      class="markdown-toc">
    <p>Contents:</p>
-   <ul/>
+   <ul>
+      <li>
+         <a href="#1">Structures: Questionnaires</a>
+      </li>
+      <li>
+         <a href="#2">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Code Systems</a>
+      </li>
+   </ul>
 </div>
 <div xmlns:html="http://www.w3.org/1999/xhtml"
      xmlns="http://www.w3.org/1999/xhtml"
      xmlns:f="http://hl7.org/fhir">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Questionnaires </h3>
+   <p>
+    <p>These define forms used by systems conforming to this implementation guide to capture or expose data to end users</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Questionnaire-case-reporting-questionnaire.html"
+                     title="Questionnaire/case-reporting-questionnaire">Case Reporting Questionnaire</a>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-ethnicity.html" title="ValueSet/vs-ethnicity">Ethnicity</a>
+               </td>
+               <td>
+<p>Ethnicity</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-hiv-transmission-route.html"
+                     title="ValueSet/hiv-transmission-route">HIV Transmission Route</a>
+               </td>
+               <td>
+<p>HIV Transmission Route</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-hiv-transmission-route.html"
+                     title="CodeSystem/hiv-transmission-route">HIV Transmission Route</a>
+               </td>
+               <td>
+<p>HIV Transmission Route codes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-cs-patient-gender.html"
+                     title="CodeSystem/cs-patient-gender">Patient Gender</a>
+               </td>
+               <td>
+<p>The genders for patients</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
 </div>
 
 </div>
@@ -215,7 +302,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package openhie.fhir.casereporting#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 3, 2021 22:58+0000">2021-02-03</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="http://ohie.org">OpenHIE</a>.  Package openhie.fhir.casereporting#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Feb 7, 2021 17:37+0000">2021-02-07</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

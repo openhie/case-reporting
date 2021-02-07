@@ -1,9 +1,44 @@
 [
   {
+    "id": "cs-patient-gender",
+    "type": "CodeSystem",
+    "url": "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
+    "version": "0.1.0-test",
+    "name": "PatientGender"
+  },
+  {
+    "id": "hiv-transmission-route",
+    "type": "CodeSystem",
+    "url": "http://openhie.org/fhir/CodeSystem/hiv-transmission-route",
+    "version": "0.1.0-test",
+    "name": "HIVTransmissionRoute"
+  },
+  {
     "id": "openhie.fhir.casereporting",
     "type": "ImplementationGuide",
     "url": "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting",
     "version": "0.1.0-test",
     "name": "openhie-case-reporting"
+  },
+  {
+    "id": "case-reporting-questionnaire",
+    "type": "Questionnaire",
+    "url": "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire",
+    "version": "0.1.0-test",
+    "name": "CaseReportingQuestionnaire"
+  },
+  {
+    "id": "hiv-transmission-route",
+    "type": "ValueSet",
+    "url": "http://openhie.org/fhir/ValueSet/hiv-transmission-route",
+    "version": "0.1.0-test",
+    "name": "HIVTransmissionRoute"
+  },
+  {
+    "id": "vs-ethnicity",
+    "type": "ValueSet",
+    "url": "http://openhie.org/fhir/ValueSet/vs-ethnicity",
+    "version": "0.1.0-test",
+    "name": "VSEthnicity"
   }
 ]

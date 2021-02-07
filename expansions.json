@@ -1,8 +1,146 @@
 {
   "resourceType" : "Bundle",
-  "id" : "c625e399-5993-4ce5-975e-e154d5ecdbdf",
+  "id" : "73fa4b40-a4b5-4c28-9d8a-6c9ba7c94cf1",
   "meta" : {
-    "lastUpdated" : "2021-02-03T22:58:33.089+00:00"
+    "lastUpdated" : "2021-02-07T17:37:25.951+00:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire#vs-patientgender",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vs-patientgender",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes from system <a href=\"CodeSystem-cs-patient-gender.html\"><code>http://openhie.org/fhir/CodeSystem/cs-patient-gender</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-male\"> </a><a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-male\">male</a></td><td>Male</td><td>Client identifies as female</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-female\"> </a><a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-female\">female</a></td><td>Female</td><td>Client identifies as male</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-transgender\"> </a><a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-transgender\">transgender</a></td><td>Transgender</td><td>Client identifies as transgender</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-non-binary\"> </a><a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-non-binary\">non-binary</a></td><td>Non-binary</td><td>Client identifies in a non-binary way</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire#vs-patientgender",
+      "version" : "0.1.0-test",
+      "name" : "Patient Gender",
+      "status" : "draft",
+      "expansion" : {
+        "timestamp" : "2021-02-02",
+        "contains" : [{
+          "system" : "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
+          "code" : "female",
+          "display" : "Female"
+        },
+        {
+          "system" : "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
+          "code" : "transgender",
+          "display" : "Transgender"
+        },
+        {
+          "system" : "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
+          "code" : "non-binary",
+          "display" : "Non-binary"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire#hiv-risk-population",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "hiv-risk-population",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire#hiv-risk-population",
+      "version" : "0.1.0-test",
+      "name" : "HIVRiskPopulation",
+      "status" : "draft",
+      "expansion" : {
+        "identifier" : "urn:uuid:3db5a0c1-3814-4806-a46b-d1482c8f3017",
+        "timestamp" : "2021-02-07T17:37:39+00:00",
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire#hiv-risk-population",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "hiv-risk-population",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire#hiv-risk-population",
+      "version" : "0.1.0-test",
+      "name" : "HIVRiskPopulation",
+      "status" : "draft",
+      "expansion" : {
+        "identifier" : "urn:uuid:3db5a0c1-3814-4806-a46b-d1482c8f3017",
+        "timestamp" : "2021-02-07T17:37:39+00:00",
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://openhie.org/fhir/ValueSet/hiv-transmission-route",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "hiv-transmission-route",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes from system <code>http://openhie.org/fhir/ValueSet/hiv-transmission-route</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ValueSet-hiv-transmission-route-blood\"> </a>blood</td><td>Blood born infection</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ValueSet-hiv-transmission-route-sexual\"> </a>sexual</td><td>Sexual relationship</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ValueSet-hiv-transmission-route-mother\"> </a>mother</td><td>Mother to child</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ValueSet-hiv-transmission-route-unidentified\"> </a>unidentified</td><td>Unidentified</td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/ValueSet/hiv-transmission-route",
+      "version" : "0.1.0-test",
+      "name" : "HIVTransmissionRoute",
+      "title" : "HIV Transmission Route",
+      "status" : "draft",
+      "date" : "2021-02-07T17:37:25+00:00",
+      "publisher" : "OpenHIE",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://ohie.org"
+        }]
+      }],
+      "description" : "HIV Transmission Route",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "timestamp" : "2021-02-02",
+        "contains" : [{
+          "system" : "http://openhie.org/fhir/ValueSet/hiv-transmission-route",
+          "code" : "blood",
+          "display" : "Blood born infection"
+        },
+        {
+          "system" : "http://openhie.org/fhir/ValueSet/hiv-transmission-route",
+          "code" : "sexual",
+          "display" : "Sexual relationship"
+        },
+        {
+          "system" : "http://openhie.org/fhir/ValueSet/hiv-transmission-route",
+          "code" : "mother",
+          "display" : "Mother to child"
+        },
+        {
+          "system" : "http://openhie.org/fhir/ValueSet/hiv-transmission-route",
+          "code" : "unidentified",
+          "display" : "Unidentified"
+        }]
+      }
+    }
+  }]
 }
