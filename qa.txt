@@ -3,7 +3,7 @@
 
 err = 7, warn = 6, info = 0
 IG Publisher Version: 1.1.59
-Generated Mon Feb 08 11:01:26 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Mon Feb 08 15:13:21 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
  Build Errors : 52 / 1 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender : 0 / 0 / 1
@@ -185,7 +185,7 @@ ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.html:
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 393 column 45
+/* ' at line 430 column 45
 ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-population.change.history.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
