@@ -12,7 +12,7 @@
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-02-08T15:13:06+00:00"/>
+  <date value="2021-02-16T23:59:21+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <telecom>
@@ -214,6 +214,15 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/case-reporting-questionnaire"/>
+      </reference>
+      <name value="Case Reporting Questionnaire"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -224,12 +233,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Questionnaire"/>
+        <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="Questionnaire/case-reporting-questionnaire"/>
+        <reference value="CodeSystem/cs-patient-gender"/>
       </reference>
-      <name value="Case Reporting Questionnaire"/>
+      <name value="Patient Gender"/>
+      <description value="The genders for patients"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -250,16 +260,6 @@
       </reference>
       <name value="HIV Transmission Route"/>
       <description value="HIV Transmission Route"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/cs-patient-gender"/>
-      </reference>
-      <name value="Patient Gender"/>
-      <description value="The genders for patients"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

@@ -11,7 +11,7 @@
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-02-08T15:13:06+00:00",
+  "date": "2021-02-16T23:59:21+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -341,6 +341,18 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/case-reporting-questionnaire"
+        },
+        "name": "Case Reporting Questionnaire"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
@@ -354,13 +366,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
+            "valueString": "CodeSystem"
           }
         ],
         "reference": {
-          "reference": "Questionnaire/case-reporting-questionnaire"
+          "reference": "CodeSystem/cs-patient-gender"
         },
-        "name": "Case Reporting Questionnaire"
+        "name": "Patient Gender",
+        "description": "The genders for patients"
       },
       {
         "extension": [
@@ -387,19 +400,6 @@
         },
         "name": "HIV Transmission Route",
         "description": "HIV Transmission Route"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/cs-patient-gender"
-        },
-        "name": "Patient Gender",
-        "description": "The genders for patients"
       }
     ],
     "page": {
