@@ -1,4 +1,4 @@
-Case Reporiting IG
+Case Reporting IG
 ---
 This is the OpenHIE Case Reporting Implementation Guide.
 <br> </br>
