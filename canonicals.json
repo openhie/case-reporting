@@ -1,5 +1,12 @@
 [
   {
+    "id": "cs-hiv-risk-behavior",
+    "type": "CodeSystem",
+    "url": "http://openhie.org/fhir/CodeSystem/cs-hiv-risk-behavior",
+    "version": "0.1.0-test",
+    "name": "CSHIVRiskBehavior"
+  },
+  {
     "id": "cs-patient-gender",
     "type": "CodeSystem",
     "url": "http://openhie.org/fhir/CodeSystem/cs-patient-gender",

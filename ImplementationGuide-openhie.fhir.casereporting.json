@@ -11,7 +11,7 @@
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-02-16T23:59:21+00:00",
+  "date": "2021-03-09T16:45:46+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -400,6 +400,19 @@
         },
         "name": "HIV Transmission Route",
         "description": "HIV Transmission Route"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-hiv-risk-behavior"
+        },
+        "name": "Risk Behavior",
+        "description": "CodeSystem - Behavior associated with risk of HIV transmission"
       }
     ],
     "page": {

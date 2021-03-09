@@ -1,9 +1,13 @@
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>OPENHIE.FHIR.CASEREPORTING\HIV Transmission Route - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.CASEREPORTING\Risk Behavior - Resource Change History - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,8 +46,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5.5"}
-    h3,h4,h5,h6{--heading-prefix:"5.5"}</style>
+    <style type="text/css">h2{--heading-prefix:"5.6"}
+    h3,h4,h5,h6{--heading-prefix:"5.6"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -160,7 +164,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>HIV Transmission Route</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Risk Behavior</b></li>
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
@@ -170,7 +174,8 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div class="col-12">
+
+<div style="counter-reset: section 10" class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   
 
@@ -181,28 +186,28 @@
 
 <ul class="nav nav-tabs">
 
-  <li class="active">
-    <a href="#">Narrative Content</a>
+  <li>
+    <a href="CodeSystem-cs-hiv-risk-behavior.html">Narrative Content</a>
   </li>
 
 
   
     <li>
-      <a href="CodeSystem-hiv-transmission-route.xml.html">XML</a>
+      <a href="CodeSystem-cs-hiv-risk-behavior.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="CodeSystem-hiv-transmission-route.json.html">JSON</a>
+      <a href="CodeSystem-cs-hiv-risk-behavior.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="CodeSystem-hiv-transmission-route.ttl.html">TTL</a>
+      <a href="CodeSystem-cs-hiv-risk-behavior.ttl.html">TTL</a>
     </li>
   
 
@@ -210,51 +215,15 @@
 
 </ul>
 
+
   <a name="root"> </a>
-  <h2 id="root">CodeSystem: HIV Transmission Route</h2>
-
-  <!-- insert intro if present -->
-  
-
-
-
-  <p>
-    <b>Summary</b>
-  </p>
-
-  <table class="grid">
-<tbody>
-<tr><td>Defining URL:</td><td>http://openhie.org/fhir/CodeSystem/hiv-transmission-route</td></tr>
- <tr><td>Version:</td><td>0.1.0-test</td></tr>
- <tr><td>Name:</td><td>HIVTransmissionRoute</td></tr>
- <tr><td>Title:</td><td>HIV Transmission Route</td></tr>
- <tr><td>Status:</td><td>Active as of 2021-03-09T16:45:46+00:00</td></tr>
- <tr><td>Definition:</td><td><p>HIV Transmission Route codes</p>
-</td></tr>
- <tr><td>Publisher:</td><td>OpenHIE</td></tr>
- <tr><td>Content:</td><td>Complete: All the concepts defined by the code system are included in the code system resource</td></tr>
- <tr><td>Source Resource:</td><td><a href="CodeSystem-hiv-transmission-route.xml.html">XML</a> / <a href="CodeSystem-hiv-transmission-route.json.html">JSON</a> / <a href="CodeSystem-hiv-transmission-route.ttl.html">Turtle</a></td></tr>
-</tbody></table>
-
-
-  <p>
-  This Code system is referenced in the content logical definition of the following value sets:
-  </p>
-
-  
-<p>This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
-
-
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://openhie.org/fhir/CodeSystem/hiv-transmission-route defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">blood<a name="hiv-transmission-route-blood"> </a></td><td>MaleBlood</td><td>Blood born infection</td></tr><tr><td style="white-space:nowrap">sexual<a name="hiv-transmission-route-sexual"> </a></td><td>Sexual Relations</td><td>Sexual relationship transmission</td></tr><tr><td style="white-space:nowrap">mother-child<a name="hiv-transmission-route-mother-child"> </a></td><td>Transgender</td><td>Mother to Child transmission</td></tr><tr><td style="white-space:nowrap">unidentified<a name="hiv-transmission-route-unidentified"> </a></td><td>Unidentified</td><td>Unidentified</td></tr></table></div>
-
-  <!-- insert notes if present -->
-  
-
-
+  <h2 id="root">: CSHIVRiskBehavior - Change History</h2>
+  <p>History of changes for cs-hiv-risk-behavior .</p>
 
   
 
 </div>
+
 
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
@@ -263,6 +232,29 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    try {
+      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
+    } catch(exception) {
+    }
+
+    if (!currentTabIndex)
+      currentTabIndex = '0';
+
+    $( '#tabs' ).tabs({
+      active: currentTabIndex,
+      activate: function( event, ui ) {
+        var active = $('.selector').tabs('option', 'active');
+        currentTabIndex = ui.newTab.index();
+        document.activeElement.blur();
+        try {
+          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
+        } catch(exception) {
+        }
+      }
+    });
+  </script>
 
 <script type="text/javascript">
   $(document).ready(function(){

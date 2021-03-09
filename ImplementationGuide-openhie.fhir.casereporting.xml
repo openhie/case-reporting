@@ -12,7 +12,7 @@
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-02-16T23:59:21+00:00"/>
+  <date value="2021-03-09T16:45:46+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <telecom>
@@ -260,6 +260,16 @@
       </reference>
       <name value="HIV Transmission Route"/>
       <description value="HIV Transmission Route"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-hiv-risk-behavior"/>
+      </reference>
+      <name value="Risk Behavior"/>
+      <description value="CodeSystem - Behavior associated with risk of HIV transmission"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

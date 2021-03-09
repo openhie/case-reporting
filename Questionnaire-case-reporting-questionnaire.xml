@@ -86,6 +86,11 @@
       <id value="hiv-risk-behavior"/>
       <name value="HIVRiskBehavior"/>
       <status value="draft"/>
+      <compose>
+        <include>
+          <system value="http://openhie.org/fhir/CodeSystem/cs-hiv-risk-behavior"/>
+        </include>
+      </compose>
     </ValueSet>
   </contained>
   <url value="http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire"/>
@@ -94,7 +99,7 @@
   <title value="Case Reporting Questionnaire"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2021-02-16T23:59:21+00:00"/>
+  <date value="2021-03-09T16:45:46+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <telecom>

@@ -48,7 +48,14 @@
       "resourceType": "ValueSet",
       "id": "hiv-risk-behavior",
       "name": "HIVRiskBehavior",
-      "status": "draft"
+      "status": "draft",
+      "compose": {
+        "include": [
+          {
+            "system": "http://openhie.org/fhir/CodeSystem/cs-hiv-risk-behavior"
+          }
+        ]
+      }
     }
   ],
   "url": "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire",
@@ -59,7 +66,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2021-02-16T23:59:21+00:00",
+  "date": "2021-03-09T16:45:46+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {

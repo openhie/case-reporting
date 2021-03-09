@@ -2,10 +2,11 @@
 =========================================
 
 err = 7, warn = 6, info = 0
-IG Publisher Version: 1.1.59
-Generated Tue Feb 16 23:59:34 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+IG Publisher Version: 1.1.63
+Generated Tue Mar 09 16:46:02 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
- Build Errors : 52 / 1 / 0
+ Build Errors : 57 / 1 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire : 7 / 2 / 4
@@ -34,6 +35,25 @@ ERROR: /github/workspace/output/references.html: unable to parse character refer
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 304 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 355 column 45
 ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.json.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -242,7 +262,7 @@ ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.xml.h
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 716 column 45
+/* ' at line 722 column 45
 ERROR: /github/workspace/output/security_privacy.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -413,7 +433,7 @@ ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.json.
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 715 column 45
+/* ' at line 722 column 45
 ERROR: /github/workspace/output/personas.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -433,6 +453,25 @@ ERROR: /github/workspace/output/personas.html: unable to parse character referen
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 288 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.xml.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 391 column 45
 ERROR: /github/workspace/output/ValueSet-vs-ethnicity.json.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -566,6 +605,25 @@ ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.ttl.html: unab
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 401 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.change.history.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 347 column 45
 ERROR: /github/workspace/output/ValueSet-vs-ethnicity.ttl.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -623,6 +681,25 @@ ERROR: /github/workspace/output/data_exchange.html: unable to parse character re
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 298 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.ttl.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 406 column 45
 ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.json.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -679,7 +756,7 @@ ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.ttl.h
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 674 column 45
+/* ' at line 678 column 45
 ERROR: /github/workspace/output/index.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -699,6 +776,25 @@ ERROR: /github/workspace/output/index.html: unable to parse character reference 
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 367 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.json.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 399 column 45
 ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -850,7 +946,7 @@ ERROR: /github/workspace/output/artifacts.html: unable to parse character refere
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 382 column 45
+/* ' at line 391 column 45
 ERROR: /github/workspace/output/transactions.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -1003,6 +1099,8 @@ ERROR: /github/workspace/output/usecases.html: unable to parse character referen
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 294 column 45
+== /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior.json ==
+INFORMATION: CodeSystem/cs-hiv-risk-behavior: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender.json ==
 INFORMATION: CodeSystem/cs-patient-gender: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route.json ==
@@ -1010,17 +1108,17 @@ INFORMATION: CodeSystem/hiv-transmission-route: CodeSystem: Validate resource ag
 == /github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire.json ==
 ERROR: Questionnaire.item[5].extension[0]: Unrecognised property '@valueCodeableConcept'
 INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Questionnaire
-ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire: que-2: The link ids for groups and questions must be unique within the questionnaire [descendants().linkId.isDistinct()]
+ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire: que-2: 'The link ids for groups and questions must be unique within the questionnaire' failed
 INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
 INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[1].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[2].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[0]: que-6: Required and repeat aren't permitted for display items [(type != 'display') or (required.empty() and repeats.empty())]
-ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[1]: que-6: Required and repeat aren't permitted for display items [(type != 'display') or (required.empty() and repeats.empty())]
+ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[0]: que-6: 'Required and repeat aren't permitted for display items' failed
+ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[1]: que-6: 'Required and repeat aren't permitted for display items' failed
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/maxValue' definition allows for the types [date, dateTime, time, integer, decimal, instant] but found type CodeableConcept
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].extension[0]: The type of element valueCodeableConcept is not known, which is illegal. Valid types at this point are date, dateTime, time, instant, decimal, integer
 WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].extension[0].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[1]: que-1: Group items must have nested items, display items cannot have nested items [((type = 'group') implies item.empty().not()) and ((type.trace('type') = 'display') implies item.trace('item').empty())]
+ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[1]: que-1: 'Group items must have nested items, display items cannot have nested items' failed
 == /github/workspace/fsh-generated/resources/ValueSet-hiv-transmission-route.json ==
 INFORMATION: ValueSet/hiv-transmission-route: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /github/workspace/fsh-generated/resources/ValueSet-vs-ethnicity.json ==
@@ -1028,5 +1126,5 @@ INFORMATION: ValueSet/vs-ethnicity: ValueSet: Validate resource against profile 
 WARNING: ValueSet.where(id = 'vs-ethnicity'): Error from server: Unable to provide support for code system urn:oid:2.16.840.1.114222.4.11.877
 == /github/workspace/input/case-reporting.xml ==
 INFORMATION: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
 WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide.definition.page.page[2].title: value should not start or finish with whitespace
