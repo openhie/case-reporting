@@ -68,6 +68,24 @@ Usage: #inline
 * status = #draft
 
 
+CodeSystem:  CSHIVRiskBehavior
+Id: cs-hiv-risk-behavior
+Title: "Risk Behavior"
+Description: "CodeSystem - Behavior associated with risk of HIV transmission"
+* #1 "Drug injection" "Drug injection"
+* #2 "Sex workers" "Sexual relationship with sex workers or with sex buyers/clients (for money or drug)"
+* #3 "MSM" "Men who have sex with men" 
+* #4 "Multiple Sex Partners" "Multiple Sex Partners (NOT for money or drugs)"
+* #5 "Others" "Other risks to oneself" 
+/*
+ValueSet: HIVRiskBehavior
+Id: hiv-risk-behavior
+Title: "Risk Behavior"
+Description: "ValueSet - Behavior associated with risk of HIV transmission"
+* include codes from system CSHIVRiskBehavior
+
+*/
+
 Instance: hiv-risk-behavior
 InstanceOf: ValueSet
 Description: "HIV Risk Behavior codes"
@@ -75,6 +93,7 @@ Title: "HIV Risk Behavior"
 Usage: #inline
 * name = "HIVRiskBehavior"
 * status = #draft
+* compose.include.system = Canonical(CSHIVRiskBehavior)
 
 
 
