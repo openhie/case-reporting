@@ -99,7 +99,7 @@
   <title value="Case Reporting Questionnaire"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2021-03-16T12:23:19+00:00"/>
+  <date value="2021-03-16T12:34:17+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <telecom>
@@ -144,7 +144,7 @@
     <repeats value="false"/>
   </item>
   <item>
-    <extension url="http://hl7.org/fhir/StructureDefinition/maxValue">
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
       <valueCodeableConcept>
         <coding>
           <code value="page"/>
@@ -193,6 +193,9 @@
       <answerValueSet value="#vs-patientgender"/>
     </item>
     <item>
+      <extension url="http://hl7.org/fhir/StructureDefinition/maxValue">
+        <valueString value="2021"/>
+      </extension>
       <linkId value="birth_year"/>
       <prefix value="6"/>
       <text value="Year of Birth"/>

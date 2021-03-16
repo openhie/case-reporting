@@ -66,7 +66,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2021-03-16T12:23:19+00:00",
+  "date": "2021-03-16T12:34:17+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -122,7 +122,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
           "valueCodeableConcept": {
             "coding": [
               {
@@ -175,6 +175,12 @@
           "answerValueSet": "#vs-patientgender"
         },
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+              "valueString": "2021"
+            }
+          ],
           "linkId": "birth_year",
           "prefix": "6",
           "text": "Year of Birth",

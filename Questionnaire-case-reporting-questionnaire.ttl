@@ -71,7 +71,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2021-03-16T12:23:19+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2021-03-16T12:34:17+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "OpenHIE"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -123,7 +123,7 @@
      fhir:index 5;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/maxValue" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
        fhir:Extension.valueCodeableConcept [
          fhir:CodeableConcept.coding [
            fhir:index 0;
@@ -177,6 +177,11 @@
        fhir:Questionnaire.item.answerValueSet [ fhir:value "#vs-patientgender" ]
      ], [
        fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/maxValue" ];
+         fhir:Extension.valueString [ fhir:value "2021" ]
+       ];
        fhir:Questionnaire.item.linkId [ fhir:value "birth_year" ];
        fhir:Questionnaire.item.prefix [ fhir:value "6" ];
        fhir:Questionnaire.item.text [ fhir:value "Year of Birth" ];

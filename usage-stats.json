@@ -7,6 +7,9 @@
   "profiles": {},
   "usage": {
     "http://hl7.org/fhir/StructureDefinition/maxValue": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
       "Questionnaire.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/regex": [
