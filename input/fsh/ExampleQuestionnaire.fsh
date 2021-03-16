@@ -88,10 +88,10 @@ Title: "Case Reporting Questionnaire"
 * insert Question(item[=].,birth_year,Year of Birth, integer, false)
 * item[=].item[=].prefix = "6"
 // Define min and max value
-* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/minValue"
-* item[=].extension.valueString = "1880"
-* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/maxValue"
-* item[=].extension.valueString = "2021"
+* item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/minValue"
+* item[=].item[=].extension.valueString = "1880"
+* item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/maxValue"
+* item[=].item[=].extension.valueString = "2021"
 // Optional, add a year as a regex
 //* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/regex"
 //* item[=].extension.valueString = "([0-9]([0-9]([0-9][1-9]|[1-9]0)|[1-9]00))"
