@@ -11,7 +11,7 @@
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-03-16T12:34:17+00:00",
+  "date": "2021-03-22T12:10:44+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -341,39 +341,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
-          }
-        ],
-        "reference": {
-          "reference": "Questionnaire/case-reporting-questionnaire"
-        },
-        "name": "Case Reporting Questionnaire"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
         "reference": {
-          "reference": "ValueSet/vs-ethnicity"
+          "reference": "ValueSet/hiv-transmission-route"
         },
-        "name": "Ethnicity",
-        "description": "Ethnicity"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/cs-patient-gender"
-        },
-        "name": "Patient Gender",
-        "description": "The genders for patients"
+        "name": "HIV Transmission Route",
+        "description": "HIV Transmission Route"
       },
       {
         "extension": [
@@ -396,10 +371,10 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/hiv-transmission-route"
+          "reference": "ValueSet/vs-ethnicity"
         },
-        "name": "HIV Transmission Route",
-        "description": "HIV Transmission Route"
+        "name": "Ethnicity",
+        "description": "Ethnicity"
       },
       {
         "extension": [
@@ -413,6 +388,31 @@
         },
         "name": "Risk Behavior",
         "description": "CodeSystem - Behavior associated with risk of HIV transmission"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/case-reporting-questionnaire"
+        },
+        "name": "Case Reporting Questionnaire"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-patient-gender"
+        },
+        "name": "Patient Gender",
+        "description": "The genders for patients"
       }
     ],
     "page": {
