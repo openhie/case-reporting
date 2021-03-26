@@ -1,22 +1,611 @@
 ﻿openhie-case-reporting : Validation Results
 =========================================
 
-err = 6, warn = 6, info = 0
+err = 6, warn = 6, info = 32
 IG Publisher Version: 1.1.64
-Generated Mon Mar 22 13:55:06 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Fri Mar 26 11:01:10 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
  Build Errors : 57 / 1 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire : 6 / 2 / 4
+ /github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire : 6 / 2 / 36
  /github/workspace/fsh-generated/resources/ValueSet-hiv-transmission-route : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-ethnicity : 0 / 1 / 1
  /github/workspace/input/case-reporting : 0 / 2 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/case-reporting-questionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/dependencies.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 316 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 355 column 45
+ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 395 column 45
+ERROR: /github/workspace/output/references.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 304 column 45
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 430 column 45
+ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 355 column 45
+ERROR: /github/workspace/output/instant_openhie.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 288 column 45
+ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.json.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 394 column 45
+ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.ttl.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 398 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.xml.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 384 column 45
+ERROR: /github/workspace/output/ValueSet-vs-ethnicity.json.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 377 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.ttl.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 406 column 45
+ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.xml.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 384 column 45
+ERROR: /github/workspace/output/artifacts.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 391 column 45
+ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.ttl.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 401 column 45
+ERROR: /github/workspace/output/ValueSet-vs-ethnicity.xml.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 367 column 45
+ERROR: /github/workspace/output/downloads.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 333 column 45
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-population.change.history.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 347 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 355 column 45
+ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.change.history.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 347 column 45
+ERROR: /github/workspace/output/security_privacy.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 288 column 45
 ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_vs-patientgender.change.history.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 347 column 45
+ERROR: /github/workspace/output/ValueSet-vs-ethnicity.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 396 column 45
+ERROR: /github/workspace/output/deployment.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 298 column 45
+ERROR: /github/workspace/output/index.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 367 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.json.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 394 column 45
+ERROR: /github/workspace/output/content_profiles.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 293 column 45
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-behavior.change.history.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 347 column 45
+ERROR: /github/workspace/output/transactions.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 306 column 45
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.json.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 1277 column 45
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-population.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 389 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.change.history.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
           var formVars = new Set();  
@@ -54,44 +643,6 @@ ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.ttl.html: unable to
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 401 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/ValueSet-vs-ethnicity.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 383 column 45
 ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.xml.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -111,253 +662,6 @@ ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.xml.html: unable
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 391 column 45
-ERROR: /github/workspace/output/ValueSet-vs-ethnicity.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 396 column 45
-ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 395 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/concepts.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 319 column 45
-ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 430 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-behavior.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 401 column 45
-ERROR: /github/workspace/output/transactions.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 306 column 45
-ERROR: /github/workspace/output/references.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 304 column 45
-ERROR: /github/workspace/output/toc.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 283 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_vs-patientgender.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 389 column 45
-ERROR: /github/workspace/output/testing.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 292 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 406 column 45
 ERROR: /github/workspace/output/expected_actions.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -377,500 +681,6 @@ ERROR: /github/workspace/output/expected_actions.html: unable to parse character
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 353 column 45
-ERROR: /github/workspace/output/instant_openhie.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 288 column 45
-ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.xml.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 726 column 45
-ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.xml.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 384 column 45
-ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 394 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-behavior.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 389 column 45
-ERROR: /github/workspace/output/actors.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 310 column 45
-ERROR: /github/workspace/output/requirements.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 306 column 45
-ERROR: /github/workspace/output/ValueSet-vs-ethnicity.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/functional.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 301 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 355 column 45
-ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 398 column 45
-ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 682 column 45
-ERROR: /github/workspace/output/security_privacy.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 288 column 45
-ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 728 column 45
-ERROR: /github/workspace/output/content_profiles.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 293 column 45
-ERROR: /github/workspace/output/index.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 367 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 355 column 45
-ERROR: /github/workspace/output/dependencies.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 316 column 45
-ERROR: /github/workspace/output/data_exchange.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 298 column 45
-ERROR: /github/workspace/output/ValueSet-vs-ethnicity.xml.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 367 column 45
-ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 355 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 399 column 45
-ERROR: /github/workspace/output/ValueSet-vs-ethnicity.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 377 column 45
-ERROR: /github/workspace/output/deployment.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 298 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-population.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 389 column 45
 ERROR: /github/workspace/output/usecases.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -890,7 +700,7 @@ ERROR: /github/workspace/output/usecases.html: unable to parse character referen
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 294 column 45
-ERROR: /github/workspace/output/personas.html: unable to parse character reference '''' (last text = '
+ERROR: /github/workspace/output/data_exchange.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
           var formVars = new Set();  
@@ -908,8 +718,8 @@ ERROR: /github/workspace/output/personas.html: unable to parse character referen
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 288 column 45
-ERROR: /github/workspace/output/artifacts.html: unable to parse character reference '''' (last text = '
+/* ' at line 298 column 45
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.xml.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
           var formVars = new Set();  
@@ -927,8 +737,8 @@ ERROR: /github/workspace/output/artifacts.html: unable to parse character refere
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 391 column 45
-ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.change.history.html: unable to parse character reference '''' (last text = '
+/* ' at line 1019 column 45
+ERROR: /github/workspace/output/actors.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
           var formVars = new Set();  
@@ -946,121 +756,7 @@ ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.change.history.h
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 394 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.xml.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 384 column 45
-ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 395 column 45
-ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/workflows.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 288 column 45
-ERROR: /github/workspace/output/downloads.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 333 column 45
+/* ' at line 310 column 45
 ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.xml.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -1080,7 +776,7 @@ ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.xml.html: unable
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 385 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-population.change.history.html: unable to parse character reference '''' (last text = '
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.change.history.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
           var formVars = new Set();  
@@ -1099,6 +795,310 @@ ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-p
             var parameterVariableName = '';
             var parameterValue = '';
 /* ' at line 347 column 45
+ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.change.history.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 347 column 45
+ERROR: /github/workspace/output/toc.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 283 column 45
+ERROR: /github/workspace/output/functional.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 301 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.change.history.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 347 column 45
+ERROR: /github/workspace/output/requirements.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 306 column 45
+ERROR: /github/workspace/output/workflows.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 288 column 45
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.ttl.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 1039 column 45
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.json.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 399 column 45
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-behavior.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 389 column 45
+ERROR: /github/workspace/output/personas.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 288 column 45
+ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.json.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 395 column 45
+ERROR: /github/workspace/output/testing.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 292 column 45
+ERROR: /github/workspace/output/ValueSet-vs-ethnicity.change.history.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 347 column 45
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_vs-patientgender.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 389 column 45
+ERROR: /github/workspace/output/concepts.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 319 column 45
+ERROR: /github/workspace/output/ValueSet-vs-ethnicity.ttl.html: unable to parse character reference '''' (last text = '
+        $(':header[id]').each(function() {
+          var id = $(this).attr('id');
+          var formVars = new Set();  
+            formVars.add("sectionId");  
+            formVars.add("pageTitle");  
+            formVars.add("sectionName");  
+          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
+          var feedbacklabel = 'Feedback';
+          
+            
+              feedbacklabel = 'Feedback';
+            ;
+
+            
+            var parameterFieldId = '';
+            var parameterVariableName = '';
+            var parameterValue = '';
+/* ' at line 383 column 45
 == /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior.json ==
 INFORMATION: CodeSystem/cs-hiv-risk-behavior: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender.json ==
@@ -1115,9 +1115,41 @@ INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[0]: que-6: 'Required and repeat aren't permitted for display items' failed
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[1]: que-6: 'Required and repeat aren't permitted for display items' failed
 WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].extension[0].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[1]: que-1: 'Group items must have nested items, display items cannot have nested items' failed
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[3].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[4].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[5].extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/maxValue' definition allows for the types [date, dateTime, time, integer, decimal, instant] but found type string
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[5].extension[0]: The type of element valueString is not known, which is illegal. Valid types at this point are date, dateTime, time, instant, decimal, integer
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[5].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[6].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[6].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[6].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[8].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[3].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[1].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[1].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 == /github/workspace/fsh-generated/resources/ValueSet-hiv-transmission-route.json ==
 INFORMATION: ValueSet/hiv-transmission-route: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /github/workspace/fsh-generated/resources/ValueSet-vs-ethnicity.json ==

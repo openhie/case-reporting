@@ -11,7 +11,7 @@
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-03-22T13:54:51+00:00",
+  "date": "2021-03-26T11:00:55+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -341,14 +341,26 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
+            "valueString": "CodeSystem"
           }
         ],
         "reference": {
-          "reference": "ValueSet/hiv-transmission-route"
+          "reference": "CodeSystem/cs-patient-gender"
         },
-        "name": "HIV Transmission Route",
-        "description": "HIV Transmission Route"
+        "name": "Patient Gender",
+        "description": "The genders for patients"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/case-reporting-questionnaire"
+        },
+        "name": "Case Reporting Questionnaire"
       },
       {
         "extension": [
@@ -393,26 +405,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
+            "valueString": "ValueSet"
           }
         ],
         "reference": {
-          "reference": "Questionnaire/case-reporting-questionnaire"
+          "reference": "ValueSet/hiv-transmission-route"
         },
-        "name": "Case Reporting Questionnaire"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/cs-patient-gender"
-        },
-        "name": "Patient Gender",
-        "description": "The genders for patients"
+        "name": "HIV Transmission Route",
+        "description": "HIV Transmission Route"
       }
     ],
     "page": {

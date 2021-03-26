@@ -15,6 +15,11 @@
     "http://hl7.org/fhir/StructureDefinition/regex": [
       "Questionnaire.item.item.item"
     ],
+    "http://hl7.org/fhir/StructureDefinition/translation": [
+      "Questionnaire.item.item.item.text",
+      "Questionnaire.item.item.text",
+      "Questionnaire.item.text"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
     ],

@@ -22,14 +22,14 @@
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> passport_nr</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">7.2. Passport Number</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck111.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="String" class="hierarchy"/> residence</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">8. Residence</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> permanent_residence</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">8.1. Permanent Residence</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="String" class="hierarchy"/> postalcode</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Postal Code</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> current_residence</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">8.2. Current Residence (if not same as permanent)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="String" class="hierarchy"/> postalcode</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">8.2. Postal Code</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> current_residence</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">8.3. Current Residence (if not same as permanent)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-choice.png" alt="." style="background-color: white; background-color: inherit" title="Choice" class="hierarchy"/> occupation</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9. Occupation</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> risk_factors</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Risk Factors</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#group">group</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-choice.png" alt="." style="background-color: white; background-color: inherit" title="Choice" class="hierarchy"/> risk_population</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Risk Population</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value Set: <a href="ValueSet-case-reporting-questionnaire_hiv-risk-population.html">HIVRiskPopulation</a></td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-choice.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Choice" class="hierarchy"/> risk_behavior</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Risk Behavior</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value Set: <a href="ValueSet-case-reporting-questionnaire_hiv-risk-behavior.html">HIVRiskBehavior</a></td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-choice.png" alt="." style="background-color: white; background-color: inherit" title="Choice" class="hierarchy"/> transmssion_route</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Transmission Route</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value Set: <a href="ValueSet-hiv-transmission-route.html">HIV Transmission Route</a></td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> hiv-diagnosis</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9. HIV Diagnosis</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#group">group</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> risk_factors</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">10. Risk Factors</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#group">group</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-choice.png" alt="." style="background-color: white; background-color: inherit" title="Choice" class="hierarchy"/> risk_population</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">10.1. Risk Population</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value Set: <a href="ValueSet-case-reporting-questionnaire_hiv-risk-population.html">HIVRiskPopulation</a></td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-choice.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Choice" class="hierarchy"/> risk_behavior</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">10.2. Risk Behavior</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value Set: <a href="ValueSet-case-reporting-questionnaire_hiv-risk-behavior.html">HIVRiskBehavior</a></td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-choice.png" alt="." style="background-color: white; background-color: inherit" title="Choice" class="hierarchy"/> transmssion_route</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">10.3. Transmission Route</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value Set: <a href="ValueSet-hiv-transmission-route.html">HIV Transmission Route</a></td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> hiv-diagnosis</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">11. HIV Diagnosis</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#group">group</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-date.png" alt="." style="background-color: white; background-color: inherit" title="Date" class="hierarchy"/> date-of-confirmation</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">11.1. Date of Confirmation</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> confirming-lab</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">11.2. Confirming Lab</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-date.png" alt="." style="background-color: white; background-color: inherit" title="Date" class="hierarchy"/> date-of-specimen-collection</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">11.3. Date of Specimen Collection</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
@@ -99,7 +99,7 @@
   <title value="Case Reporting Questionnaire"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2021-03-22T13:54:51+00:00"/>
+  <date value="2021-03-26T11:00:55+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <telecom>
@@ -152,34 +152,79 @@
       </valueCodeableConcept>
     </extension>
     <linkId value="patient-information"/>
-    <text value="Patient Information"/>
+    <text value="Patient Information">
+      <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+        <extension url="lang">
+          <valueCode value="vi-VN"/>
+        </extension>
+        <extension url="content">
+          <valueString value="Th&#xF4;ng tin b&#x1EC7;nh nh&#xE2;n"/>
+        </extension>
+      </extension>
+    </text>
     <type value="group"/>
     <repeats value="false"/>
     <item>
       <linkId value="unique_arv_number"/>
       <prefix value="1"/>
-      <text value="Patient ARV identification number"/>
+      <text value="Patient ARV identification number">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="string"/>
       <repeats value="false"/>
     </item>
     <item>
       <linkId value="personal_info"/>
       <prefix value="2"/>
-      <text value="Patient Personal information"/>
+      <text value="Patient Personal information">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="group"/>
       <repeats value="false"/>
     </item>
     <item>
       <linkId value="name"/>
       <prefix value="3"/>
-      <text value="Full name"/>
+      <text value="Full name">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="string"/>
       <repeats value="false"/>
     </item>
     <item>
       <linkId value="ethnicity"/>
       <prefix value="4"/>
-      <text value="Ethnicity"/>
+      <text value="Ethnicity">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="choice"/>
       <repeats value="false"/>
       <answerValueSet value="http://openhie.org/fhir/ValueSet/vs-ethnicity"/>
@@ -187,7 +232,16 @@
     <item>
       <linkId value="gender"/>
       <prefix value="5"/>
-      <text value="Gender"/>
+      <text value="Gender">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="choice"/>
       <repeats value="false"/>
       <answerValueSet value="#vs-patientgender"/>
@@ -198,27 +252,63 @@
       </extension>
       <linkId value="birth_year"/>
       <prefix value="6"/>
-      <text value="Year of Birth"/>
+      <text value="Year of Birth">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="integer"/>
       <repeats value="false"/>
     </item>
     <item>
       <linkId value="identification"/>
       <prefix value="7"/>
-      <text value="Identification"/>
+      <text value="Identification">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="group"/>
       <repeats value="false"/>
       <item>
         <linkId value="health_insurance_nr"/>
         <prefix value="7.1"/>
-        <text value="Health insurance Number"/>
+        <text value="Health insurance Number">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="vi-VN"/>
+            </extension>
+            <extension url="content">
+              <valueString value="...."/>
+            </extension>
+          </extension>
+        </text>
         <type value="string"/>
         <repeats value="false"/>
       </item>
       <item>
         <linkId value="passport_nr"/>
         <prefix value="7.2"/>
-        <text value="Passport Number"/>
+        <text value="Passport Number">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="vi-VN"/>
+            </extension>
+            <extension url="content">
+              <valueString value="...."/>
+            </extension>
+          </extension>
+        </text>
         <type value="string"/>
         <repeats value="false"/>
       </item>
@@ -226,13 +316,31 @@
     <item>
       <linkId value="residence"/>
       <prefix value="8"/>
-      <text value="Residence"/>
+      <text value="Residence">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="string"/>
       <repeats value="false"/>
       <item>
         <linkId value="permanent_residence"/>
         <prefix value="8.1"/>
-        <text value="Permanent Residence"/>
+        <text value="Permanent Residence">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="vi-VN"/>
+            </extension>
+            <extension url="content">
+              <valueString value="...."/>
+            </extension>
+          </extension>
+        </text>
         <type value="string"/>
         <repeats value="false"/>
       </item>
@@ -241,14 +349,33 @@
           <valueString value="[A-Z][0-9][A-Z] [0-9][A-Z][0-9]"/>
         </extension>
         <linkId value="postalcode"/>
-        <text value="Postal Code"/>
+        <prefix value="8.2"/>
+        <text value="Postal Code">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="vi-VN"/>
+            </extension>
+            <extension url="content">
+              <valueString value="...."/>
+            </extension>
+          </extension>
+        </text>
         <type value="string"/>
         <repeats value="false"/>
       </item>
       <item>
         <linkId value="current_residence"/>
-        <prefix value="8.2"/>
-        <text value="Current Residence (if not same as permanent)"/>
+        <prefix value="8.3"/>
+        <text value="Current Residence (if not same as permanent)">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="vi-VN"/>
+            </extension>
+            <extension url="content">
+              <valueString value="...."/>
+            </extension>
+          </extension>
+        </text>
         <type value="string"/>
         <repeats value="false"/>
       </item>
@@ -256,33 +383,82 @@
     <item>
       <linkId value="occupation"/>
       <prefix value="9"/>
-      <text value="Occupation"/>
+      <text value="Occupation">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="choice"/>
       <repeats value="false"/>
     </item>
   </item>
   <item>
     <linkId value="risk_factors"/>
-    <text value="Risk Factors"/>
+    <prefix value="10"/>
+    <text value="Risk Factors">
+      <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+        <extension url="lang">
+          <valueCode value="vi-VN"/>
+        </extension>
+        <extension url="content">
+          <valueString value="...."/>
+        </extension>
+      </extension>
+    </text>
     <type value="group"/>
     <repeats value="false"/>
     <item>
       <linkId value="risk_population"/>
-      <text value="Risk Population"/>
+      <prefix value="10.1"/>
+      <text value="Risk Population">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="choice"/>
       <repeats value="false"/>
       <answerValueSet value="#hiv-risk-population"/>
     </item>
     <item>
       <linkId value="risk_behavior"/>
-      <text value="Risk Behavior"/>
+      <prefix value="10.2"/>
+      <text value="Risk Behavior">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="choice"/>
       <repeats value="false"/>
       <answerValueSet value="#hiv-risk-behavior"/>
     </item>
     <item>
       <linkId value="transmssion_route"/>
-      <text value="Transmission Route"/>
+      <prefix value="10.3"/>
+      <text value="Transmission Route">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="choice"/>
       <repeats value="false"/>
       <answerValueSet value="http://openhie.org/fhir/ValueSet/hiv-transmission-route"/>
@@ -290,35 +466,80 @@
   </item>
   <item>
     <linkId value="hiv-diagnosis"/>
-    <prefix value="9"/>
-    <text value="HIV Diagnosis"/>
+    <prefix value="11"/>
+    <text value="HIV Diagnosis">
+      <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+        <extension url="lang">
+          <valueCode value="vi-VN"/>
+        </extension>
+        <extension url="content">
+          <valueString value="...."/>
+        </extension>
+      </extension>
+    </text>
     <type value="group"/>
     <repeats value="false"/>
     <item>
       <linkId value="date-of-confirmation"/>
       <prefix value="11.1"/>
-      <text value="Date of Confirmation"/>
+      <text value="Date of Confirmation">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="date"/>
       <repeats value="false"/>
     </item>
     <item>
       <linkId value="confirming-lab"/>
       <prefix value="11.2"/>
-      <text value="Confirming Lab"/>
+      <text value="Confirming Lab">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="string"/>
       <repeats value="false"/>
     </item>
     <item>
       <linkId value="date-of-specimen-collection"/>
       <prefix value="11.3"/>
-      <text value="Date of Specimen Collection"/>
+      <text value="Date of Specimen Collection">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="date"/>
       <repeats value="false"/>
     </item>
     <item>
       <linkId value="place-of-specimen-collection"/>
       <prefix value="11.4"/>
-      <text value="Place of Specimen Collection"/>
+      <text value="Place of Specimen Collection">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="string"/>
       <repeats value="false"/>
     </item>
@@ -326,33 +547,78 @@
   <item>
     <linkId value="hiv-recency-test"/>
     <prefix value="12"/>
-    <text value="HIV Recency Test"/>
+    <text value="HIV Recency Test">
+      <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+        <extension url="lang">
+          <valueCode value="vi-VN"/>
+        </extension>
+        <extension url="content">
+          <valueString value="...."/>
+        </extension>
+      </extension>
+    </text>
     <type value="group"/>
     <repeats value="false"/>
     <item>
       <linkId value="rapid-test"/>
       <prefix value="12.1"/>
-      <text value="HIV Recency Rapid Test"/>
+      <text value="HIV Recency Rapid Test">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="group"/>
       <repeats value="false"/>
       <item>
         <linkId value="date-of-specimen-collection"/>
         <prefix value="12.1.1"/>
-        <text value="Date of Specimen Collection"/>
+        <text value="Date of Specimen Collection">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="vi-VN"/>
+            </extension>
+            <extension url="content">
+              <valueString value="...."/>
+            </extension>
+          </extension>
+        </text>
         <type value="date"/>
         <repeats value="false"/>
       </item>
       <item>
         <linkId value="place-of-specimen-collection"/>
         <prefix value="12.1.2"/>
-        <text value="Place of Specimen Collection"/>
+        <text value="Place of Specimen Collection">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="vi-VN"/>
+            </extension>
+            <extension url="content">
+              <valueString value="...."/>
+            </extension>
+          </extension>
+        </text>
         <type value="string"/>
         <repeats value="false"/>
       </item>
       <item>
         <linkId value="rapid-test-result"/>
         <prefix value="12.1.3"/>
-        <text value="Recency Rapid Test Result"/>
+        <text value="Recency Rapid Test Result">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="vi-VN"/>
+            </extension>
+            <extension url="content">
+              <valueString value="...."/>
+            </extension>
+          </extension>
+        </text>
         <type value="choice"/>
         <repeats value="false"/>
         <answerOption>
@@ -366,20 +632,47 @@
     <item>
       <linkId value="vl-test"/>
       <prefix value="12.2"/>
-      <text value="HIV Recency Rapid Test"/>
+      <text value="HIV Recency Rapid Test">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="vi-VN"/>
+          </extension>
+          <extension url="content">
+            <valueString value="...."/>
+          </extension>
+        </extension>
+      </text>
       <type value="group"/>
       <repeats value="false"/>
       <item>
         <linkId value="date-of-test-performance"/>
         <prefix value="12.2.1"/>
-        <text value="Date of VL Recency test performance"/>
+        <text value="Date of VL Recency test performance">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="vi-VN"/>
+            </extension>
+            <extension url="content">
+              <valueString value="...."/>
+            </extension>
+          </extension>
+        </text>
         <type value="date"/>
         <repeats value="false"/>
       </item>
       <item>
         <linkId value="vl-test-result"/>
         <prefix value="12.2.2"/>
-        <text value="VL Recency Test Result"/>
+        <text value="VL Recency Test Result">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="vi-VN"/>
+            </extension>
+            <extension url="content">
+              <valueString value="...."/>
+            </extension>
+          </extension>
+        </text>
         <type value="choice"/>
         <repeats value="false"/>
       </item>
