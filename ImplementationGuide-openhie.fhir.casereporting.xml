@@ -12,7 +12,7 @@
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-03-26T11:00:55+00:00"/>
+  <date value="2021-04-06T14:49:55+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <telecom>
@@ -217,10 +217,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/cs-patient-gender"/>
+        <reference value="CodeSystem/hiv-transmission-route"/>
       </reference>
-      <name value="Patient Gender"/>
-      <description value="The genders for patients"/>
+      <name value="HIV Transmission Route"/>
+      <description value="HIV Transmission Route codes"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -230,26 +230,6 @@
         <reference value="Questionnaire/case-reporting-questionnaire"/>
       </reference>
       <name value="Case Reporting Questionnaire"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/hiv-transmission-route"/>
-      </reference>
-      <name value="HIV Transmission Route"/>
-      <description value="HIV Transmission Route codes"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-ethnicity"/>
-      </reference>
-      <name value="Ethnicity"/>
-      <description value="Ethnicity"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -270,6 +250,26 @@
       </reference>
       <name value="HIV Transmission Route"/>
       <description value="HIV Transmission Route"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-patient-gender"/>
+      </reference>
+      <name value="Patient Gender"/>
+      <description value="The genders for patients"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-ethnicity"/>
+      </reference>
+      <name value="Ethnicity"/>
+      <description value="Ethnicity"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

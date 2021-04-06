@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "OpenHIE Case Reporting"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-03-26T11:00:55+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-06T14:49:55+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "OpenHIE"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -327,11 +327,11 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://openhie.org/fhir/CodeSystem/cs-patient-gender>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/cs-patient-gender" ]
+         fhir:link <http://openhie.org/fhir/CodeSystem/hiv-transmission-route>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/hiv-transmission-route" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Gender" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The genders for patients" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Transmission Route" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Transmission Route codes" ]
      ], [
        fhir:index 1;
        fhir:Element.extension [
@@ -352,39 +352,13 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://openhie.org/fhir/CodeSystem/hiv-transmission-route>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/hiv-transmission-route" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Transmission Route" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Transmission Route codes" ]
-     ], [
-       fhir:index 3;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://openhie.org/fhir/ValueSet/vs-ethnicity>;
-         fhir:Reference.reference [ fhir:value "ValueSet/vs-ethnicity" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ethnicity" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ethnicity" ]
-     ], [
-       fhir:index 4;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://openhie.org/fhir/CodeSystem/cs-hiv-risk-behavior>;
          fhir:Reference.reference [ fhir:value "CodeSystem/cs-hiv-risk-behavior" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Risk Behavior" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "CodeSystem - Behavior associated with risk of HIV transmission" ]
      ], [
-       fhir:index 5;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -396,6 +370,32 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Transmission Route" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Transmission Route" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://openhie.org/fhir/CodeSystem/cs-patient-gender>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-patient-gender" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Gender" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The genders for patients" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://openhie.org/fhir/ValueSet/vs-ethnicity>;
+         fhir:Reference.reference [ fhir:value "ValueSet/vs-ethnicity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ethnicity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ethnicity" ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

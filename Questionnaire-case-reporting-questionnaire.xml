@@ -99,7 +99,7 @@
   <title value="Case Reporting Questionnaire"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2021-03-26T11:00:55+00:00"/>
+  <date value="2021-04-06T14:49:55+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <telecom>
@@ -173,7 +173,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="S&#x1ED1; nh&#x1EAD;n d&#x1EA1;ng ARV c&#x1EE7;a b&#x1EC7;nh nh&#xE2;n"/>
           </extension>
         </extension>
       </text>
@@ -189,7 +189,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="Th&#xF4;ng tin c&#xE1; nh&#xE2;n c&#x1EE7;a b&#x1EC7;nh nh&#xE2;n"/>
           </extension>
         </extension>
       </text>
@@ -205,7 +205,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="H&#x1ECD; v&#xE0; t&#xEA;n"/>
           </extension>
         </extension>
       </text>
@@ -221,7 +221,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="D&#xE2;n t&#x1ED9;c"/>
           </extension>
         </extension>
       </text>
@@ -238,7 +238,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="Gi&#x1EDB;i t&#xED;nh"/>
           </extension>
         </extension>
       </text>
@@ -258,7 +258,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="N&#x103;m sinh"/>
           </extension>
         </extension>
       </text>
@@ -274,7 +274,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="Nh&#x1EAD;n bi&#x1EBF;t"/>
           </extension>
         </extension>
       </text>
@@ -289,7 +289,7 @@
               <valueCode value="vi-VN"/>
             </extension>
             <extension url="content">
-              <valueString value="...."/>
+              <valueString value="S&#x1ED1; b&#x1EA3;o hi&#x1EC3;m y t&#x1EBF;"/>
             </extension>
           </extension>
         </text>
@@ -305,7 +305,7 @@
               <valueCode value="vi-VN"/>
             </extension>
             <extension url="content">
-              <valueString value="...."/>
+              <valueString value="S&#x1ED1; h&#x1ED9; chi&#x1EBF;u"/>
             </extension>
           </extension>
         </text>
@@ -322,7 +322,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="N&#x1A1;i c&#x1B0; tr&#xFA;"/>
           </extension>
         </extension>
       </text>
@@ -337,7 +337,7 @@
               <valueCode value="vi-VN"/>
             </extension>
             <extension url="content">
-              <valueString value="...."/>
+              <valueString value="H&#x1ED9; kh&#x1EA9;u th&#x1B0;&#x1EDD;ng tr&#xFA;"/>
             </extension>
           </extension>
         </text>
@@ -372,7 +372,7 @@
               <valueCode value="vi-VN"/>
             </extension>
             <extension url="content">
-              <valueString value="...."/>
+              <valueString value="N&#x1A1;i &#x1EDF; hi&#x1EC7;n t&#x1EA1;i (n&#x1EBF;u kh&#xF4;ng gi&#x1ED1;ng v&#x1EDB;i n&#x1A1;i &#x1EDF; th&#x1B0;&#x1EDD;ng tr&#xFA;)"/>
             </extension>
           </extension>
         </text>
@@ -389,7 +389,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="Ngh&#x1EC1; nghi&#x1EC7;p"/>
           </extension>
         </extension>
       </text>
@@ -406,7 +406,7 @@
           <valueCode value="vi-VN"/>
         </extension>
         <extension url="content">
-          <valueString value="...."/>
+          <valueString value="C&#xE1;c y&#x1EBF;u t&#x1ED1; r&#x1EE7;i ro"/>
         </extension>
       </extension>
     </text>
@@ -421,7 +421,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="D&#xE2;n s&#x1ED1; Nguy c&#x1A1;"/>
           </extension>
         </extension>
       </text>
@@ -438,7 +438,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="H&#xE0;nh vi r&#x1EE7;i ro"/>
           </extension>
         </extension>
       </text>
@@ -455,7 +455,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="&#x110;&#x1B0;&#x1EDD;ng truy&#x1EC1;n"/>
           </extension>
         </extension>
       </text>
@@ -473,7 +473,7 @@
           <valueCode value="vi-VN"/>
         </extension>
         <extension url="content">
-          <valueString value="...."/>
+          <valueString value="Ch&#x1EA9;n &#x111;o&#xE1;n HIV"/>
         </extension>
       </extension>
     </text>
@@ -488,7 +488,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="Ng&#xE0;y x&#xE1;c nh&#x1EAD;n"/>
           </extension>
         </extension>
       </text>
@@ -504,7 +504,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="Ph&#xF2;ng th&#xED; nghi&#x1EC7;m x&#xE1;c nh&#x1EAD;n"/>
           </extension>
         </extension>
       </text>
@@ -520,7 +520,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="Ng&#xE0;y l&#x1EA5;y m&#x1EAB;u"/>
           </extension>
         </extension>
       </text>
@@ -536,7 +536,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="N&#x1A1;i l&#x1EA5;y m&#x1EAB;u v&#x1EAD;t"/>
           </extension>
         </extension>
       </text>
@@ -553,7 +553,7 @@
           <valueCode value="vi-VN"/>
         </extension>
         <extension url="content">
-          <valueString value="...."/>
+          <valueString value="X&#xE9;t nghi&#x1EC7;m HIV g&#x1EA7;n &#x111;&#xE2;y"/>
         </extension>
       </extension>
     </text>
@@ -568,7 +568,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="X&#xE9;t nghi&#x1EC7;m nhanh l&#x1EA7;n truy c&#x1EAD;p HIV"/>
           </extension>
         </extension>
       </text>
@@ -583,7 +583,7 @@
               <valueCode value="vi-VN"/>
             </extension>
             <extension url="content">
-              <valueString value="...."/>
+              <valueString value="Ng&#xE0;y l&#x1EA5;y m&#x1EAB;u"/>
             </extension>
           </extension>
         </text>
@@ -615,7 +615,7 @@
               <valueCode value="vi-VN"/>
             </extension>
             <extension url="content">
-              <valueString value="...."/>
+              <valueString value="K&#x1EBF;t qu&#x1EA3; ki&#x1EC3;m tra nhanh l&#x1EA7;n truy c&#x1EAD;p g&#x1EA7;n &#x111;&#xE2;y"/>
             </extension>
           </extension>
         </text>
@@ -638,7 +638,7 @@
             <valueCode value="vi-VN"/>
           </extension>
           <extension url="content">
-            <valueString value="...."/>
+            <valueString value="X&#xE9;t nghi&#x1EC7;m nhanh l&#x1EA7;n truy c&#x1EAD;p HIV"/>
           </extension>
         </extension>
       </text>
@@ -653,7 +653,7 @@
               <valueCode value="vi-VN"/>
             </extension>
             <extension url="content">
-              <valueString value="...."/>
+              <valueString value="Ng&#xE0;y th&#x1EF1;c hi&#x1EC7;n ki&#x1EC3;m tra l&#x1EA7;n truy c&#x1EAD;p g&#x1EA7;n &#x111;&#xE2;y c&#x1EE7;a VL"/>
             </extension>
           </extension>
         </text>
@@ -669,7 +669,7 @@
               <valueCode value="vi-VN"/>
             </extension>
             <extension url="content">
-              <valueString value="...."/>
+              <valueString value="K&#x1EBF;t qu&#x1EA3; ki&#x1EC3;m tra l&#x1EA7;n truy c&#x1EAD;p g&#x1EA7;n &#x111;&#xE2;y c&#x1EE7;a VL"/>
             </extension>
           </extension>
         </text>

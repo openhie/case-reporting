@@ -11,7 +11,7 @@
   "title": "OpenHIE Case Reporting",
   "status": "draft",
   "experimental": false,
-  "date": "2021-03-26T11:00:55+00:00",
+  "date": "2021-04-06T14:49:55+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -345,10 +345,10 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/cs-patient-gender"
+          "reference": "CodeSystem/hiv-transmission-route"
         },
-        "name": "Patient Gender",
-        "description": "The genders for patients"
+        "name": "HIV Transmission Route",
+        "description": "HIV Transmission Route codes"
       },
       {
         "extension": [
@@ -361,32 +361,6 @@
           "reference": "Questionnaire/case-reporting-questionnaire"
         },
         "name": "Case Reporting Questionnaire"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/hiv-transmission-route"
-        },
-        "name": "HIV Transmission Route",
-        "description": "HIV Transmission Route codes"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/vs-ethnicity"
-        },
-        "name": "Ethnicity",
-        "description": "Ethnicity"
       },
       {
         "extension": [
@@ -413,6 +387,32 @@
         },
         "name": "HIV Transmission Route",
         "description": "HIV Transmission Route"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-patient-gender"
+        },
+        "name": "Patient Gender",
+        "description": "The genders for patients"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/vs-ethnicity"
+        },
+        "name": "Ethnicity",
+        "description": "Ethnicity"
       }
     ],
     "page": {

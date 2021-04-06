@@ -71,7 +71,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2021-03-26T11:00:55+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2021-04-06T14:49:55+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "OpenHIE"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -165,7 +165,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Số nhận dạng ARV của bệnh nhân" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -187,7 +187,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Thông tin cá nhân của bệnh nhân" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -209,7 +209,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Họ và tên" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -231,7 +231,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Dân tộc" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -257,7 +257,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Giới tính" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -285,7 +285,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Năm sinh" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -307,7 +307,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Nhận biết" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -329,7 +329,7 @@
              ], [
                fhir:index 1;
                fhir:Extension.url [ fhir:value "content" ];
-               fhir:Extension.valueString [ fhir:value "...." ]
+               fhir:Extension.valueString [ fhir:value "Số bảo hiểm y tế" ]
              ];
              fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
            ]
@@ -351,7 +351,7 @@
              ], [
                fhir:index 1;
                fhir:Extension.url [ fhir:value "content" ];
-               fhir:Extension.valueString [ fhir:value "...." ]
+               fhir:Extension.valueString [ fhir:value "Số hộ chiếu" ]
              ];
              fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
            ]
@@ -374,7 +374,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Nơi cư trú" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -396,7 +396,7 @@
              ], [
                fhir:index 1;
                fhir:Extension.url [ fhir:value "content" ];
-               fhir:Extension.valueString [ fhir:value "...." ]
+               fhir:Extension.valueString [ fhir:value "Hộ khẩu thường trú" ]
              ];
              fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
            ]
@@ -445,7 +445,7 @@
              ], [
                fhir:index 1;
                fhir:Extension.url [ fhir:value "content" ];
-               fhir:Extension.valueString [ fhir:value "...." ]
+               fhir:Extension.valueString [ fhir:value "Nơi ở hiện tại (nếu không giống với nơi ở thường trú)" ]
              ];
              fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
            ]
@@ -468,7 +468,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Nghề nghiệp" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -491,7 +491,7 @@
          ], [
            fhir:index 1;
            fhir:Extension.url [ fhir:value "content" ];
-           fhir:Extension.valueString [ fhir:value "...." ]
+           fhir:Extension.valueString [ fhir:value "Các yếu tố rủi ro" ]
          ];
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
        ]
@@ -513,7 +513,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Dân số Nguy cơ" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -536,7 +536,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Hành vi rủi ro" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -559,7 +559,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Đường truyền" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -586,7 +586,7 @@
          ], [
            fhir:index 1;
            fhir:Extension.url [ fhir:value "content" ];
-           fhir:Extension.valueString [ fhir:value "...." ]
+           fhir:Extension.valueString [ fhir:value "Chẩn đoán HIV" ]
          ];
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
        ]
@@ -608,7 +608,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Ngày xác nhận" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -630,7 +630,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Phòng thí nghiệm xác nhận" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -652,7 +652,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Ngày lấy mẫu" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -674,7 +674,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Nơi lấy mẫu vật" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -697,7 +697,7 @@
          ], [
            fhir:index 1;
            fhir:Extension.url [ fhir:value "content" ];
-           fhir:Extension.valueString [ fhir:value "...." ]
+           fhir:Extension.valueString [ fhir:value "Xét nghiệm HIV gần đây" ]
          ];
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
        ]
@@ -719,7 +719,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Xét nghiệm nhanh lần truy cập HIV" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -741,7 +741,7 @@
              ], [
                fhir:index 1;
                fhir:Extension.url [ fhir:value "content" ];
-               fhir:Extension.valueString [ fhir:value "...." ]
+               fhir:Extension.valueString [ fhir:value "Ngày lấy mẫu" ]
              ];
              fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
            ]
@@ -785,7 +785,7 @@
              ], [
                fhir:index 1;
                fhir:Extension.url [ fhir:value "content" ];
-               fhir:Extension.valueString [ fhir:value "...." ]
+               fhir:Extension.valueString [ fhir:value "Kết quả kiểm tra nhanh lần truy cập gần đây" ]
              ];
              fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
            ]
@@ -815,7 +815,7 @@
            ], [
              fhir:index 1;
              fhir:Extension.url [ fhir:value "content" ];
-             fhir:Extension.valueString [ fhir:value "...." ]
+             fhir:Extension.valueString [ fhir:value "Xét nghiệm nhanh lần truy cập HIV" ]
            ];
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
          ]
@@ -837,7 +837,7 @@
              ], [
                fhir:index 1;
                fhir:Extension.url [ fhir:value "content" ];
-               fhir:Extension.valueString [ fhir:value "...." ]
+               fhir:Extension.valueString [ fhir:value "Ngày thực hiện kiểm tra lần truy cập gần đây của VL" ]
              ];
              fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
            ]
@@ -859,7 +859,7 @@
              ], [
                fhir:index 1;
                fhir:Extension.url [ fhir:value "content" ];
-               fhir:Extension.valueString [ fhir:value "...." ]
+               fhir:Extension.valueString [ fhir:value "Kết quả kiểm tra lần truy cập gần đây của VL" ]
              ];
              fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
            ]

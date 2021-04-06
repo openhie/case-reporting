@@ -66,7 +66,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2021-03-26T11:00:55+00:00",
+  "date": "2021-04-06T14:49:55+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -168,7 +168,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Số nhận dạng ARV của bệnh nhân"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -192,7 +192,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Thông tin cá nhân của bệnh nhân"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -216,7 +216,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Họ và tên"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -240,7 +240,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Dân tộc"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -265,7 +265,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Giới tính"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -296,7 +296,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Năm sinh"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -320,7 +320,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Nhận biết"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -344,7 +344,7 @@
                       },
                       {
                         "url": "content",
-                        "valueString": "...."
+                        "valueString": "Số bảo hiểm y tế"
                       }
                     ],
                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -368,7 +368,7 @@
                       },
                       {
                         "url": "content",
-                        "valueString": "...."
+                        "valueString": "Số hộ chiếu"
                       }
                     ],
                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -394,7 +394,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Nơi cư trú"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -418,7 +418,7 @@
                       },
                       {
                         "url": "content",
-                        "valueString": "...."
+                        "valueString": "Hộ khẩu thường trú"
                       }
                     ],
                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -472,7 +472,7 @@
                       },
                       {
                         "url": "content",
-                        "valueString": "...."
+                        "valueString": "Nơi ở hiện tại (nếu không giống với nơi ở thường trú)"
                       }
                     ],
                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -498,7 +498,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Nghề nghiệp"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -524,7 +524,7 @@
               },
               {
                 "url": "content",
-                "valueString": "...."
+                "valueString": "Các yếu tố rủi ro"
               }
             ],
             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -548,7 +548,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Dân số Nguy cơ"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -573,7 +573,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Hành vi rủi ro"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -598,7 +598,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Đường truyền"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -625,7 +625,7 @@
               },
               {
                 "url": "content",
-                "valueString": "...."
+                "valueString": "Chẩn đoán HIV"
               }
             ],
             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -649,7 +649,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Ngày xác nhận"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -673,7 +673,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Phòng thí nghiệm xác nhận"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -697,7 +697,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Ngày lấy mẫu"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -721,7 +721,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Nơi lấy mẫu vật"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -747,7 +747,7 @@
               },
               {
                 "url": "content",
-                "valueString": "...."
+                "valueString": "Xét nghiệm HIV gần đây"
               }
             ],
             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -771,7 +771,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Xét nghiệm nhanh lần truy cập HIV"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -795,7 +795,7 @@
                       },
                       {
                         "url": "content",
-                        "valueString": "...."
+                        "valueString": "Ngày lấy mẫu"
                       }
                     ],
                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -843,7 +843,7 @@
                       },
                       {
                         "url": "content",
-                        "valueString": "...."
+                        "valueString": "Kết quả kiểm tra nhanh lần truy cập gần đây"
                       }
                     ],
                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -877,7 +877,7 @@
                   },
                   {
                     "url": "content",
-                    "valueString": "...."
+                    "valueString": "Xét nghiệm nhanh lần truy cập HIV"
                   }
                 ],
                 "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -901,7 +901,7 @@
                       },
                       {
                         "url": "content",
-                        "valueString": "...."
+                        "valueString": "Ngày thực hiện kiểm tra lần truy cập gần đây của VL"
                       }
                     ],
                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -925,7 +925,7 @@
                       },
                       {
                         "url": "content",
-                        "valueString": "...."
+                        "valueString": "Kết quả kiểm tra lần truy cập gần đây của VL"
                       }
                     ],
                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
