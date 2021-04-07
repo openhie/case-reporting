@@ -44,9 +44,20 @@ Description:  "Valueset - patient genders"
 * status = #draft
 * expansion.timestamp = "2021-02-02"
 * insert ExpandedCode(PatientGender, male, Male)
+* expansion.contains[=].display.extension[$translation].extension[lang].valueCode = #vi-VN
+* expansion.contains[=].display.extension[translation].extension[content].valueString = "nam"
+
 * insert ExpandedCode(PatientGender, female, Female)
+* expansion.contains[=].display.extension[$translation].extension[lang].valueCode = #vi-VN
+* expansion.contains[=].display.extension[translation].extension[content].valueString = "nữ"
 * insert ExpandedCode(PatientGender, transgender, Transgender)
+* expansion.contains[=].display.extension[$translation].extension[lang].valueCode = #vi-VN
+* expansion.contains[=].display.extension[translation].extension[content].valueString = "chuyển giới"
+
 * insert ExpandedCode(PatientGender, non-binary, Non-binary)
+* expansion.contains[=].display.extension[$translation].extension[lang].valueCode = #vi-VN
+* expansion.contains[=].display.extension[translation].extension[content].valueString = "...?..."
+
 
 
 
