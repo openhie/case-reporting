@@ -1,15 +1,15 @@
 ﻿openhie-case-reporting : Validation Results
 =========================================
 
-err = 6, warn = 6, info = 32
+err = 6, warn = 6, info = 36
 IG Publisher Version: 1.1.65
-Generated Tue Apr 06 14:50:10 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+Generated Wed Apr 07 16:32:59 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
 
  Build Errors : 57 / 1 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire : 6 / 2 / 36
+ /github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire : 6 / 2 / 40
  /github/workspace/fsh-generated/resources/ValueSet-hiv-transmission-route : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-ethnicity : 0 / 1 / 1
  /github/workspace/input/case-reporting : 0 / 2 / 1
@@ -262,7 +262,7 @@ ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.xml.h
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 1021 column 45
+/* ' at line 1057 column 45
 ERROR: /github/workspace/output/workflows.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -338,7 +338,7 @@ ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.ttl.h
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 1039 column 45
+/* ' at line 1083 column 45
 ERROR: /github/workspace/output/artifacts.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -737,7 +737,7 @@ ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.json.
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 1277 column 45
+/* ' at line 1345 column 45
 ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.ttl.html: unable to parse character reference '''' (last text = '
         $(':header[id]').each(function() {
           var id = $(this).attr('id');
@@ -1110,6 +1110,10 @@ INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire: Validate
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire: que-2: 'The link ids for groups and questions must be unique within the questionnaire' failed
 INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[0].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[1].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[2].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[3].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[1].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[2].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[0]: que-6: 'Required and repeat aren't permitted for display items' failed

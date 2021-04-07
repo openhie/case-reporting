@@ -16,6 +16,7 @@
       "Questionnaire.item.item.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/translation": [
+      "Questionnaire.contained.expansion.contains.display",
       "Questionnaire.item.item.item.text",
       "Questionnaire.item.item.text",
       "Questionnaire.item.text"

@@ -54,22 +54,58 @@
         <contains>
           <system value="http://openhie.org/fhir/CodeSystem/cs-patient-gender"/>
           <code value="male"/>
-          <display value="Male"/>
+          <display value="Male">
+            <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+              <extension url="lang">
+                <valueCode value="vi-VN"/>
+              </extension>
+              <extension url="content">
+                <valueString value="nam"/>
+              </extension>
+            </extension>
+          </display>
         </contains>
         <contains>
           <system value="http://openhie.org/fhir/CodeSystem/cs-patient-gender"/>
           <code value="female"/>
-          <display value="Female"/>
+          <display value="Female">
+            <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+              <extension url="lang">
+                <valueCode value="vi-VN"/>
+              </extension>
+              <extension url="content">
+                <valueString value="n&#x1B0;&#x303;"/>
+              </extension>
+            </extension>
+          </display>
         </contains>
         <contains>
           <system value="http://openhie.org/fhir/CodeSystem/cs-patient-gender"/>
           <code value="transgender"/>
-          <display value="Transgender"/>
+          <display value="Transgender">
+            <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+              <extension url="lang">
+                <valueCode value="vi-VN"/>
+              </extension>
+              <extension url="content">
+                <valueString value="chuy&#x1EC3;n gi&#x1EDB;i"/>
+              </extension>
+            </extension>
+          </display>
         </contains>
         <contains>
           <system value="http://openhie.org/fhir/CodeSystem/cs-patient-gender"/>
           <code value="non-binary"/>
-          <display value="Non-binary"/>
+          <display value="Non-binary">
+            <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+              <extension url="lang">
+                <valueCode value="vi-VN"/>
+              </extension>
+              <extension url="content">
+                <valueString value="...?..."/>
+              </extension>
+            </extension>
+          </display>
         </contains>
       </expansion>
     </ValueSet>
@@ -99,7 +135,7 @@
   <title value="Case Reporting Questionnaire"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2021-04-06T14:49:55+00:00"/>
+  <date value="2021-04-07T16:32:46+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <telecom>

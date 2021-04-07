@@ -25,22 +25,82 @@
          fhir:index 0;
          fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/CodeSystem/cs-patient-gender" ];
          fhir:ValueSet.expansion.contains.code [ fhir:value "male" ];
-         fhir:ValueSet.expansion.contains.display [ fhir:value "Male" ]
+         fhir:ValueSet.expansion.contains.display [
+           fhir:value "Male";
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Extension.url [ fhir:value "lang" ];
+               fhir:Extension.valueCode [ fhir:value "vi-VN" ]
+             ], [
+               fhir:index 1;
+               fhir:Extension.url [ fhir:value "content" ];
+               fhir:Extension.valueString [ fhir:value "nam" ]
+             ];
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+           ]
+         ]
        ], [
          fhir:index 1;
          fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/CodeSystem/cs-patient-gender" ];
          fhir:ValueSet.expansion.contains.code [ fhir:value "female" ];
-         fhir:ValueSet.expansion.contains.display [ fhir:value "Female" ]
+         fhir:ValueSet.expansion.contains.display [
+           fhir:value "Female";
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Extension.url [ fhir:value "lang" ];
+               fhir:Extension.valueCode [ fhir:value "vi-VN" ]
+             ], [
+               fhir:index 1;
+               fhir:Extension.url [ fhir:value "content" ];
+               fhir:Extension.valueString [ fhir:value "nữ" ]
+             ];
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+           ]
+         ]
        ], [
          fhir:index 2;
          fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/CodeSystem/cs-patient-gender" ];
          fhir:ValueSet.expansion.contains.code [ fhir:value "transgender" ];
-         fhir:ValueSet.expansion.contains.display [ fhir:value "Transgender" ]
+         fhir:ValueSet.expansion.contains.display [
+           fhir:value "Transgender";
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Extension.url [ fhir:value "lang" ];
+               fhir:Extension.valueCode [ fhir:value "vi-VN" ]
+             ], [
+               fhir:index 1;
+               fhir:Extension.url [ fhir:value "content" ];
+               fhir:Extension.valueString [ fhir:value "chuyển giới" ]
+             ];
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+           ]
+         ]
        ], [
          fhir:index 3;
          fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/CodeSystem/cs-patient-gender" ];
          fhir:ValueSet.expansion.contains.code [ fhir:value "non-binary" ];
-         fhir:ValueSet.expansion.contains.display [ fhir:value "Non-binary" ]
+         fhir:ValueSet.expansion.contains.display [
+           fhir:value "Non-binary";
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Extension.url [ fhir:value "lang" ];
+               fhir:Extension.valueCode [ fhir:value "vi-VN" ]
+             ], [
+               fhir:index 1;
+               fhir:Extension.url [ fhir:value "content" ];
+               fhir:Extension.valueString [ fhir:value "...?..." ]
+             ];
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+           ]
+         ]
        ]
      ]
   ], [
@@ -71,7 +131,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2021-04-06T14:49:55+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2021-04-07T16:32:46+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "OpenHIE"];
   fhir:Questionnaire.contact [
      fhir:index 0;

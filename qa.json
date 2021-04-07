@@ -3,10 +3,10 @@
   "name": "openhie-case-reporting",
   "package-id": "openhie.fhir.casereporting",
   "ig-ver": "0.1.0-test",
-  "date": "Tue, 06 Apr, 2021 14:49:55 +0000",
+  "date": "Wed, 07 Apr, 2021 16:32:46 +0000",
   "errs": 6,
   "warnings": 6,
-  "hints": 32,
+  "hints": 36,
   "version": "4.0.1",
   "tool": "4.5.0 (3)"
 }

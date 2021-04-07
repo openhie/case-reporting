@@ -18,22 +18,90 @@
           {
             "system": "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
             "code": "male",
-            "display": "Male"
+            "display": "Male",
+            "_display": {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "vi-VN"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nam"
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                }
+              ]
+            }
           },
           {
             "system": "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
             "code": "female",
-            "display": "Female"
+            "display": "Female",
+            "_display": {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "vi-VN"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nữ"
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                }
+              ]
+            }
           },
           {
             "system": "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
             "code": "transgender",
-            "display": "Transgender"
+            "display": "Transgender",
+            "_display": {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "vi-VN"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "chuyển giới"
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                }
+              ]
+            }
           },
           {
             "system": "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
             "code": "non-binary",
-            "display": "Non-binary"
+            "display": "Non-binary",
+            "_display": {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "vi-VN"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "...?..."
+                    }
+                  ],
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                }
+              ]
+            }
           }
         ]
       }
@@ -66,7 +134,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2021-04-06T14:49:55+00:00",
+  "date": "2021-04-07T16:32:46+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {

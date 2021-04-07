@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 57, errors = 6, warn = 6, info = 32 -->
+<!-- broken links = 57, errors = 6, warn = 6, info = 36 -->
 <head>
   <title>openhie-case-reporting : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -23,7 +23,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for openhie-case-reporting</h1>
- <p>Generated Tue Apr 06 14:50:10 UTC 2021, FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = <a href="http://openhie.org/fhir">http://openhie.org/fhir</a> (<a href="http://openhie.org/fhir/history.html">history</a>)). See <a href="/github/workspace/output/qa.html">Full QA Report</a></p>
+ <p>Generated Wed Apr 07 16:32:59 UTC 2021, FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = <a href="http://openhie.org/fhir">http://openhie.org/fhir</a> (<a href="http://openhie.org/fhir/history.html">history</a>)). See <a href="/github/workspace/output/qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.65</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = openhie.fhir.casereporting, Canonical = http://openhie.org/fhir</td></tr>
@@ -38,7 +38,7 @@
 </td></tr>
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://openhie.org/fhir (Problem #1 with package-list.json at http://openhie.org/fhir: openhie.org)</td></tr>
- <tr><td>Summary:</td><td> broken links = 57, errors = 6, warn = 6, info = 32</td></tr>
+ <tr><td>Summary:</td><td> broken links = 57, errors = 6, warn = 6, info = 36</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -48,7 +48,7 @@
      <td><a href="#internal"><b>Build Errors</b></a></td><td><b>57</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-case-reporting-questionnaire"><b>/github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire</b></a></td><td><b>6</b></td><td><b>2</b></td><td><b>36</b></td>
+     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-case-reporting-questionnaire"><b>/github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire</b></a></td><td><b>6</b></td><td><b>2</b></td><td><b>40</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_ValueSet-vs-ethnicity"><b>/github/workspace/fsh-generated/resources/ValueSet-vs-ethnicity</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
@@ -335,7 +335,7 @@
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 1021 column 45</b></td>
+/* ' at line 1057 column 45</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="workflows.html">workflows.html</a></b></td><td><b>error</b></td><td><b>unable to parse character reference '''' (last text = '
@@ -419,7 +419,7 @@
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 1039 column 45</b></td>
+/* ' at line 1083 column 45</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="artifacts.html">artifacts.html</a></b></td><td><b>error</b></td><td><b>unable to parse character reference '''' (last text = '
@@ -860,7 +860,7 @@
             var parameterFieldId = '';
             var parameterVariableName = '';
             var parameterValue = '';
-/* ' at line 1277 column 45</b></td>
+/* ' at line 1345 column 45</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="CodeSystem-cs-patient-gender.ttl.html">CodeSystem-cs-patient-gender.ttl.html</a></b></td><td><b>error</b></td><td><b>unable to parse character reference '''' (last text = '
@@ -1281,6 +1281,18 @@
    <tr style="background-color: #ffebcc">
      <td><b>Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet)</b></td><td><b>warning</b></td><td title="vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed"><b>vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed</b></td>
    </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[0].display.extension[0].extension[0].value.ofType(code)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_18"><b>The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[1].display.extension[0].extension[0].value.ofType(code)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_18"><b>The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[2].display.extension[0].extension[0].value.ofType(code)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_18"><b>The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[3].display.extension[0].extension[0].value.ofType(code)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_18"><b>The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))</b></td>
+   </tr>
    <tr style="background-color: #d6feff">
      <td><b>Questionnaire/case-reporting-questionnaire: Questionnaire.contained[1].ofType(ValueSet)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
    </tr>
@@ -1457,6 +1469,18 @@
 <a name="Terminology_TX_NoValid_18"> </a>
 <h2>Terminology_TX_NoValid_18</h2>
  <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-case-reporting-questionnaire.html">/github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire.json</a></td><td><b>The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-case-reporting-questionnaire.html">/github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire.json</a></td><td><b>The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-case-reporting-questionnaire.html">/github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire.json</a></td><td><b>The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-case-reporting-questionnaire.html">/github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire.json</a></td><td><b>The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))</b></td>
+   </tr>
    <tr style="background-color: #fffff2">
      <td><a href="Questionnaire-case-reporting-questionnaire.html">/github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire.json</a></td><td><b>The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))</b></td>
    </tr>

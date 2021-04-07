@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="41864de9-5c42-4c18-a214-a0e4c75946f6"/>
+  <id value="9d3c1747-fc11-428a-94d9-18d5de80d8d6"/>
   <meta>
-    <lastUpdated value="2021-04-06T14:49:55.437+00:00"/>
+    <lastUpdated value="2021-04-07T16:32:46.163+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -76,22 +76,58 @@
           <contains>
             <system value="http://openhie.org/fhir/CodeSystem/cs-patient-gender"/>
             <code value="male"/>
-            <display value="Male"/>
+            <display value="Male">
+              <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+                <extension url="lang">
+                  <valueCode value="vi-VN"/>
+                </extension>
+                <extension url="content">
+                  <valueString value="nam"/>
+                </extension>
+              </extension>
+            </display>
           </contains>
           <contains>
             <system value="http://openhie.org/fhir/CodeSystem/cs-patient-gender"/>
             <code value="female"/>
-            <display value="Female"/>
+            <display value="Female">
+              <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+                <extension url="lang">
+                  <valueCode value="vi-VN"/>
+                </extension>
+                <extension url="content">
+                  <valueString value="n&#x1B0;&#x303;"/>
+                </extension>
+              </extension>
+            </display>
           </contains>
           <contains>
             <system value="http://openhie.org/fhir/CodeSystem/cs-patient-gender"/>
             <code value="transgender"/>
-            <display value="Transgender"/>
+            <display value="Transgender">
+              <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+                <extension url="lang">
+                  <valueCode value="vi-VN"/>
+                </extension>
+                <extension url="content">
+                  <valueString value="chuy&#x1EC3;n gi&#x1EDB;i"/>
+                </extension>
+              </extension>
+            </display>
           </contains>
           <contains>
             <system value="http://openhie.org/fhir/CodeSystem/cs-patient-gender"/>
             <code value="non-binary"/>
-            <display value="Non-binary"/>
+            <display value="Non-binary">
+              <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+                <extension url="lang">
+                  <valueCode value="vi-VN"/>
+                </extension>
+                <extension url="content">
+                  <valueString value="...?..."/>
+                </extension>
+              </extension>
+            </display>
           </contains>
         </expansion>
       </ValueSet>
@@ -126,8 +162,8 @@
         <name value="HIVRiskPopulation"/>
         <status value="draft"/>
         <expansion>
-          <identifier value="urn:uuid:c87e461e-3b3a-4bea-897e-6d7f838c2067"/>
-          <timestamp value="2021-04-06T14:50:05+00:00"/>
+          <identifier value="urn:uuid:285e71dc-6637-4503-902b-43e0f571ace9"/>
+          <timestamp value="2021-04-07T16:32:55+00:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -213,8 +249,8 @@
         <name value="HIVRiskBehavior"/>
         <status value="draft"/>
         <expansion>
-          <identifier value="urn:uuid:9368f1d8-24e6-44ac-84d6-07e6d34bae18"/>
-          <timestamp value="2021-04-06T14:50:05+00:00"/>
+          <identifier value="urn:uuid:8703d394-a499-47dd-9347-4da7664973ce"/>
+          <timestamp value="2021-04-07T16:32:55+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -319,7 +355,7 @@
         <name value="HIVTransmissionRoute"/>
         <title value="HIV Transmission Route"/>
         <status value="draft"/>
-        <date value="2021-04-06T14:49:55+00:00"/>
+        <date value="2021-04-07T16:32:46+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <telecom>

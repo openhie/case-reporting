@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "41864de9-5c42-4c18-a214-a0e4c75946f6",
+  "id" : "9d3c1747-fc11-428a-94d9-18d5de80d8d6",
   "meta" : {
-    "lastUpdated" : "2021-04-06T14:49:55.437+00:00"
+    "lastUpdated" : "2021-04-07T16:32:46.163+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -23,22 +23,74 @@
         "contains" : [{
           "system" : "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
           "code" : "male",
-          "display" : "Male"
+          "display" : "Male",
+          "_display" : {
+            "extension" : [{
+              "extension" : [{
+                "url" : "lang",
+                "valueCode" : "vi-VN"
+              },
+              {
+                "url" : "content",
+                "valueString" : "nam"
+              }],
+              "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+            }]
+          }
         },
         {
           "system" : "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
           "code" : "female",
-          "display" : "Female"
+          "display" : "Female",
+          "_display" : {
+            "extension" : [{
+              "extension" : [{
+                "url" : "lang",
+                "valueCode" : "vi-VN"
+              },
+              {
+                "url" : "content",
+                "valueString" : "nữ"
+              }],
+              "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+            }]
+          }
         },
         {
           "system" : "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
           "code" : "transgender",
-          "display" : "Transgender"
+          "display" : "Transgender",
+          "_display" : {
+            "extension" : [{
+              "extension" : [{
+                "url" : "lang",
+                "valueCode" : "vi-VN"
+              },
+              {
+                "url" : "content",
+                "valueString" : "chuyển giới"
+              }],
+              "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+            }]
+          }
         },
         {
           "system" : "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
           "code" : "non-binary",
-          "display" : "Non-binary"
+          "display" : "Non-binary",
+          "_display" : {
+            "extension" : [{
+              "extension" : [{
+                "url" : "lang",
+                "valueCode" : "vi-VN"
+              },
+              {
+                "url" : "content",
+                "valueString" : "...?..."
+              }],
+              "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+            }]
+          }
         }]
       }
     }
@@ -57,8 +109,8 @@
       "name" : "HIVRiskPopulation",
       "status" : "draft",
       "expansion" : {
-        "identifier" : "urn:uuid:c87e461e-3b3a-4bea-897e-6d7f838c2067",
-        "timestamp" : "2021-04-06T14:50:05+00:00",
+        "identifier" : "urn:uuid:285e71dc-6637-4503-902b-43e0f571ace9",
+        "timestamp" : "2021-04-07T16:32:55+00:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -80,8 +132,8 @@
       "name" : "HIVRiskBehavior",
       "status" : "draft",
       "expansion" : {
-        "identifier" : "urn:uuid:9368f1d8-24e6-44ac-84d6-07e6d34bae18",
-        "timestamp" : "2021-04-06T14:50:05+00:00",
+        "identifier" : "urn:uuid:8703d394-a499-47dd-9347-4da7664973ce",
+        "timestamp" : "2021-04-07T16:32:55+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -133,7 +185,7 @@
       "name" : "HIVTransmissionRoute",
       "title" : "HIV Transmission Route",
       "status" : "draft",
-      "date" : "2021-04-06T14:49:55+00:00",
+      "date" : "2021-04-07T16:32:46+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "telecom" : [{
