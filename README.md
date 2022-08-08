@@ -6,7 +6,7 @@ This is the OpenHIE Case Reporting Implementation Guide.
 ### Publication
 This ImplementationGuide is published in the following locations:
 
-Continuous Build: __https://openhie.github.io/case-reporting/__  
+Continuous Build: __https://openhie.github.io/case-reporting/branches/intro-page__  
 Canonical / permanent URL: 
 <br> </br>
 
