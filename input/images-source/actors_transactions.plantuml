@@ -5,7 +5,7 @@ skinparam componentStyle rectangle
 !pragma layout smetana
 skinparam linetype ortho
 
-collections "3. Case Report\n Exporter (EHR)" as EHR
+collections "A3. Case Report\n Exporter (EHR)" as EHR
 file  "A2. Case Report\nTabular data\nsubmitter (CSV)  " as CSV
 agent [A1. Case Report\nForm Submitter] as CRS
 
