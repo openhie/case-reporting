@@ -49,7 +49,7 @@ Usage:
   --ig-status-text-color: maroon; /* 1. IG Title and status text color */
   --navbar-bg-color: #ad1f2f; /* 2. Header container color */
   --footer-bg-color: #707070; /* 3. Footer background color*/
-  --footer-container-color: #ad1f2f; /* 4. Footer container color */
+  --footer-container-bg-color: #ad1f2f; /* 4. Footer container color */
   --stripe-bg-color: #999999; /* 5. Header strip color */
 
   --btn-hover-color: #790713;  /* 6. Menu button hover color */

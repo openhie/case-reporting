@@ -1,14 +1,13 @@
 ﻿openhie-case-reporting : Validation Results
 =========================================
 
-err = 6, warn = 6, info = 36
-IG Publisher Version: 1.1.65
-Generated Wed Apr 07 18:27:58 UTC 2021. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
-
- Build Errors : 57 / 1 / 0
- /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route : 0 / 0 / 1
+err = 6, warn = 6, info = 39
+IG Publisher Version: 1.1.128
+Generated Fri Aug 12 15:18:13 UTC 2022. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0-test (canonical = http://openhie.org/fhir)
+ Build Errors : 74 / 1 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire : 6 / 2 / 40
  /github/workspace/fsh-generated/resources/ValueSet-hiv-transmission-route : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-ethnicity : 0 / 1 / 1
@@ -16,1150 +15,134 @@ Generated Wed Apr 07 18:27:58 UTC 2021. FHIR version 4.0.1 for openhie.fhir.case
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/case-reporting-questionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/ValueSet-vs-ethnicity.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 383 column 45
-ERROR: /github/workspace/output/dependencies.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 316 column 45
-ERROR: /github/workspace/output/usecases.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 294 column 45
-ERROR: /github/workspace/output/ValueSet-vs-ethnicity.xml.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 367 column 45
-ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 355 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.xml.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 384 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_vs-patientgender.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 355 column 45
-ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 395 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-population.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/functional.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 301 column 45
-ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.xml.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 385 column 45
-ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.xml.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 1057 column 45
-ERROR: /github/workspace/output/workflows.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 288 column 45
-ERROR: /github/workspace/output/ValueSet-vs-ethnicity.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/actors.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 310 column 45
-ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 1083 column 45
-ERROR: /github/workspace/output/artifacts.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 391 column 45
-ERROR: /github/workspace/output/content_profiles.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 293 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-behavior.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/data_exchange.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 298 column 45
-ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 401 column 45
-ERROR: /github/workspace/output/transactions.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 306 column 45
-ERROR: /github/workspace/output/downloads.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 333 column 45
-ERROR: /github/workspace/output/toc.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 283 column 45
-ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 394 column 45
-ERROR: /github/workspace/output/requirements.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 306 column 45
-ERROR: /github/workspace/output/instant_openhie.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 288 column 45
-ERROR: /github/workspace/output/ValueSet-vs-ethnicity.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 377 column 45
-ERROR: /github/workspace/output/references.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 304 column 45
-ERROR: /github/workspace/output/index.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 367 column 45
-ERROR: /github/workspace/output/ValueSet-vs-ethnicity.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 396 column 45
-ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.xml.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 384 column 45
-ERROR: /github/workspace/output/expected_actions.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 353 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 398 column 45
-ERROR: /github/workspace/output/personas.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 288 column 45
-ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 1345 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 401 column 45
-ERROR: /github/workspace/output/deployment.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 298 column 45
-ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_vs-patientgender.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 389 column 45
-ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.ttl.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 406 column 45
-ERROR: /github/workspace/output/concepts.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 319 column 45
-ERROR: /github/workspace/output/testing.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 292 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-behavior.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 389 column 45
-ERROR: /github/workspace/output/security_privacy.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 288 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 355 column 45
-ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 430 column 45
-ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-population.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 389 column 45
-ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 395 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.xml.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 391 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 394 column 45
-ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.json.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 399 column 45
-ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.change.history.html: unable to parse character reference '''' (last text = '
-        $(':header[id]').each(function() {
-          var id = $(this).attr('id');
-          var formVars = new Set();  
-            formVars.add("sectionId");  
-            formVars.add("pageTitle");  
-            formVars.add("sectionName");  
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLScgGmJKcCyHVpPeFLhv1M5d8NcGYRFijA85jlpkPqho9GUofQ/viewform?usp=pp_url';  //this still needs to be secured
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Feedback';
-            ;
-
-            
-            var parameterFieldId = '';
-            var parameterVariableName = '';
-            var parameterValue = '';
-/* ' at line 347 column 45
-== /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior.json ==
-INFORMATION: CodeSystem/cs-hiv-risk-behavior: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender.json ==
-INFORMATION: CodeSystem/cs-patient-gender: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route.json ==
-INFORMATION: CodeSystem/hiv-transmission-route: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire.json ==
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Questionnaire
-ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire: que-2: 'The link ids for groups and questions must be unique within the questionnaire' failed
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[0].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[1].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[2].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[3].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[1].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[2].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[0]: que-6: 'Required and repeat aren't permitted for display items' failed
-ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[1]: que-6: 'Required and repeat aren't permitted for display items' failed
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire-form.html: unexpected non-end of element null::div  at line 253 column 160
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-hiv-risk-behavior.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-patient-gender.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-hiv-transmission-route.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-behavior.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-behavior.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-population.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_hiv-risk-population.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_vs-patientgender.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-case-reporting-questionnaire_vs-patientgender.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 307, column 1060: The link 'CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother' for "mother" cannot be resolved (valid targets: [hiv-transmission-route-mother-child, project-logo, segment-header, project-nav, publish-box, hiv-transmission-route-sexual, segment-post-footer, family-logo, family-nav, hiv-transmission-route-unidentified, ig-status, hiv-transmission-route-blood, top, codesystem-hiv-transmission-route, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-ethnicity.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-ethnicity.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-ethnicity.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-ethnicity.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-ethnicity.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 133, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/actors.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/concepts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/concepts.html#/html/body/div/div/div/div/div/div/p/ul/li/a at Line 218, column 199: The link 'http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract' for "Definition Based Extract" cannot be resolved
+ERROR: /github/workspace/output/concepts.html#/html/body/div/div/div/div/div/div/p/ul/li/a at Line 218, column 468: The link '$concepts.html#matutiy' for "maturity" cannot be resolved
+ERROR: /github/workspace/output/content_profiles.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/content_profiles.html#/html/body/div/div/div/div/div/div/a at Line 197, column 173: The link 'usecase_1.html' for "public health response" cannot be resolved
+ERROR: /github/workspace/output/content_profiles.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 201, column 12: The link 'http://build.fhir.org/ig/openhie/hiv-ig/index.html' for "HIV" cannot be resolved
+ERROR: /github/workspace/output/data_exchange.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/dependencies.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/dependencies.html#/html/body/div/div/div/div/div/div/p/dl/dt/a at Line 218, column 12: The link 'http://build.fhir.org/ig/HL7/sdc/index.html' for "Structured Data Capture (SDC)" cannot be resolved
+ERROR: /github/workspace/output/dependencies.html#/html/body/div/div/div/div/div/div/p/dl/dd/a at Line 219, column 78: The link 'http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract' for "Definition Based Extract" cannot be resolved
+ERROR: /github/workspace/output/deployment.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/expected_actions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/expected_actions.html#/html/body/div/div/div/div/div/div/p/dl/dd/ol/li/ol/li/a at Line 231, column 102: The link 'http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract' for "Definition Based Extract" cannot be resolved
+ERROR: /github/workspace/output/expected_actions.html#/html/body/div/div/div/div/div/div/p/dl/dd/ol/li/ol/li/a at Line 248, column 73: The link 'http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract' for "Definition Based Extract" cannot be resolved
+ERROR: /github/workspace/output/functional.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/a at Line 244, column 180: The link 'usecase_1.html' for "public health response" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/ul/li/a at Line 251, column 12: The link 'http://build.fhir.org/ig/openhie/hiv-ig/index.html' for "HIV" cannot be resolved
+ERROR: /github/workspace/output/instant_openhie.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/personas.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/references.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/requirements.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/requirements.html#/html/body/div/div/div/div/div/div/p/ul/li/a at Line 210, column 12: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/security_privacy.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/transactions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/transactions.html#/html/body/div/div/div/div/div/div/p/a at Line 198, column 192: The link '#maturity' for "maturity levels." cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, transaction_2, transaction_1, segment-post-footer, transaction-submit-case-report, transactions, family-logo, family-nav, ig-status, 1, 2, top, stripe, segment-footer, segment-navbar, transaction-store-case-report, segment-content, segment-breadcrumb])
+ERROR: /github/workspace/output/transactions.html#/html/body/div/div/div/div/div/div/p/a at Line 200, column 22: The link '#actors' for "actors" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, transaction_2, transaction_1, segment-post-footer, transaction-submit-case-report, transactions, family-logo, family-nav, ig-status, 1, 2, top, stripe, segment-footer, segment-navbar, transaction-store-case-report, segment-content, segment-breadcrumb])
+ERROR: /github/workspace/output/transactions.html#/html/body/div/div/div/div/div/div/p/a at Line 200, column 157: The link '#transaction' for "transactions" cannot be resolved (valid targets: [project-logo, segment-header, project-nav, publish-box, transaction_2, transaction_1, segment-post-footer, transaction-submit-case-report, transactions, family-logo, family-nav, ig-status, 1, 2, top, stripe, segment-footer, segment-navbar, transaction-store-case-report, segment-content, segment-breadcrumb])
+ERROR: /github/workspace/output/transactions.html#/html/body/div/div/div/div/div/div/p/a at Line 206, column 265: The link 'concepts.html##maturity' for "maturity level" cannot be resolved (valid targets: [fhir-maturity-levels, project-logo, segment-header, maturity, project-nav, publish-box, segment-post-footer, family-logo, family-nav, ig-status, 1, 2, top, concepts, case-report-forms, case_report, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: /github/workspace/output/usecases.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+ERROR: /github/workspace/output/workflows.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 131, column 10: The link 'dictionary.html' for "Data Dictionary" cannot be resolved
+== fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior.json ==
+INFORMATION: CodeSystem/cs-hiv-risk-behavior: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-patient-gender.json ==
+INFORMATION: CodeSystem/cs-patient-gender: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-hiv-transmission-route.json ==
+INFORMATION: CodeSystem/hiv-transmission-route: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/Questionnaire-case-reporting-questionnaire.json ==
+ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire: Rule que-2: 'The link ids for groups and questions must be unique within the questionnaire' Failed
+WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[0].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[1].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[2].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[3].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[0]: Rule que-6: 'Required and repeat aren't permitted for display items' Failed
+ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[1]: Rule que-6: 'Required and repeat aren't permitted for display items' Failed
 WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].extension[0].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[1]: que-1: 'Group items must have nested items, display items cannot have nested items' failed
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[3].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[4].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[1]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[3].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[4].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[5].extension[0]: The Extension 'http://hl7.org/fhir/StructureDefinition/maxValue' definition allows for the types [date, dateTime, time, integer, decimal, instant] but found type string
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[5].extension[0]: The type of element valueString is not known, which is illegal. Valid types at this point are date, dateTime, time, instant, decimal, integer
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[5].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[6].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[6].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[6].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[8].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[3].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[1].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[1].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-== /github/workspace/fsh-generated/resources/ValueSet-hiv-transmission-route.json ==
-INFORMATION: ValueSet/hiv-transmission-route: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /github/workspace/fsh-generated/resources/ValueSet-vs-ethnicity.json ==
-INFORMATION: ValueSet/vs-ethnicity: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[5].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[6].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[6].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[6].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[7].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].item[8].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[6].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[7].item[3].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[0].item[2].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[1].item[0].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.item[8].item[1].item[1].text.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
+== fsh-generated/resources/ValueSet-hiv-transmission-route.json ==
+== fsh-generated/resources/ValueSet-vs-ethnicity.json ==
 WARNING: ValueSet.where(id = 'vs-ethnicity'): Error from server: Unable to provide support for code system urn:oid:2.16.840.1.114222.4.11.877
-== /github/workspace/input/case-reporting.xml ==
-INFORMATION: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
-WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide.definition.page.page[2].title: value should not start or finish with whitespace
+== input/case-reporting.xml ==
+WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ImplementationGuide/openhie.fhir.casereporting: ImplementationGuide.definition.page.page[2].title: value should not start or finish with whitespace 'L3:...Exchange '

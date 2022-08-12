@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "b92964f5-478b-4c8e-a0f0-f53632012c58",
+  "id" : "0baa6eae-af0b-4be6-b376-e73c6ec51870",
   "meta" : {
-    "lastUpdated" : "2021-04-07T18:27:41.124+00:00"
+    "lastUpdated" : "2022-08-12T15:17:42.142+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -12,7 +12,7 @@
       "id" : "vs-patientgender",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes from system <a href=\"CodeSystem-cs-patient-gender.html\"><code>http://openhie.org/fhir/CodeSystem/cs-patient-gender</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-male\"> </a><a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-male\">male</a></td><td>Male</td><td>Client identifies as female</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-female\"> </a><a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-female\">female</a></td><td>Female</td><td>Client identifies as male</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-transgender\"> </a><a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-transgender\">transgender</a></td><td>Transgender</td><td>Client identifies as transgender</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-non-binary\"> </a><a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-non-binary\">non-binary</a></td><td>Non-binary</td><td>Client identifies in a non-binary way</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes in this table are from the system <a href=\"CodeSystem-cs-patient-gender.html\"><code>http://openhie.org/fhir/CodeSystem/cs-patient-gender</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-male\"> </a>  <a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-male\">male</a></td><td>Male</td><td>Client identifies as female</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-female\"> </a>  <a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-female\">female</a></td><td>Female</td><td>Client identifies as male</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-transgender\"> </a>  <a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-transgender\">transgender</a></td><td>Transgender</td><td>Client identifies as transgender</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-patient-gender-non-binary\"> </a>  <a href=\"CodeSystem-cs-patient-gender.html#cs-patient-gender-non-binary\">non-binary</a></td><td>Non-binary</td><td>Client identifies in a non-binary way</td></tr></table></div>"
       },
       "url" : "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire#vs-patientgender",
       "version" : "0.1.0-test",
@@ -109,8 +109,8 @@
       "name" : "HIVRiskPopulation",
       "status" : "draft",
       "expansion" : {
-        "identifier" : "urn:uuid:02874ceb-6f54-4c3f-9737-df840e9cb461",
-        "timestamp" : "2021-04-07T18:27:52+00:00",
+        "identifier" : "urn:uuid:cbeea8d0-6871-46b5-9d4c-009ca043501b",
+        "timestamp" : "2022-08-12T15:17:54+00:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -125,15 +125,15 @@
       "id" : "hiv-risk-behavior",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-hiv-risk-behavior.html\">Risk Behavior v0.1.0-test (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-cs-hiv-risk-behavior.html\"><code>http://openhie.org/fhir/CodeSystem/cs-hiv-risk-behavior</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-1\"> </a><a href=\"CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-1\">1</a></td><td>Drug injection</td><td>Drug injection</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-2\"> </a><a href=\"CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-2\">2</a></td><td>Sex workers</td><td>Sexual relationship with sex workers or with sex buyers/clients (for money or drug)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-3\"> </a><a href=\"CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-3\">3</a></td><td>MSM</td><td>Men who have sex with men</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-4\"> </a><a href=\"CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-4\">4</a></td><td>Multiple Sex Partners</td><td>Multiple Sex Partners (NOT for money or drugs)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-5\"> </a><a href=\"CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-5\">5</a></td><td>Others</td><td>Other risks to oneself</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-hiv-risk-behavior.html\">Risk Behavior v0.1.0-test (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-cs-hiv-risk-behavior.html\"><code>http://openhie.org/fhir/CodeSystem/cs-hiv-risk-behavior</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-1\"> </a>  <a href=\"CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-1\">1</a></td><td>Drug injection</td><td>Drug injection</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-2\"> </a>  <a href=\"CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-2\">2</a></td><td>Sex workers</td><td>Sexual relationship with sex workers or with sex buyers/clients (for money or drug)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-3\"> </a>  <a href=\"CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-3\">3</a></td><td>MSM</td><td>Men who have sex with men</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-4\"> </a>  <a href=\"CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-4\">4</a></td><td>Multiple Sex Partners</td><td>Multiple Sex Partners (NOT for money or drugs)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-5\"> </a>  <a href=\"CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-5\">5</a></td><td>Others</td><td>Other risks to oneself</td></tr></table></div>"
       },
       "url" : "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire#hiv-risk-behavior",
       "version" : "0.1.0-test",
       "name" : "HIVRiskBehavior",
       "status" : "draft",
       "expansion" : {
-        "identifier" : "urn:uuid:46eb31e9-3ab2-4664-a997-98f210ae284c",
-        "timestamp" : "2021-04-07T18:27:52+00:00",
+        "identifier" : "urn:uuid:3308cc52-f5b0-4214-837f-336801ec508d",
+        "timestamp" : "2022-08-12T15:17:54+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -178,14 +178,14 @@
       "id" : "hiv-transmission-route",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes from system <a href=\"CodeSystem-hiv-transmission-route.html\"><code>http://openhie.org/fhir/CodeSystem/hiv-transmission-route</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-blood\"> </a><a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood\">blood</a></td><td>Blood born infection</td><td>Blood born infection</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-sexual\"> </a><a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual\">sexual</a></td><td>Sexual relationship</td><td>Sexual relationship transmission</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-mother\"> </a><a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother\">mother</a></td><td>Mother to child</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-unidentified\"> </a><a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified\">unidentified</a></td><td>Unidentified</td><td>Unidentified</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes in this table are from the system <a href=\"CodeSystem-hiv-transmission-route.html\"><code>http://openhie.org/fhir/CodeSystem/hiv-transmission-route</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-blood\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood\">blood</a></td><td>Blood born infection</td><td>Blood born infection</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-sexual\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual\">sexual</a></td><td>Sexual relationship</td><td>Sexual relationship transmission</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-mother\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother\">mother</a></td><td>Mother to child</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-unidentified\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified\">unidentified</a></td><td>Unidentified</td><td>Unidentified</td></tr></table></div>"
       },
       "url" : "http://openhie.org/fhir/ValueSet/hiv-transmission-route",
       "version" : "0.1.0-test",
       "name" : "HIVTransmissionRoute",
       "title" : "HIV Transmission Route",
       "status" : "draft",
-      "date" : "2021-04-07T18:27:41+00:00",
+      "date" : "2022-08-12T15:17:42+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "telecom" : [{

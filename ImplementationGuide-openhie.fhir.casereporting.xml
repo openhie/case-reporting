@@ -12,7 +12,7 @@
   <title value="OpenHIE Case Reporting"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-04-07T18:27:41+00:00"/>
+  <date value="2022-08-12T15:17:42+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <telecom>
@@ -30,6 +30,11 @@
   <packageId value="openhie.fhir.casereporting"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="3.1.0"/>
+  </dependsOn>
   <dependsOn id="sdc">
     <uri value="http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"/>
     <packageId value="hl7.fhir.uv.sdc"/>
@@ -212,16 +217,30 @@
         <valueString value="true"/>
       </extension>
     </extension>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
       </extension>
-      <reference>
-        <reference value="CodeSystem/hiv-transmission-route"/>
-      </reference>
-      <name value="HIV Transmission Route"/>
-      <description value="HIV Transmission Route codes"/>
-    </resource>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Questionnaire"/>
@@ -233,6 +252,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-ethnicity"/>
+      </reference>
+      <name value="Ethnicity"/>
+      <description value="Ethnicity"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -240,16 +269,6 @@
       </reference>
       <name value="Risk Behavior"/>
       <description value="CodeSystem - Behavior associated with risk of HIV transmission"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/hiv-transmission-route"/>
-      </reference>
-      <name value="HIV Transmission Route"/>
-      <description value="HIV Transmission Route"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -266,10 +285,20 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-ethnicity"/>
+        <reference value="ValueSet/hiv-transmission-route"/>
       </reference>
-      <name value="Ethnicity"/>
-      <description value="Ethnicity"/>
+      <name value="HIV Transmission Route"/>
+      <description value="HIV Transmission Route"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/hiv-transmission-route"/>
+      </reference>
+      <name value="HIV Transmission Route"/>
+      <description value="HIV Transmission Route codes"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

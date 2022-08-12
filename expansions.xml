@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="b92964f5-478b-4c8e-a0f0-f53632012c58"/>
+  <id value="0baa6eae-af0b-4be6-b376-e73c6ec51870"/>
   <meta>
-    <lastUpdated value="2021-04-07T18:27:41.124+00:00"/>
+    <lastUpdated value="2022-08-12T15:17:42.142+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -15,7 +15,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-cs-patient-gender.html">
                 <code>http://openhie.org/fhir/CodeSystem/cs-patient-gender</code>
               </a>
@@ -34,7 +34,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-cs-patient-gender-male"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-cs-patient-gender-male"> </a>  
                   <a href="CodeSystem-cs-patient-gender.html#cs-patient-gender-male">male</a>
                 </td>
                 <td>Male</td>
@@ -42,7 +42,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-cs-patient-gender-female"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-cs-patient-gender-female"> </a>  
                   <a href="CodeSystem-cs-patient-gender.html#cs-patient-gender-female">female</a>
                 </td>
                 <td>Female</td>
@@ -50,7 +50,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-cs-patient-gender-transgender"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-cs-patient-gender-transgender"> </a>  
                   <a href="CodeSystem-cs-patient-gender.html#cs-patient-gender-transgender">transgender</a>
                 </td>
                 <td>Transgender</td>
@@ -58,7 +58,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-cs-patient-gender-non-binary"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-cs-patient-gender-non-binary"> </a>  
                   <a href="CodeSystem-cs-patient-gender.html#cs-patient-gender-non-binary">non-binary</a>
                 </td>
                 <td>Non-binary</td>
@@ -96,7 +96,7 @@
                   <valueCode value="vi-VN"/>
                 </extension>
                 <extension url="content">
-                  <valueString value="n&#x1B0;&#x303;"/>
+                  <valueString value="nữ"/>
                 </extension>
               </extension>
             </display>
@@ -110,7 +110,7 @@
                   <valueCode value="vi-VN"/>
                 </extension>
                 <extension url="content">
-                  <valueString value="chuy&#x1EC3;n gi&#x1EDB;i"/>
+                  <valueString value="chuyển giới"/>
                 </extension>
               </extension>
             </display>
@@ -162,8 +162,8 @@
         <name value="HIVRiskPopulation"/>
         <status value="draft"/>
         <expansion>
-          <identifier value="urn:uuid:02874ceb-6f54-4c3f-9737-df840e9cb461"/>
-          <timestamp value="2021-04-07T18:27:52+00:00"/>
+          <identifier value="urn:uuid:cbeea8d0-6871-46b5-9d4c-009ca043501b"/>
+          <timestamp value="2022-08-12T15:17:54+00:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -184,7 +184,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-cs-hiv-risk-behavior.html">Risk Behavior v0.1.0-test (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-cs-hiv-risk-behavior.html">
                 <code>http://openhie.org/fhir/CodeSystem/cs-hiv-risk-behavior</code>
               </a>
@@ -203,7 +203,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-1"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-1"> </a>  
                   <a href="CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-1">1</a>
                 </td>
                 <td>Drug injection</td>
@@ -211,7 +211,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-2"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-2"> </a>  
                   <a href="CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-2">2</a>
                 </td>
                 <td>Sex workers</td>
@@ -219,7 +219,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-3"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-3"> </a>  
                   <a href="CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-3">3</a>
                 </td>
                 <td>MSM</td>
@@ -227,7 +227,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-4"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-4"> </a>  
                   <a href="CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-4">4</a>
                 </td>
                 <td>Multiple Sex Partners</td>
@@ -235,7 +235,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-5"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-cs-hiv-risk-behavior-5"> </a>  
                   <a href="CodeSystem-cs-hiv-risk-behavior.html#cs-hiv-risk-behavior-5">5</a>
                 </td>
                 <td>Others</td>
@@ -249,8 +249,8 @@
         <name value="HIVRiskBehavior"/>
         <status value="draft"/>
         <expansion>
-          <identifier value="urn:uuid:46eb31e9-3ab2-4664-a997-98f210ae284c"/>
-          <timestamp value="2021-04-07T18:27:52+00:00"/>
+          <identifier value="urn:uuid:3308cc52-f5b0-4214-837f-336801ec508d"/>
+          <timestamp value="2022-08-12T15:17:54+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -298,7 +298,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-hiv-transmission-route.html">
                 <code>http://openhie.org/fhir/CodeSystem/hiv-transmission-route</code>
               </a>
@@ -317,7 +317,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-blood"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-blood"> </a>  
                   <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood">blood</a>
                 </td>
                 <td>Blood born infection</td>
@@ -325,7 +325,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-sexual"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-sexual"> </a>  
                   <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual">sexual</a>
                 </td>
                 <td>Sexual relationship</td>
@@ -333,7 +333,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-mother"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-mother"> </a>  
                   <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother">mother</a>
                 </td>
                 <td>Mother to child</td>
@@ -341,7 +341,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-unidentified"> </a>
+                  <a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-unidentified"> </a>  
                   <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified">unidentified</a>
                 </td>
                 <td>Unidentified</td>
@@ -355,7 +355,7 @@
         <name value="HIVTransmissionRoute"/>
         <title value="HIV Transmission Route"/>
         <status value="draft"/>
-        <date value="2021-04-07T18:27:41+00:00"/>
+        <date value="2022-08-12T15:17:42+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <telecom>
