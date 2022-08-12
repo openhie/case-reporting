@@ -1,0 +1,31 @@
+{
+  "package": "openhie.fhir.casereporting",
+  "version": "0.1.0-test",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [],
+  "profiles": {},
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/maxValue": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "Questionnaire.item.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/translation": [
+      "Questionnaire.contained.expansion.contains.display",
+      "Questionnaire.item.item.item.text",
+      "Questionnaire.item.item.text",
+      "Questionnaire.item.text"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}

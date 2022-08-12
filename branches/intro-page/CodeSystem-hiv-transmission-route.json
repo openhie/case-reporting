@@ -1,0 +1,60 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hiv-transmission-route",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://openhie.org/fhir/CodeSystem/hiv-transmission-route defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">blood<a name=\"hiv-transmission-route-blood\"> </a></td><td>MaleBlood</td><td>Blood born infection</td></tr><tr><td style=\"white-space:nowrap\">sexual<a name=\"hiv-transmission-route-sexual\"> </a></td><td>Sexual Relations</td><td>Sexual relationship transmission</td></tr><tr><td style=\"white-space:nowrap\">mother-child<a name=\"hiv-transmission-route-mother-child\"> </a></td><td>Transgender</td><td>Mother to Child transmission</td></tr><tr><td style=\"white-space:nowrap\">unidentified<a name=\"hiv-transmission-route-unidentified\"> </a></td><td>Unidentified</td><td>Unidentified</td></tr></table></div>"
+  },
+  "url": "http://openhie.org/fhir/CodeSystem/hiv-transmission-route",
+  "version": "0.1.0-test",
+  "name": "HIVTransmissionRoute",
+  "title": "HIV Transmission Route",
+  "status": "active",
+  "date": "2022-08-12T15:17:42+00:00",
+  "publisher": "OpenHIE",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ohie.org"
+        }
+      ]
+    }
+  ],
+  "description": "HIV Transmission Route codes",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "blood",
+      "display": "MaleBlood",
+      "definition": "Blood born infection"
+    },
+    {
+      "code": "sexual",
+      "display": "Sexual Relations",
+      "definition": "Sexual relationship transmission"
+    },
+    {
+      "code": "mother-child",
+      "display": "Transgender",
+      "definition": "Mother to Child transmission"
+    },
+    {
+      "code": "unidentified",
+      "display": "Unidentified",
+      "definition": "Unidentified"
+    }
+  ]
+}
