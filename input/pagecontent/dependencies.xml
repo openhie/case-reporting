@@ -21,8 +21,8 @@
     </dl>
     
     <dl>
-      <dt><a href="http://build.fhir.org/ig/HL7/sdc/index.html">Structured Data Capture (SDC)</a></dt>
-      <dd>Under the FHIR-Aware option, a Case Report Transformer should use <a href="http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract">Definition Based Extract</a>, defined in  Structured Data Capture, to transform a incoming case report Questionnaire resource into a Composition resource before submitting to the Case Report Repository.</dd>      
+      <dt><a href="http://hl7.org/fhir/uv/sdc/index.html">Structured Data Capture (SDC)</a></dt>
+      <dd>Under the FHIR-Aware option, a Case Report Transformer should use <a href="http://hl7.org/fhir/uv/sdc/extraction.html#definition-extract">Definition Based Extract</a>, defined in  Structured Data Capture, to transform a incoming case report Questionnaire resource into a Composition resource before submitting to the Case Report Repository.</dd>      
     </dl>
 
 
