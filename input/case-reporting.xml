@@ -73,7 +73,7 @@
         <nameUrl value="requirements.html"/>
         <title value="L2: Business Requirements"/>
         <generation value="html"/>
-	<page>
+	      <page>
           <nameUrl value="concepts.html"/>
           <title value="Concepts"/>
           <generation value="html"/>

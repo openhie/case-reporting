@@ -25,7 +25,7 @@
     This IG is a common architecture IG - it describes the architecture and workflows for case reporting. It does not provide any specific content requirements or constraints, because those would be purpose-specific and depending on several factors like the condition they are targeting.
     This Implementation Guide is intended to be supplemented by one or more <a href="content_profiles.html">content profiles</a> guides developed for specific health program areas which will define the details of the case report.  Examples of such content guides include:
     <ul>
-      <li><a href="http://build.fhir.org/ig/openhie/hiv-ig/index.html">HIV </a></li>
+      <li><a href="https://openhie.github.io/hiv-ig/index.html">HIV </a></li>
       <li><a href="https://openhie.github.io/covid-ig/">Covid-19</a></li>
     </ul>
   </p>
@@ -62,12 +62,12 @@
   <p>
     This Implementation Guide is broken into the following levels of <a href="http://hl7.org/fhir/uv/cpg/2019Sep/documentation-approach.html">knowledge representation</a>:
     <ul>
-      <li><a href="index.html">Level I: Narrative</a> Contains references to the guidance, guidlines, policies and recommemndations underpinning this Implementation Guide</li>
-      <li><a href="requirements.html">Level II: Business Requirements</a> Contains the requirements for this Implementation Guide including the defintition of key concepts, user personas, use cases and workflows.
+      <li><a href="index.html">Introduction</a> Contains references to the guidance, guidlines, policies and recommendations underpinning this Implementation Guide</li>
+      <li><a href="requirements.html">Business Requirements</a> Contains the requirements for this Implementation Guide including the definition of key concepts, user personas, use cases and workflows. It describes the functional models for data and interactions.
       </li>
-      <li><a href="data_exchange.html">Level III: Data Models and Exchange</a> Contains the data models and data exchange protocols defined in this Implementation Guide.</li>
-      <li><a href="deployment.html">Level IV - ε: Deployment Guidance </a>
-      Contains <a href="instant_openhie.html">Instant OpenHIE</a> Technical Specifications relevant to this Implementation Guide and supporting guidance for adaptation in local environments.</li>
+      <li><a href="data_exchange.html">Data Models and Exchange</a> Contains the data exchange protocols defined in this Implementation Guide. It describes the </li>
+      <li><a href="deployment.html">Deployment Guidance</a> describes the implementation guidance - reference architectures and implementations, as well as testing or deployment possibilities.
+      Includes <a href="instant_openhie.html">Instant OpenHIE</a> Specifications relevant to this Implementation Guide and supporting guidance for adaptation in local environments.</li>
     </ul>
   </p>  
 
