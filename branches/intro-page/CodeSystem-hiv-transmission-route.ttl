@@ -10,21 +10,35 @@
   fhir:Resource.id [ fhir:value "hiv-transmission-route"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://openhie.org/fhir/CodeSystem/hiv-transmission-route defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">blood<a name=\"hiv-transmission-route-blood\"> </a></td><td>MaleBlood</td><td>Blood born infection</td></tr><tr><td style=\"white-space:nowrap\">sexual<a name=\"hiv-transmission-route-sexual\"> </a></td><td>Sexual Relations</td><td>Sexual relationship transmission</td></tr><tr><td style=\"white-space:nowrap\">mother-child<a name=\"hiv-transmission-route-mother-child\"> </a></td><td>Transgender</td><td>Mother to Child transmission</td></tr><tr><td style=\"white-space:nowrap\">unidentified<a name=\"hiv-transmission-route-unidentified\"> </a></td><td>Unidentified</td><td>Unidentified</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">blood<a name=\"hiv-transmission-route-blood\"> </a></td><td>MaleBlood</td><td>Blood born infection</td></tr><tr><td style=\"white-space:nowrap\">sexual<a name=\"hiv-transmission-route-sexual\"> </a></td><td>Sexual Relations</td><td>Sexual relationship transmission</td></tr><tr><td style=\"white-space:nowrap\">mother-child<a name=\"hiv-transmission-route-mother-child\"> </a></td><td>Transgender</td><td>Mother to Child transmission</td></tr><tr><td style=\"white-space:nowrap\">unidentified<a name=\"hiv-transmission-route-unidentified\"> </a></td><td>Unidentified</td><td>Unidentified</td></tr></table></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://openhie.org/fhir/CodeSystem/hiv-transmission-route"];
-  fhir:CodeSystem.version [ fhir:value "0.1.0-test"];
+  fhir:CodeSystem.url [ fhir:value "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "HIVTransmissionRoute"];
   fhir:CodeSystem.title [ fhir:value "HIV Transmission Route"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-08-12T15:17:42+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-09-28T12:49:05+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "OpenHIE"];
   fhir:CodeSystem.contact [
      fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "OpenHIE" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
        fhir:ContactPoint.value [ fhir:value "http://ohie.org" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "openhie@ohie.org" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "OpenHIE" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "openhie@ohie.org" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
   fhir:CodeSystem.description [ fhir:value "HIV Transmission Route codes"];
@@ -33,7 +47,8 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.code [ fhir:value "001" ];
+       fhir:Coding.display [ fhir:value "World" ]
      ]
   ];
   fhir:CodeSystem.content [ fhir:value "complete"];

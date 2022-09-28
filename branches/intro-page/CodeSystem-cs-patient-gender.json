@@ -3,21 +3,36 @@
   "id": "cs-patient-gender",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://openhie.org/fhir/CodeSystem/cs-patient-gender defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">male<a name=\"cs-patient-gender-male\"> </a></td><td>Male</td><td>Client identifies as female</td></tr><tr><td style=\"white-space:nowrap\">female<a name=\"cs-patient-gender-female\"> </a></td><td>Female</td><td>Client identifies as male</td></tr><tr><td style=\"white-space:nowrap\">transgender<a name=\"cs-patient-gender-transgender\"> </a></td><td>Transgender</td><td>Client identifies as transgender</td></tr><tr><td style=\"white-space:nowrap\">non-binary<a name=\"cs-patient-gender-non-binary\"> </a></td><td>Non-binary</td><td>Client identifies in a non-binary way</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/cs-patient-gender</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">male<a name=\"cs-patient-gender-male\"> </a></td><td>Male</td><td>Client identifies as female</td></tr><tr><td style=\"white-space:nowrap\">female<a name=\"cs-patient-gender-female\"> </a></td><td>Female</td><td>Client identifies as male</td></tr><tr><td style=\"white-space:nowrap\">transgender<a name=\"cs-patient-gender-transgender\"> </a></td><td>Transgender</td><td>Client identifies as transgender</td></tr><tr><td style=\"white-space:nowrap\">non-binary<a name=\"cs-patient-gender-non-binary\"> </a></td><td>Non-binary</td><td>Client identifies in a non-binary way</td></tr></table></div>"
   },
-  "url": "http://openhie.org/fhir/CodeSystem/cs-patient-gender",
-  "version": "0.1.0-test",
+  "url": "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/cs-patient-gender",
+  "version": "0.1.0",
   "name": "PatientGender",
   "title": "Patient Gender",
   "status": "active",
-  "date": "2022-08-12T15:17:42+00:00",
+  "date": "2022-09-28T12:49:05+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
+      "name": "OpenHIE",
       "telecom": [
         {
           "system": "url",
           "value": "http://ohie.org"
+        },
+        {
+          "system": "email",
+          "value": "openhie@ohie.org"
+        }
+      ]
+    },
+    {
+      "name": "OpenHIE",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "openhie@ohie.org",
+          "use": "work"
         }
       ]
     }
@@ -28,7 +43,8 @@
       "coding": [
         {
           "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "code": "001",
+          "display": "World"
         }
       ]
     }

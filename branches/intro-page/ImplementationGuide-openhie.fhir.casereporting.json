@@ -3,33 +3,48 @@
   "id": "openhie.fhir.casereporting",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>openhie-case-reporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting</pre><div><p>General case reporting workflow for OpenHIE</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>OpenhieCaseReporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting</pre><div><p>A FHIR Implementation Guide describing generic interoperability mechanisms for case reporting.</p>\n</div></div>"
   },
   "url": "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting",
-  "version": "0.1.0-test",
-  "name": "openhie-case-reporting",
+  "version": "0.1.0",
+  "name": "OpenhieCaseReporting",
   "title": "OpenHIE Case Reporting",
-  "status": "draft",
-  "experimental": false,
-  "date": "2022-08-12T15:17:42+00:00",
+  "status": "active",
+  "date": "2022-02-26",
   "publisher": "OpenHIE",
   "contact": [
     {
+      "name": "OpenHIE",
       "telecom": [
         {
           "system": "url",
           "value": "http://ohie.org"
+        },
+        {
+          "system": "email",
+          "value": "openhie@ohie.org"
+        }
+      ]
+    },
+    {
+      "name": "OpenHIE",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "openhie@ohie.org",
+          "use": "work"
         }
       ]
     }
   ],
-  "description": "General case reporting workflow for OpenHIE ",
+  "description": "A FHIR Implementation Guide describing generic interoperability mechanisms for case reporting.",
   "jurisdiction": [
     {
       "coding": [
         {
           "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "code": "001",
+          "display": "World"
         }
       ]
     }
@@ -41,13 +56,19 @@
   ],
   "dependsOn": [
     {
+      "id": "higtools",
+      "uri": "http://hl7.org/fhir/tools/ImplementationGuide/hl7.fhir.uv.tools",
+      "packageId": "hl7.fhir.uv.tools",
+      "version": "current"
+    },
+    {
       "id": "hl7tx",
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId": "hl7.terminology.r4",
-      "version": "3.1.0"
+      "version": "4.0.0"
     },
     {
-      "id": "sdc",
+      "id": "hl7_fhir_uv_sdc",
       "uri": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
       "packageId": "hl7.fhir.uv.sdc",
       "version": "current"
@@ -55,6 +76,32 @@
   ],
   "definition": {
     "extension": [
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "copyrightyear"
+          },
+          {
+            "url": "value",
+            "valueString": "2021+"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "releaselabel"
+          },
+          {
+            "url": "value",
+            "valueString": "STU1"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
       {
         "extension": [
           {
@@ -103,6 +150,45 @@
           {
             "url": "value",
             "valueString": "templates\\liquid"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludettl"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "validation"
+          },
+          {
+            "url": "value",
+            "valueString": "allow-any-extensions"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "show-inherited-invariants"
+          },
+          {
+            "url": "value",
+            "valueString": "false"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -386,13 +472,15 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
+            "valueString": "ValueSet"
           }
         ],
         "reference": {
-          "reference": "Questionnaire/case-reporting-questionnaire"
+          "reference": "ValueSet/hiv-transmission-route"
         },
-        "name": "Case Reporting Questionnaire"
+        "name": "HIV Transmission Route",
+        "description": "HIV Transmission Route",
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -405,7 +493,8 @@
           "reference": "ValueSet/vs-ethnicity"
         },
         "name": "Ethnicity",
-        "description": "Ethnicity"
+        "description": "Ethnicity",
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -418,33 +507,8 @@
           "reference": "CodeSystem/cs-hiv-risk-behavior"
         },
         "name": "Risk Behavior",
-        "description": "CodeSystem - Behavior associated with risk of HIV transmission"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/cs-patient-gender"
-        },
-        "name": "Patient Gender",
-        "description": "The genders for patients"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/hiv-transmission-route"
-        },
-        "name": "HIV Transmission Route",
-        "description": "HIV Transmission Route"
+        "description": "CodeSystem - Behavior associated with risk of HIV transmission",
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -457,113 +521,271 @@
           "reference": "CodeSystem/hiv-transmission-route"
         },
         "name": "HIV Transmission Route",
-        "description": "HIV Transmission Route codes"
+        "description": "HIV Transmission Route codes",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-patient-gender"
+        },
+        "name": "Patient Gender",
+        "description": "The genders for patients",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/case-reporting-questionnaire"
+        },
+        "name": "Case Reporting Questionnaire",
+        "description": "Questionnaire for Case Reporting, containing/enabling the features described in this ImplementationGuide",
+        "exampleBoolean": true
       }
     ],
     "page": {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl": "toc.html"
+        }
+      ],
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
       "page": [
         {
-          "nameUrl": "index.html",
-          "title": "L1: OpenHIE Case Reporting",
-          "generation": "html",
-          "page": [
+          "extension": [
             {
-              "nameUrl": "references.html",
-              "title": "References",
-              "generation": "html"
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "index.html"
             }
-          ]
+          ],
+          "nameUrl": "index.html",
+          "title": "OpenHIE Case Reporting",
+          "generation": "html"
         },
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "references.html"
+            }
+          ],
+          "nameUrl": "references.html",
+          "title": "References",
+          "generation": "html"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "requirements.html"
+            }
+          ],
           "nameUrl": "requirements.html",
-          "title": "L2: Business Requirements",
+          "title": "Business description",
           "generation": "html",
           "page": [
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "concepts.html"
+                }
+              ],
               "nameUrl": "concepts.html",
               "title": "Concepts",
               "generation": "html"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "functional.html"
+                }
+              ],
               "nameUrl": "functional.html",
-              "title": "Functional Requirements",
+              "title": "Functional requirements",
               "generation": "html"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "personas.html"
+                }
+              ],
               "nameUrl": "personas.html",
               "title": "Personas",
               "generation": "html"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "workflows.html"
+                }
+              ],
               "nameUrl": "workflows.html",
               "title": "Workflows",
               "generation": "html"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "usecases.html"
+                }
+              ],
               "nameUrl": "usecases.html",
-              "title": "Use Cases",
+              "title": "Use cases",
+              "generation": "html"
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "dictionary.html"
+                }
+              ],
+              "nameUrl": "dictionary.html",
+              "title": "Data dictionary",
               "generation": "html"
             }
           ]
         },
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "data_exchange.html"
+            }
+          ],
           "nameUrl": "data_exchange.html",
-          "title": "L3: Data Models and Exchange ",
+          "title": "Data exchange",
           "generation": "html",
           "page": [
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "dependencies.html"
+                }
+              ],
               "nameUrl": "dependencies.html",
               "title": "Dependencies",
               "generation": "html"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "actors.html"
+                }
+              ],
               "nameUrl": "actors.html",
               "title": "Actors",
               "generation": "html"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "transactions.html"
+                }
+              ],
               "nameUrl": "transactions.html",
               "title": "Transactions",
               "generation": "html"
             },
             {
-              "nameUrl": "expected_actions.html",
-              "title": "Expected Actions",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "content_profiles.html"
+                }
+              ],
+              "nameUrl": "content_profiles.html",
+              "title": "Content Profiles",
               "generation": "html"
             },
             {
-              "nameUrl": "content_profiles.html",
-              "title": "Content Profiles",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "examples.html"
+                }
+              ],
+              "nameUrl": "examples.html",
+              "title": "Examples",
               "generation": "html"
             }
           ]
         },
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "deployment.html"
+            }
+          ],
           "nameUrl": "deployment.html",
-          "title": "L4: Deployment Guidance",
+          "title": "Deployment guidance",
           "generation": "html",
           "page": [
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "security_privacy.html"
+                }
+              ],
               "nameUrl": "security_privacy.html",
-              "title": "Security and Privacy Considerations",
+              "title": "Security and Privacy considerations",
               "generation": "html"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "testing.html"
+                }
+              ],
               "nameUrl": "testing.html",
               "title": "Testing",
               "generation": "html"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "instant_openhie.html"
+                }
+              ],
               "nameUrl": "instant_openhie.html",
               "title": "Instant OpenHIE",
               "generation": "html"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "downloads.html"
+                }
+              ],
               "nameUrl": "downloads.html",
-              "title": "Useful Downloads",
+              "title": "Useful downloads",
               "generation": "html"
             }
           ]
@@ -573,11 +795,11 @@
     "parameter": [
       {
         "code": "path-resource",
-        "value": "input\\history"
+        "value": "input\\scenarios"
       },
       {
         "code": "path-resource",
-        "value": "input\\scenarios"
+        "value": "input\\history"
       },
       {
         "code": "path-resource",

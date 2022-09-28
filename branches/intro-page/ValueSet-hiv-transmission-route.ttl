@@ -10,21 +10,35 @@
   fhir:Resource.id [ fhir:value "hiv-transmission-route"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes in this table are from the system <a href=\"CodeSystem-hiv-transmission-route.html\"><code>http://openhie.org/fhir/CodeSystem/hiv-transmission-route</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-blood\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood\">blood</a></td><td>Blood born infection</td><td>Blood born infection</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-sexual\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual\">sexual</a></td><td>Sexual relationship</td><td>Sexual relationship transmission</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-mother\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother\">mother</a></td><td>Mother to child</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-CodeSystem-hiv-transmission-route-unidentified\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified\">unidentified</a></td><td>Unidentified</td><td>Unidentified</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-blood\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood\">blood</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Blood born infection</td><td><div><p>Blood born infection</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-sexual\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual\">sexual</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Sexual relationship</td><td><div><p>Sexual relationship transmission</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-mother\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother\">mother</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Mother to child</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-unidentified\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified\">unidentified</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Unidentified</td><td><div><p>Unidentified</p>\n</div></td></tr></table></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "http://openhie.org/fhir/ValueSet/hiv-transmission-route"];
-  fhir:ValueSet.version [ fhir:value "0.1.0-test"];
+  fhir:ValueSet.url [ fhir:value "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/hiv-transmission-route"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "HIVTransmissionRoute"];
   fhir:ValueSet.title [ fhir:value "HIV Transmission Route"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2022-08-12T15:17:42+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-09-28T12:49:05+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "OpenHIE"];
   fhir:ValueSet.contact [
      fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "OpenHIE" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
        fhir:ContactPoint.value [ fhir:value "http://ohie.org" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "openhie@ohie.org" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "OpenHIE" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "openhie@ohie.org" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "HIV Transmission Route"];
@@ -33,29 +47,30 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.code [ fhir:value "001" ];
+       fhir:Coding.display [ fhir:value "World" ]
      ]
   ];
   fhir:ValueSet.expansion [
      fhir:ValueSet.expansion.timestamp [ fhir:value "2021-02-02"^^xsd:date ];
      fhir:ValueSet.expansion.contains [
        fhir:index 0;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/CodeSystem/hiv-transmission-route" ];
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route" ];
        fhir:ValueSet.expansion.contains.code [ fhir:value "blood" ];
        fhir:ValueSet.expansion.contains.display [ fhir:value "Blood born infection" ]
      ], [
        fhir:index 1;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/CodeSystem/hiv-transmission-route" ];
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route" ];
        fhir:ValueSet.expansion.contains.code [ fhir:value "sexual" ];
        fhir:ValueSet.expansion.contains.display [ fhir:value "Sexual relationship" ]
      ], [
        fhir:index 2;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/CodeSystem/hiv-transmission-route" ];
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route" ];
        fhir:ValueSet.expansion.contains.code [ fhir:value "mother" ];
        fhir:ValueSet.expansion.contains.display [ fhir:value "Mother to child" ]
      ], [
        fhir:index 3;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/CodeSystem/hiv-transmission-route" ];
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route" ];
        fhir:ValueSet.expansion.contains.code [ fhir:value "unidentified" ];
        fhir:ValueSet.expansion.contains.display [ fhir:value "Unidentified" ]
      ]

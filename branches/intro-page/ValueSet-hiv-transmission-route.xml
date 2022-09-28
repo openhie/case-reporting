@@ -3,19 +3,35 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="hiv-transmission-route"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 4 concepts</p><p>All codes in this table are from the system <a href="CodeSystem-hiv-transmission-route.html"><code>http://openhie.org/fhir/CodeSystem/hiv-transmission-route</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-blood"> </a>  <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood">blood</a></td><td>Blood born infection</td><td>Blood born infection</td></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-sexual"> </a>  <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual">sexual</a></td><td>Sexual relationship</td><td>Sexual relationship transmission</td></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-mother"> </a>  <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother">mother</a></td><td>Mother to child</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-CodeSystem-hiv-transmission-route-unidentified"> </a>  <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified">unidentified</a></td><td>Unidentified</td><td>Unidentified</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 4 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-blood"> </a>  <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood">blood</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Blood born infection</td><td><div><p>Blood born infection</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-sexual"> </a>  <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual">sexual</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Sexual relationship</td><td><div><p>Sexual relationship transmission</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-mother"> </a>  <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother">mother</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Mother to child</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-unidentified"> </a>  <a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified">unidentified</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Unidentified</td><td><div><p>Unidentified</p>
+</div></td></tr></table></div>
   </text>
-  <url value="http://openhie.org/fhir/ValueSet/hiv-transmission-route"/>
-  <version value="0.1.0-test"/>
+  <url value="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/hiv-transmission-route"/>
+  <version value="0.1.0"/>
   <name value="HIVTransmissionRoute"/>
   <title value="HIV Transmission Route"/>
   <status value="draft"/>
-  <date value="2022-08-12T15:17:42+00:00"/>
+  <date value="2022-09-28T12:49:05+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
+    <name value="OpenHIE"/>
     <telecom>
       <system value="url"/>
       <value value="http://ohie.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="openhie@ohie.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="OpenHIE"/>
+    <telecom>
+      <system value="email"/>
+      <value value="openhie@ohie.org"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="HIV Transmission Route"/>
@@ -23,27 +39,28 @@
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>
+      <display value="World"/>
     </coding>
   </jurisdiction>
   <expansion>
     <timestamp value="2021-02-02"/>
     <contains>
-      <system value="http://openhie.org/fhir/CodeSystem/hiv-transmission-route"/>
+      <system value="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route"/>
       <code value="blood"/>
       <display value="Blood born infection"/>
     </contains>
     <contains>
-      <system value="http://openhie.org/fhir/CodeSystem/hiv-transmission-route"/>
+      <system value="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route"/>
       <code value="sexual"/>
       <display value="Sexual relationship"/>
     </contains>
     <contains>
-      <system value="http://openhie.org/fhir/CodeSystem/hiv-transmission-route"/>
+      <system value="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route"/>
       <code value="mother"/>
       <display value="Mother to child"/>
     </contains>
     <contains>
-      <system value="http://openhie.org/fhir/CodeSystem/hiv-transmission-route"/>
+      <system value="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route"/>
       <code value="unidentified"/>
       <display value="Unidentified"/>
     </contains>

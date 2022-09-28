@@ -26,7 +26,7 @@ hapi:
     implementationguides:
       openhie.fhir.casereporting:
         name: openhie.fhir.casereporting
-        version: 0.1.0-test 
+        version: 0.1.0 
     cors:
       allow_Credentials: true
       # These are allowed_origin patterns, see: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/cors/CorsConfiguration.html#setAllowedOriginPatterns-java.util.List-
