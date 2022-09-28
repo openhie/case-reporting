@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>OPENHIE.FHIR.CASEREPORTING\L1: OpenHIE Case Reporting - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.CASEREPORTING\OpenHIE Case Reporting - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -20,6 +20,12 @@
   	<link rel="stylesheet" href="assets/css/prism.css"/>
       <!-- Placeholder for child template CSS declarations -->
 <link rel="stylesheet" href="assets/css/hl7-be.css"/>
+  <!-- Placeholder for child template CSS declarations -->
+  <!-- OpenHIE -->
+  <!-- active -->
+
+  <!-- no fitting stylesheet found (status/publisher) -->
+
 <link rel="stylesheet" href="assets/css/openhie.css"/>
 
     <script src="fhir-table-scripts.js" type="text/javascript"> </script>
@@ -47,7 +53,7 @@
 	  <script src="assets/js/prism.js"></script>
 
     <style type="text/css">h2{--heading-prefix:"1"}
-    h3,h4,h5,h6{--heading-prefix:"1.0"}</style>
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -70,7 +76,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">OpenHIE Case Reporting</span><br/>0.1.0-test - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">OpenHIE Case Reporting</span><br/>0.1.0 - STU1</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -90,65 +96,79 @@
             </button>
             <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <ul class="nav navbar-nav">
-	<li>
-	  <a href="index.html">L1: Case Reporting</a>
-	  <ul class="dropdown-menu">
-	    <li><a href="references.html">References</a></li>
-	  </ul>
-	</li>
-  <!-- <li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"></b>
-		</a>
+                <!-- menu.xml -->
 
-	</li>
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Functional Description<b class="caret"></b>
-		</a>
-
-	</li> -->
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="requirements.html" class="dropdown-toggle">L2: Business Requirements<b class="caret"></b>
-		</a>
-		<ul class="dropdown-menu">
-		  <li><a href="concepts.html">Key Concepts</a></li>
-		  <li><a href="functional.html">Functional Requirements</a></li>
-		  <li><a href="personas.html">Personas</a></li>
-		  <li><a href="workflows.html">Workflows</a></li>      
-		  <li>
-		    <a href="usecases.html">Use Cases</a>
-		    <ul class="dropdown-menu">
-		      <li> <a href="usecases.html#usecase_phr">Use Case: Public Health Response</a> case reporting as part of the public health response.</li>
-		    </ul>
-		  </li>
-		  <li><a name="l211">​</a><a href="dictionary.html">Data Dictionary</a></li>
-
-		</ul>
-	</li>
-
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="data_exchange.html" class="dropdown-toggle">L3: Data Models and Exchange<b class="caret"></b>
-		</a>
-		<ul class="dropdown-menu">
-		  <li><a href="dependencies.html">Dependencies</a></li>
-		  <li><a href="actors.html">Actors</a></li>
-		  <li><a href="transactions.html">Transactions</a></li>
-		  <li><a href="expected_actions.html">Expected Actions</a></li>
-		  <li><a href="content_profiles.html">Content Profiles</a></li>
-		  <li><a href="artifacts.html">Artifact Index</a></li>
-		</ul>
-	</li>
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="deployment.html" class="dropdown-toggle">L4: Deployment<b class="caret"></b></a>
-		<ul class="dropdown-menu">
-		  <li><a href="security_privacy.html">Security and Privacy Considerations</a></li>
-		  <li><a href="testing.html">Testing</a></li>
-		  <li><a href="instant_openhie.html">Instant OpenHIE</a></li>		  
-		  <li><a href="downloads.html">Downloads</a></li>
-		</ul>
-	</li>
-</ul>      
-
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Business description
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="concepts.html">Key Concepts</a>
+      </li>
+      <li>
+        <a href="functional.html">Functional Requirements</a>
+      </li>
+      <li>
+        <a href="personas.html">Personas</a>
+      </li>
+      <li>
+        <a href="workflows.html">Workflows</a>
+      </li>
+      <li>
+        <a href="usecases.html">Use cases</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Data exchange
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="dependencies.html">Dependencies</a>
+      </li>
+      <li>
+        <a href="actors.html">Actors</a>
+      </li>
+      <li>
+        <a href="transactions.html">Transactions</a>
+      </li>
+      <li>
+        <a href="content_profiles.html">Content profiles</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Deployment and use
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="security_privacy.html">Security and Privacy</a>
+      </li>
+      <li>
+        <a href="actors.html">Actors</a>
+      </li>
+      <li>
+        <a href="testing.html">Testing</a>
+      </li>
+      <li>
+        <a href="instant_openhie.html">Instant OpenHIE</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
+</ul>
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
         </nav>    <!-- /.navbar -->
@@ -160,7 +180,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>L1: OpenHIE Case Reporting</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>OpenHIE Case Reporting</b></li>
           
         </ul>
       </div>    <!-- /container -->
@@ -180,8 +200,8 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">OpenHIE Case Reporting - Local Development build (v0.1.0-test). See the <a href="http://openhie.org/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <h2>L1: OpenHIE Case Reporting</h2>
+    <!-- ReleaseHeader --><p id="publish-box">OpenHIE Case Reporting - Local Development build (v0.1.0). See the <a href="http://openhie.org/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>OpenHIE Case Reporting</h2>
   
   
 
@@ -233,7 +253,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
   <a name="1"></a><h3>Introduction</h3> <a name="intro">  </a>
 
-  <p><a name="l420">​</a>
+  <p><a name="l437">​</a>
     This Implementation Guide contains the base specifications for general case reporting pipeline. It has been developed to support case reporting as part of the use cases like <a href="usecase_1.html">public health response</a>.
   </p>
   
@@ -241,7 +261,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     This IG is a common architecture IG - it describes the architecture and workflows for case reporting. It does not provide any specific content requirements or constraints, because those would be purpose-specific and depending on several factors like the condition they are targeting.
     This Implementation Guide is intended to be supplemented by one or more <a href="content_profiles.html">content profiles</a> guides developed for specific health program areas which will define the details of the case report.  Examples of such content guides include:
     <ul>
-      <li><a name="l433">​</a><a href="http://build.fhir.org/ig/openhie/hiv-ig/index.html">HIV </a></li>
+      <li><a href="https://openhie.github.io/hiv-ig/index.html">HIV </a></li>
       <li><a href="https://openhie.github.io/covid-ig/">Covid-19</a></li>
     </ul>
   </p>
@@ -285,12 +305,12 @@ entity CRM --><rect filter="url(#f2laehskdsjr7)" width="92" x="612" y="308.8906"
   <p>
     This Implementation Guide is broken into the following levels of <a href="http://hl7.org/fhir/uv/cpg/2019Sep/documentation-approach.html">knowledge representation</a>:
     <ul>
-      <li><a href="index.html">Level I: Narrative</a> Contains references to the guidance, guidlines, policies and recommemndations underpinning this Implementation Guide</li>
-      <li><a href="requirements.html">Level II: Business Requirements</a> Contains the requirements for this Implementation Guide including the defintition of key concepts, user personas, use cases and workflows.
+      <li><a href="index.html">Introduction</a> Contains references to the guidance, guidlines, policies and recommendations underpinning this Implementation Guide</li>
+      <li><a href="requirements.html">Business Requirements</a> Contains the requirements for this Implementation Guide including the definition of key concepts, user personas, use cases and workflows. It describes the functional models for data and interactions.
       </li>
-      <li><a href="data_exchange.html">Level III: Data Models and Exchange</a> Contains the data models and data exchange protocols defined in this Implementation Guide.</li>
-      <li><a href="deployment.html">Level IV - ε: Deployment Guidance </a>
-      Contains <a href="instant_openhie.html">Instant OpenHIE</a> Technical Specifications relevant to this Implementation Guide and supporting guidance for adaptation in local environments.</li>
+      <li><a href="data_exchange.html">Data Models and Exchange</a> Contains the data exchange protocols defined in this Implementation Guide. It describes the </li>
+      <li><a href="deployment.html">Deployment Guidance</a> describes the implementation guidance - reference architectures and implementations, as well as testing or deployment possibilities.
+      Includes <a href="instant_openhie.html">Instant OpenHIE</a> Specifications relevant to this Implementation Guide and supporting guidance for adaptation in local environments.</li>
     </ul>
   </p>  
 
@@ -331,13 +351,15 @@ entity CRM --><rect filter="url(#f2laehskdsjr7)" width="92" x="612" y="308.8906"
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color: #81BEF7" href="http://ohie.org">OpenHIE</a>.  Package openhie.fhir.casereporting#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Aug 12, 2022 15:17+0000">2022-08-12</span>
+          IG &copy; 2021+ <a style="color: #81BEF7" href="http://ohie.org">OpenHIE</a>.  Package openhie.fhir.casereporting#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 28, 2022 12:49+0000">2022-09-28</span>
           <br/>
           <span style="color: #FFFF77">
-                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
-                 
-                
+              <!-- OpenHIE -->
+  <!-- active -->
+
+  <!-- no fitting stylesheet found (status/publisher) -->
+
+
           </span>
         </p>
       </div>    <!-- /inner-wrapper -->

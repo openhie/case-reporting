@@ -3,19 +3,32 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="hiv-transmission-route"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://openhie.org/fhir/CodeSystem/hiv-transmission-route defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">blood<a name="hiv-transmission-route-blood"> </a></td><td>MaleBlood</td><td>Blood born infection</td></tr><tr><td style="white-space:nowrap">sexual<a name="hiv-transmission-route-sexual"> </a></td><td>Sexual Relations</td><td>Sexual relationship transmission</td></tr><tr><td style="white-space:nowrap">mother-child<a name="hiv-transmission-route-mother-child"> </a></td><td>Transgender</td><td>Mother to Child transmission</td></tr><tr><td style="white-space:nowrap">unidentified<a name="hiv-transmission-route-unidentified"> </a></td><td>Unidentified</td><td>Unidentified</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">blood<a name="hiv-transmission-route-blood"> </a></td><td>MaleBlood</td><td>Blood born infection</td></tr><tr><td style="white-space:nowrap">sexual<a name="hiv-transmission-route-sexual"> </a></td><td>Sexual Relations</td><td>Sexual relationship transmission</td></tr><tr><td style="white-space:nowrap">mother-child<a name="hiv-transmission-route-mother-child"> </a></td><td>Transgender</td><td>Mother to Child transmission</td></tr><tr><td style="white-space:nowrap">unidentified<a name="hiv-transmission-route-unidentified"> </a></td><td>Unidentified</td><td>Unidentified</td></tr></table></div>
   </text>
-  <url value="http://openhie.org/fhir/CodeSystem/hiv-transmission-route"/>
-  <version value="0.1.0-test"/>
+  <url value="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route"/>
+  <version value="0.1.0"/>
   <name value="HIVTransmissionRoute"/>
   <title value="HIV Transmission Route"/>
   <status value="active"/>
-  <date value="2022-08-12T15:17:42+00:00"/>
+  <date value="2022-09-28T12:49:05+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
+    <name value="OpenHIE"/>
     <telecom>
       <system value="url"/>
       <value value="http://ohie.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="openhie@ohie.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="OpenHIE"/>
+    <telecom>
+      <system value="email"/>
+      <value value="openhie@ohie.org"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="HIV Transmission Route codes"/>
@@ -23,6 +36,7 @@
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>
+      <display value="World"/>
     </coding>
   </jurisdiction>
   <content value="complete"/>
