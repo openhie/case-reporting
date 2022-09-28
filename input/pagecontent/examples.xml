@@ -2,3 +2,5 @@
 
 This specification contains an example questionnaire for demonstrating the first transaction.
 It also contains the extracted data from that questionnaire, as a FHIR Bundle, as the output of the extraction process of the Questionnaire.
+
+</div>
