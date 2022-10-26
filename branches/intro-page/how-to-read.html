@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>OPENHIE.FHIR.CASEREPORTING\HIV Transmission Route - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.CASEREPORTING\How to Read - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -52,8 +52,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.1"}
-    h3,h4,h5,h6{--heading-prefix:"7.1"}</style>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Left logo - typically the publisher's logo - project or affiliate -->
@@ -180,7 +180,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>HIV Transmission Route</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>How to Read</b></li>
           
         </ul>
       </div>    <!-- /container -->
@@ -192,8 +192,16 @@
         <div class="row">
           <div class="inner-wrapper">
 
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">OpenHIE Case Reporting - Local Development build (v0.1.0). See the <a href="http://openhie.org/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>How to Read</h2>
   
 
 
@@ -203,159 +211,52 @@
 
 
 
-<ul class="nav nav-tabs">
-
-  <li class="active">
-    <a href="#">Narrative Content</a>
-  </li>
-
-
-  
-    <li>
-      <a href="ValueSet-hiv-transmission-route.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="ValueSet-hiv-transmission-route.json.html">JSON</a>
-    </li>
-  
 
 
 
 
+    <p>  <!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#content-structure" id="markdown-toc-content-structure">Content Structure</a></li>
+  <li><a href="#maturity-and-normative-status" id="markdown-toc-maturity-and-normative-status">Maturity and normative status</a></li>
 </ul>
 
-  <a name="root"> </a>
-  <h2 id="root">ValueSet: HIV Transmission Route
+</div>
+<p>This FHIR implementation guide follows a standard presentation format and can be navigated by the links in the menu or in the <a href="toc.html">table of contents</a>.</p>
 
-  </h2>
-  <table class="colsd">
+<h3 id="content-structure">Content Structure</h3>
 
-    <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/hiv-transmission-route<button data-clipboard-text="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/hiv-transmission-route" title="Click to copy URL" class="btn-copy"></button></span>
-      </td>
-      <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button data-clipboard-text="http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/hiv-transmission-route|0.1.0" title="Click to copy versioned URL" class="btn-copy"></button></span>
-      </td>
-    </tr>
+<p>The content is organized into sections:</p>
 
-    <tr>
+<p><a href="index.html">Introduction</a>: The landing page contains essential references to the specification</p>
 
+<p><a href="requirements.html">Business Requirements</a>: A functional view on the requirements. This is the functional perspective and is the less technical part of this specification, consisting mostly of narrative pages. It includes the definition of key concepts, user personas, use cases and workflows, and functional models.</p>
 
-
-
-
-
-
-      <td colspan="2">
-        
-          Draft
-          
-            as of 2022-10-26
-          
-        
-      </td>
-
-
-      <td>
-        <i>Responsible:</i> 
-
-        <a href="http://ohie.org">OpenHIE</a>
-
-      </td>
-
-
-      <td>
-        <i>Realm:</i> <img src="assets/images/001.svg" alt="International flag" title="International" height="16"/>
-      </td>
-
-      <td><i>Computable Name</i>: <span style="font-family: monospace;">HIVTransmissionRoute</span></td>
-    </tr>
-
-
-
-
-  </table>
-
-<p>
-<p>HIV Transmission Route</p>
-
-</p>
-
-
-  <p>
-    <b>References</b>
-  </p>
-  
+<p><a name="l409">​</a><a href="data_exchange">Data Models and Exchange</a> Contains the data exchange protocols defined in this Implementation guide - the actual technical specification. Implementation guides can contain specifications for <strong>behavior</strong> or specifications for <strong>content</strong>, or both.</p>
 <ul>
- <li><a href="Questionnaire-case-reporting-questionnaire.html">Case Reporting Questionnaire</a></li>
+  <li><strong>Behaviour</strong> specification focuses on the systems interactions - types and sequence of operations, abstract technical actors that combine into a functioning solution. This corresponds to business proceses, workflows and transactions. This is mostly narrative text, with some diagrams for interaction and process.</li>
+  <li><strong>Content</strong> specification defines the requirements for the data content that is exchanged. This defines data objects and consists of <strong>Structure definitions</strong>, <strong>Code System and Value Set</strong> definitions, <strong>Operation Definitions</strong>, and other technical artifacts.</li>
+</ul>
+
+<p>Each FHIR artifact is displayed in its page and contains the summary view, introduction notes and the content itself, which is rendered according to the FHIR resource type - different types of resources may have different renderings.</p>
+
+<p>The remainder of the implementation guide contains useful narrative such as context, technical downloads, or navigation pages such as this one.</p>
+
+<h3 id="maturity-and-normative-status">Maturity and normative status</h3>
+<p>This specification has a status indicated in the front page. Each part of its content (pages, workflows, artifacts) is classified according to</p>
+<ul>
+  <li><strong>Maturity</strong></li>
+  <li><strong>Normative status</strong> - content can be <strong>normative</strong> or <strong>informative</strong>:
+    <ul>
+      <li><strong>Normative content</strong> defines expectations that must be met to be able to claim conformity with the specification. Examples are actor definitions and required transactions, or profiles with required elements and terminology constraints.</li>
+      <li><strong>Informative content</strong> is used as guidance, and does not require to be used or adhered to. Examples of informative content are informative pages, references, etc.</li>
+    </ul>
+  </li>
 </ul>
 
 
-    <!-- insert intro if present -->
-  
 
-
-
-  <a name="definition"> </a>
-
-  <!-- Content Logical Definition heading in the fragment -->
-  <h3>Logical Definition (CLD)</h3>
-<p>No formal definition provided for this ValueSet</p>
-
-
-  <p>&nbsp;</p>
-  <a name="expansion"> </a>
-  <h3 id="expansion">Expansion</h3>
-
-  <div><p>This value set contains 4 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-blood"> </a>&nbsp;&nbsp;<a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood">blood</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Blood born infection</td><td><div><p>Blood born infection</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-sexual"> </a>&nbsp;&nbsp;<a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual">sexual</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Sexual relationship</td><td><div><p>Sexual relationship transmission</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="l540">​</a><a name="http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-mother"> </a>&nbsp;&nbsp;<a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother">mother</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Mother to child</td><td></td></tr><tr><td style="white-space:nowrap"><a name="http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-unidentified"> </a>&nbsp;&nbsp;<a href="CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified">unidentified</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Unidentified</td><td><div><p>Unidentified</p>
-</div></td></tr></table></div>
-
-  <hr/>
-  <p>
-    Explanation of the columns that may appear on this page:
-  </p>
-  <table class="grid">
-    <tr>
-      <td>Level</td>
-      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
-          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
-    </tr>
-    <tr>
-      <td>System</td>
-      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
-    </tr>
-    <tr>
-      <td>Code</td>
-      <td>The code (used as the code in the resource instance)</td>
-    </tr>
-    <tr>
-      <td>Display</td>
-      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
-    </tr>
-    <tr>
-      <td>Definition</td>
-      <td>An explanation of the meaning of the concept</td>
-    </tr>
-    <tr>
-      <td>Comments</td>
-      <td>Additional notes about how to use the code</td>
-    </tr>
-  </table>
-
-  
-
-    <!-- insert notes if present -->
-  
-
-
-
-  
 
 </div>
 
