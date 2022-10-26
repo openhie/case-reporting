@@ -122,7 +122,8 @@ dependencies:
 pages:
   index.xml:
     title: OpenHIE Case Reporting
-  references.xml: References
+  how-to-read.md: How to read this Implementation Guide
+  references.md: References
   requirements.xml:
     title: Business description
     concepts.xml:
