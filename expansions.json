@@ -1,79 +1,11 @@
 {
   "resourceType" : "Bundle",
-  "id" : "5ba91045-b1bf-4d31-b669-9522fe3339d5",
+  "id" : "7bef1aab-af36-496e-b6bc-4ae45a16dd8f",
   "meta" : {
-    "lastUpdated" : "2022-09-28T12:49:05.064+00:00"
+    "lastUpdated" : "2022-10-26T07:57:57.509+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/hiv-transmission-route",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "hiv-transmission-route",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-blood\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood\">blood</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Blood born infection</td><td><div><p>Blood born infection</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-sexual\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual\">sexual</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Sexual relationship</td><td><div><p>Sexual relationship transmission</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-mother\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother\">mother</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Mother to child</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-unidentified\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified\">unidentified</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Unidentified</td><td><div><p>Unidentified</p>\n</div></td></tr></table></div>"
-      },
-      "url" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/hiv-transmission-route",
-      "version" : "0.1.0",
-      "name" : "HIVTransmissionRoute",
-      "title" : "HIV Transmission Route",
-      "status" : "draft",
-      "date" : "2022-09-28T12:49:05+00:00",
-      "publisher" : "OpenHIE",
-      "contact" : [{
-        "name" : "OpenHIE",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://ohie.org"
-        },
-        {
-          "system" : "email",
-          "value" : "openhie@ohie.org"
-        }]
-      },
-      {
-        "name" : "OpenHIE",
-        "telecom" : [{
-          "system" : "email",
-          "value" : "openhie@ohie.org",
-          "use" : "work"
-        }]
-      }],
-      "description" : "HIV Transmission Route",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "timestamp" : "2021-02-02",
-        "contains" : [{
-          "system" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route",
-          "code" : "blood",
-          "display" : "Blood born infection"
-        },
-        {
-          "system" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route",
-          "code" : "sexual",
-          "display" : "Sexual relationship"
-        },
-        {
-          "system" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route",
-          "code" : "mother",
-          "display" : "Mother to child"
-        },
-        {
-          "system" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route",
-          "code" : "unidentified",
-          "display" : "Unidentified"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "http://openhie.org/fhir/Questionnaire/case-reporting-questionnaire#vs-patientgender",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -177,8 +109,8 @@
       "name" : "HIVRiskPopulation",
       "status" : "draft",
       "expansion" : {
-        "identifier" : "urn:uuid:1d3b7c6d-a20b-4f8c-a529-9059786d43e3",
-        "timestamp" : "2022-09-28T12:49:18+00:00",
+        "identifier" : "urn:uuid:a39dc6d2-e9f1-4226-b95d-65bce20693e2",
+        "timestamp" : "2022-10-26T07:58:11+00:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -200,8 +132,8 @@
       "name" : "HIVRiskBehavior",
       "status" : "draft",
       "expansion" : {
-        "identifier" : "urn:uuid:b0535eac-2b77-460f-8b56-2e47c2d8cbb4",
-        "timestamp" : "2022-09-28T12:49:18+00:00",
+        "identifier" : "urn:uuid:3fcf691b-a096-4b48-a4a6-ef1918fb636d",
+        "timestamp" : "2022-10-26T07:58:11+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -235,6 +167,74 @@
           "system" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/cs-hiv-risk-behavior",
           "code" : "5",
           "display" : "Others"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/hiv-transmission-route",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "hiv-transmission-route",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-blood\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood\">blood</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Blood born infection</td><td><div><p>Blood born infection</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-sexual\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual\">sexual</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Sexual relationship</td><td><div><p>Sexual relationship transmission</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-mother\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother\">mother</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Mother to child</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-unidentified\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified\">unidentified</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Unidentified</td><td><div><p>Unidentified</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/hiv-transmission-route",
+      "version" : "0.1.0",
+      "name" : "HIVTransmissionRoute",
+      "title" : "HIV Transmission Route",
+      "status" : "draft",
+      "date" : "2022-10-26T07:57:57+00:00",
+      "publisher" : "OpenHIE",
+      "contact" : [{
+        "name" : "OpenHIE",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://ohie.org"
+        },
+        {
+          "system" : "email",
+          "value" : "openhie@ohie.org"
+        }]
+      },
+      {
+        "name" : "OpenHIE",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "openhie@ohie.org",
+          "use" : "work"
+        }]
+      }],
+      "description" : "HIV Transmission Route",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "timestamp" : "2021-02-02",
+        "contains" : [{
+          "system" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route",
+          "code" : "blood",
+          "display" : "Blood born infection"
+        },
+        {
+          "system" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route",
+          "code" : "sexual",
+          "display" : "Sexual relationship"
+        },
+        {
+          "system" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route",
+          "code" : "mother",
+          "display" : "Mother to child"
+        },
+        {
+          "system" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route",
+          "code" : "unidentified",
+          "display" : "Unidentified"
         }]
       }
     }

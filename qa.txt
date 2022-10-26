@@ -1,15 +1,15 @@
 ﻿OpenhieCaseReporting : Validation Results
 =========================================
 
-err = 16, warn = 26, info = 39
-IG Publisher Version: 1.2.4
-Generated Wed Sep 28 12:49:38 UTC 2022. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0 (canonical = http://openhie.org/fhir)
- Build Errors : 7 / 0 / 0
+err = 16, warn = 15, info = 39
+IG Publisher Version: 1.2.11
+Generated Wed Oct 26 07:58:32 UTC 2022. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0 (canonical = http://openhie.org/fhir)
+ Build Errors : 8 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-openhie.fhir.casereporting : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire : 6 / 17 / 40
+ /github/workspace/fsh-generated/resources/Questionnaire-case-reporting-questionnaire : 6 / 2 / 40
  /github/workspace/fsh-generated/resources/ValueSet-hiv-transmission-route : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-ethnicity : 2 / 2 / 1
 </table>
@@ -17,27 +17,32 @@ Generated Wed Sep 28 12:49:38 UTC 2022. FHIR version 4.0.1 for openhie.fhir.case
 ERROR: /github/workspace/output/Questionnaire-case-reporting-questionnaire-form.html: unexpected non-end of element null::div  at line 264 column 160
 ERROR: /github/workspace/output/ValueSet-hiv-transmission-route.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 320, column 182: The link 'CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother' for "mother" cannot be resolved (valid targets: [hiv-transmission-route-mother-child, project-logo, segment-header, project-nav, publish-box, hiv-transmission-route-sexual, segment-post-footer, family-logo, family-nav, hiv-transmission-route-unidentified, ig-status, hiv-transmission-route-blood, top, codesystem-hiv-transmission-route, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
 ERROR: /github/workspace/output/actors.html#/html/body/div/div/div/div/div/div/a at Line 230, column 357: The link 'expected_actions.html' for "three options" cannot be resolved
+ERROR: /github/workspace/output/how-to-read.html#/html/body/div/div/div/div/div/p/a at Line 240, column 5: The link 'data_exchange' for "Data Models and Exchange" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/div/p/a at Line 261, column 180: The link 'usecase_1.html' for "public health response" cannot be resolved
 ERROR: /github/workspace/output/transactions.html#/html/body/div/div/div/div/div/div/p/a at Line 215, column 192: The link '#maturity' for "maturity levels." cannot be resolved (valid targets: [submit-case-report, project-logo, segment-header, project-nav, publish-box, transaction_2, transaction_1, segment-post-footer, transaction-submit-case-report, transactions, family-logo, f2laehskdsjr7, family-nav, ig-status, 1, 2, top, stripe, segment-footer, segment-navbar, transaction-store-case-report, segment-content, segment-breadcrumb, store-case-report])
 ERROR: /github/workspace/output/transactions.html#/html/body/div/div/div/div/div/div/p/a at Line 217, column 22: The link '#actors' for "actors" cannot be resolved (valid targets: [submit-case-report, project-logo, segment-header, project-nav, publish-box, transaction_2, transaction_1, segment-post-footer, transaction-submit-case-report, transactions, family-logo, f2laehskdsjr7, family-nav, ig-status, 1, 2, top, stripe, segment-footer, segment-navbar, transaction-store-case-report, segment-content, segment-breadcrumb, store-case-report])
 ERROR: /github/workspace/output/transactions.html#/html/body/div/div/div/div/div/div/p/a at Line 241, column 400: The link 'expected_actions.html' for "expected actions" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior.json ==
 ERROR: CodeSystem.where(url = 'http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/cs-hiv-risk-behavior'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior.json - the canonical URL (http://openhie.org/fhir/CodeSystem/cs-hiv-risk-behavior) does not match the URL (http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/cs-hiv-risk-behavior)
 INFORMATION: CodeSystem/cs-hiv-risk-behavior: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/cs-hiv-risk-behavior: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableCodeSystem profile
-WARNING: CodeSystem/cs-hiv-risk-behavior: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-hiv-risk-behavior: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-hiv-risk-behavior: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior: URL Mismatch http://openhie.org/fhir/CodeSystem/cs-hiv-risk-behavior vs http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/cs-hiv-risk-behavior
 == fsh-generated/resources/CodeSystem-cs-patient-gender.json ==
 ERROR: CodeSystem.where(url = 'http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/cs-patient-gender'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender.json - the canonical URL (http://openhie.org/fhir/CodeSystem/cs-patient-gender) does not match the URL (http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/cs-patient-gender)
 INFORMATION: CodeSystem/cs-patient-gender: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/cs-patient-gender: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableCodeSystem profile
-WARNING: CodeSystem/cs-patient-gender: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-patient-gender: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/cs-patient-gender: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender: URL Mismatch http://openhie.org/fhir/CodeSystem/cs-patient-gender vs http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/cs-patient-gender
 == fsh-generated/resources/CodeSystem-hiv-transmission-route.json ==
 ERROR: CodeSystem.where(url = 'http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route.json - the canonical URL (http://openhie.org/fhir/CodeSystem/hiv-transmission-route) does not match the URL (http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route)
 INFORMATION: CodeSystem/hiv-transmission-route: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/hiv-transmission-route: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableCodeSystem profile
-WARNING: CodeSystem/hiv-transmission-route: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/hiv-transmission-route: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/hiv-transmission-route: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route: URL Mismatch http://openhie.org/fhir/CodeSystem/hiv-transmission-route vs http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route
 == fsh-generated/resources/ImplementationGuide-openhie.fhir.casereporting.json ==
 == fsh-generated/resources/Questionnaire-case-reporting-questionnaire.json ==
@@ -47,21 +52,6 @@ INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained
 INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[1].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[2].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 INFORMATION: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet).expansion.contains[3].display.extension[0].extension[0].value.ofType(code): The value provided ('vi-VN') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#vi-VN) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): The ShareableValueSet profile says that the url element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): The ShareableValueSet profile says that the version element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[0].ofType(ValueSet): The ShareableValueSet profile says that the description element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[1].ofType(ValueSet): The ShareableValueSet profile says that the url element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[1].ofType(ValueSet): The ShareableValueSet profile says that the version element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[1].ofType(ValueSet): The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[1].ofType(ValueSet): The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[1].ofType(ValueSet): The ShareableValueSet profile says that the description element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[2].ofType(ValueSet): The ShareableValueSet profile says that the url element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[2].ofType(ValueSet): The ShareableValueSet profile says that the version element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[2].ofType(ValueSet): The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[2].ofType(ValueSet): The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.contained[2].ofType(ValueSet): The ShareableValueSet profile says that the description element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[0]: Rule que-6: 'Required and repeat aren't permitted for display items' Failed
 ERROR: Questionnaire/case-reporting-questionnaire: Questionnaire.item[1]: Rule que-6: 'Required and repeat aren't permitted for display items' Failed
 WARNING: Questionnaire/case-reporting-questionnaire: Questionnaire.item[5].extension[0].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
