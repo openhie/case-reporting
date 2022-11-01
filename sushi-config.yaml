@@ -142,6 +142,8 @@ pages:
     title: Data exchange
     dependencies.xml:
       title: Dependencies
+    data-models.md:
+      title: Data Models
     actors.xml:
       title: Actors
     transactions.xml:
