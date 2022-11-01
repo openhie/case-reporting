@@ -24,3 +24,4 @@ This specification has a status indicated in the front page. Each part of its co
   * **Normative content** defines expectations that must be met to be able to claim conformity with the specification. Examples are actor definitions and required transactions, or profiles with required elements and terminology constraints.
   * **Informative content** is used as guidance, and does not require to be used or adhered to. Examples of informative content are informative pages, references, etc.
 
+  
