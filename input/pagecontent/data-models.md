@@ -12,5 +12,3 @@ And a table for maturity of the models:
 |Data Entry Form| 3 |
 |Bundle| 2 |
 |CSV| 5 |
-
-
