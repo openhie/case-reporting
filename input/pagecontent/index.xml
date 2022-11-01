@@ -60,6 +60,7 @@
   <p>
     This Implementation Guide is targeted at the following typical audiences:
     <ul>
+      <li> <b>SMEs, Health program managers and specialists, informaticists</b> who wish to consult the architecture for case reporting</li>
       <li> <b>Healthcare IT analysts</b> who wish to design or integrate systems for case reporting, case surveillance </li>
       <li> <b>Technical designers</b> who must implement such case surveillance and reporting systems and their interfaces</li>
       <li> <b>Designers of purpose-specific guidance</b> who should use this base architecture specification to append the content for their purposes, e.g. HIV, TB, COVID-19, etc.</li>
@@ -98,6 +99,9 @@
     This specification is provided without warranty of completeness or consistency, and the official publication supersedes this draft.
     No liability can be inferred from the use or misuse of this specification, or its consequences.
   </p>
+
+
+
 
 
   <h3>Credits and Acknowledgements</h3>  <a name="credits"> </a>
