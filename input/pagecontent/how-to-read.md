@@ -19,8 +19,9 @@ The remainder of the implementation guide contains useful narrative such as cont
 
 ### Maturity and normative status
 This specification has a status indicated in the front page. Each part of its content (pages, workflows, artifacts) is classified according to
-* **Maturity**
+* **Maturity** - The maturity rules for this IG Will follow the HL7 FMM guidelines.
 * **Normative status** - content can be **normative** or **informative**:
   * **Normative content** defines expectations that must be met to be able to claim conformity with the specification. Examples are actor definitions and required transactions, or profiles with required elements and terminology constraints.
   * **Informative content** is used as guidance, and does not require to be used or adhered to. Examples of informative content are informative pages, references, etc.
 
+  
