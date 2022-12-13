@@ -3,7 +3,7 @@
 
 err = 16, warn = 15, info = 39
 IG Publisher Version: 1.2.23
-Generated Tue Dec 13 09:29:26 UTC 2022. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0 (canonical = http://openhie.org/fhir)
+Generated Tue Dec 13 12:07:01 UTC 2022. FHIR version 4.0.1 for openhie.fhir.casereporting#0.1.0 (canonical = http://openhie.org/fhir)
  Build Errors : 8 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-cs-hiv-risk-behavior : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-cs-patient-gender : 2 / 2 / 2
