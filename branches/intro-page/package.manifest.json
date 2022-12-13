@@ -1,8 +1,6 @@
 {
-  "version": "0.1.0",
-  "fhirVersion": [
-    "4.0.1"
-  ],
-  "date": "20221101112800",
-  "name": "openhie.fhir.casereporting"
+  "version" : "0.1.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20221213092728",
+  "name" : "openhie.fhir.casereporting"
 }

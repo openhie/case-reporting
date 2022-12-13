@@ -210,40 +210,40 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   
   
   <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#1">FHIR Readiness Levels</a></li><li><a href="#2">Case Report Forms</a></li></ul></div>
-  <a name="1"/><h3>FHIR Readiness Levels</h3><a name="maturity">  </a>
-  <p>
+  <a name="1"/><ns0:h3 xmlns:ns0="http://www.w3.org/1999/xhtml">FHIR Readiness Levels</ns0:h3><a name="maturity">  </a>
+  <ns1:p xmlns:ns1="http://www.w3.org/1999/xhtml">
     Case reporting can integrate systems that have different levels of FHIR readiness:
-    <dl>
-      <dt>FHIR Naive</dt>
-      <dd>Existing tool with limited resources or desire to upgrade to include FHIR support.  Have back-end access to database or way to generate tabular reports.  </dd>
+    <ns2:dl xmlns:ns2="http://www.w3.org/1999/xhtml">
+      <ns3:dt xmlns:ns3="http://www.w3.org/1999/xhtml">FHIR Naive</ns3:dt>
+      <ns4:dd xmlns:ns4="http://www.w3.org/1999/xhtml">Existing tool with limited resources or desire to upgrade to include FHIR support.  Have back-end access to database or way to generate tabular reports.  </ns4:dd>
 
-      <dt>FHIR Aware</dt>
-      <dd>Basic FHIR Questionnaire support available for simple data exports from template reports.  Can initiate FHIR API calls.  Metadata synchronized using IHE profiless (SVCM, mCSD)</dd>
+      <ns5:dt xmlns:ns5="http://www.w3.org/1999/xhtml">FHIR Aware</ns5:dt>
+      <ns6:dd xmlns:ns6="http://www.w3.org/1999/xhtml">Basic FHIR Questionnaire support available for simple data exports from template reports.  Can initiate FHIR API calls.  Metadata synchronized using IHE profiless (SVCM, mCSD)</ns6:dd>
 
-      <dt>FHIR Native</dt>
-      <dd>Full FHIR stack, data model and supporting tools are within the system.  Can generate robust FHIR resources and data models and metadata has been synchronized using IHE profiles (SVCM, mCSD)</dd>
-    </dl>
+      <ns7:dt xmlns:ns7="http://www.w3.org/1999/xhtml">FHIR Native</ns7:dt>
+      <ns8:dd xmlns:ns8="http://www.w3.org/1999/xhtml">Full FHIR stack, data model and supporting tools are within the system.  Can generate robust FHIR resources and data models and metadata has been synchronized using IHE profiles (SVCM, mCSD)</ns8:dd>
+    </ns2:dl>
 
     
-  </p>
+  </ns1:p>
 
 
-  <a name="2"/><h3>Case Report Forms</h3><a name="case_report"> </a>  
-  <p>
+  <a name="2"/><ns9:h3 xmlns:ns9="http://www.w3.org/1999/xhtml">Case Report Forms</ns9:h3><a name="case_report"> </a>  
+  <ns10:p xmlns:ns10="http://www.w3.org/1999/xhtml">
     The specification of a case report form comprises two things:
-    <ul>
-      <li> The specific data fields expected in the case report are defined through the specification of a <a href="https://www.hl7.org/fhir/questionnaire.html">Questionnaire</a> with a Structured <a href="http://hl7.org/fhir/uv/sdc/extraction.html#definition-extract">Definition Based Extract</a> as defined in  the Structured Data Capture Implementation Guide.  The Questionnaire is inteded to ease data collection, particularly from systems with lower FHIR maturity </li>
+    <ns11:ul xmlns:ns11="http://www.w3.org/1999/xhtml">
+      <ns12:li xmlns:ns12="http://www.w3.org/1999/xhtml"> The specific data fields expected in the case report are defined through the specification of a <ns13:a xmlns:ns13="http://www.w3.org/1999/xhtml" href="https://www.hl7.org/fhir/questionnaire.html">Questionnaire</ns13:a> with a Structured <ns14:a xmlns:ns14="http://www.w3.org/1999/xhtml" href="http://hl7.org/fhir/uv/sdc/extraction.html#definition-extract">Definition Based Extract</ns14:a> as defined in  the Structured Data Capture Implementation Guide.  The Questionnaire is inteded to ease data collection, particularly from systems with lower FHIR maturity </ns12:li>
       
-      <li> A profile of the <a href="https://www.hl7.org/fhir/composition.html">Composition</a> which will define where the content (e.g.  demographic, clinical) of a case report form should reside.  This profile also represents the domain of resources onto which a <a href="https://www.hl7.org/fhir/composition.html">QuestionnaireResponse</a> extracts.</li>
-    </ul>
+      <ns15:li xmlns:ns15="http://www.w3.org/1999/xhtml"> A profile of the <ns16:a xmlns:ns16="http://www.w3.org/1999/xhtml" href="https://www.hl7.org/fhir/composition.html">Composition</ns16:a> which will define where the content (e.g.  demographic, clinical) of a case report form should reside.  This profile also represents the domain of resources onto which a <ns17:a xmlns:ns17="http://www.w3.org/1999/xhtml" href="https://www.hl7.org/fhir/composition.html">QuestionnaireResponse</ns17:a> extracts.</ns15:li>
+    </ns11:ul>
 
 
-    <figure>
-      <img src="transformers.png"/>
-      <figcaption>Case Report Transformation Workflow</figcaption>
-    </figure>
+    <ns18:figure xmlns:ns18="http://www.w3.org/1999/xhtml">
+      <ns19:img xmlns:ns19="http://www.w3.org/1999/xhtml" src="transformers.png"/>
+      <ns20:figcaption xmlns:ns20="http://www.w3.org/1999/xhtml">Case Report Transformation Workflow</ns20:figcaption>
+    </ns18:figure>
 
-  </p>
+  </ns10:p>
 
 </div>
 </div>
@@ -267,7 +267,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="http://ohie.org">OpenHIE</a>.  Package openhie.fhir.casereporting#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 1, 2022 11:28+0000">2022-11-01</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="http://ohie.org">OpenHIE</a>.  Package openhie.fhir.casereporting#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 13, 2022 09:28+0000">2022-12-13</span>
           <br/>
           <span style="color: #FFFF77">
             <!-- OpenHIE -->

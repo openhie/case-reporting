@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "c8b1e619-6cde-4334-ba61-7a3795eff408",
+  "id" : "2ec0ad05-0886-4d7c-926b-58ca9891bdf4",
   "meta" : {
-    "lastUpdated" : "2022-11-01T11:28:37.378+00:00"
+    "lastUpdated" : "2022-12-13T09:28:26.404+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -109,8 +109,8 @@
       "name" : "HIVRiskPopulation",
       "status" : "draft",
       "expansion" : {
-        "identifier" : "urn:uuid:655bf33d-95da-47ca-880b-890f9893314d",
-        "timestamp" : "2022-11-01T11:28:53+00:00",
+        "identifier" : "urn:uuid:bde2f5e7-ff25-41c4-a823-cb8eea2e6a32",
+        "timestamp" : "2022-12-13T09:28:46+00:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -132,8 +132,8 @@
       "name" : "HIVRiskBehavior",
       "status" : "draft",
       "expansion" : {
-        "identifier" : "urn:uuid:99ae55df-a08f-4b5b-9314-aeb1e5018e3e",
-        "timestamp" : "2022-11-01T11:28:53+00:00",
+        "identifier" : "urn:uuid:92d0090f-7b8c-4396-a3bd-12f83689997f",
+        "timestamp" : "2022-12-13T09:28:46+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -178,14 +178,14 @@
       "id" : "hiv-transmission-route",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-blood\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood\">blood</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Blood born infection</td><td><div><p>Blood born infection</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-sexual\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual\">sexual</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Sexual relationship</td><td><div><p>Sexual relationship transmission</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-mother\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother\">mother</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Mother to child</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-unidentified\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified\">unidentified</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Unidentified</td><td><div><p>Unidentified</p>\n</div></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-blood\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-blood\">blood</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Blood born infection</td><td><div><p>Blood born infection</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-sexual\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-sexual\">sexual</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Sexual relationship</td><td><div><p>Sexual relationship transmission</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-mother\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-mother\">mother</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Mother to child</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---openhie.org-fhir-ImplementationGuide-openhie.fhir.casereporting-CodeSystem-hiv-transmission-route-unidentified\"> </a>  <a href=\"CodeSystem-hiv-transmission-route.html#hiv-transmission-route-unidentified\">unidentified</a></td><td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td><td>Unidentified</td><td><div><p>Unidentified</p>\n</div></td></tr></table></div>"
       },
       "url" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/hiv-transmission-route",
       "version" : "0.1.0",
       "name" : "HIVTransmissionRoute",
       "title" : "HIV Transmission Route",
       "status" : "draft",
-      "date" : "2022-11-01T11:28:37+00:00",
+      "date" : "2022-12-13T09:28:26+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
