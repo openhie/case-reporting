@@ -1,7 +1,7 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
-  <h3>FHIR Maturity Levels</h3><a name="maturity"></a>
+  <h3>FHIR Readiness Levels</h3><a name="maturity"> </a>
   <p>
-    
+    Case reporting can integrate systems that have different levels of FHIR readiness:
     <dl>
       <dt>FHIR Naive</dt>
       <dd>Existing tool with limited resources or desire to upgrade to include FHIR support.  Have back-end access to database or way to generate tabular reports.  </dd>
@@ -21,7 +21,7 @@
   <p>
     The specification of a case report form comprises two things:
     <ul>
-      <li> The specific data fields expected in the case report are defined through the specification of a <a href="https://www.hl7.org/fhir/questionnaire.html">Questionnaire</a> with a Structured <a href="http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract">Definition Based Extract</a> as defined in  the Structured Data Capture Implementation Guide.  The Questionnaire is inteded to ease data collection, particularly from systems with lower FHIR <a href="$concepts.html#matutiy">maturity</a> </li>
+      <li> The specific data fields expected in the case report are defined through the specification of a <a href="https://www.hl7.org/fhir/questionnaire.html">Questionnaire</a> with a Structured <a href="http://hl7.org/fhir/uv/sdc/extraction.html#definition-extract">Definition Based Extract</a> as defined in  the Structured Data Capture Implementation Guide.  The Questionnaire is inteded to ease data collection, particularly from systems with lower FHIR maturity </li>
       
       <li> A profile of the <a href="https://www.hl7.org/fhir/composition.html">Composition</a> which will define where the content (e.g.  demographic, clinical) of a case report form should reside.  This profile also represents the domain of resources onto which a <a href="https://www.hl7.org/fhir/composition.html">QuestionnaireResponse</a> extracts.</li>
     </ul>

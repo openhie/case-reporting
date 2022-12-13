@@ -34,7 +34,7 @@
 	    For each row of tabular data:
 	    <ol>
 	      <li>Map the data row into a QuestionnaireResponse using a ConceptMap to map column names of the tabular data into QuestionnaireItems (<b>Need Vlad's details</b>)</li>
-	      <li>Extract relevant resouces into a Composition resource into a QuestionnaireResponse using <a href="http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract">Definition Based Extract</a> as defined within the corresponding Questionnaire resource (the equivalent of the $extract operation)</li>
+	      <li>Extract relevant resouces into a Composition resource into a QuestionnaireResponse using <a href="http://hl7.org/fhir/uv/sdc/extraction.html#definition-extract">Definition Based Extract</a> as defined within the corresponding Questionnaire resource (the equivalent of the $extract operation)</li>
 	      <li>Create a Provenance resource linking the QuestionnaireResponse to the extracted Composition resource</li>
 	    </ol>
 	  </li>
@@ -51,7 +51,7 @@
 	  <li>
 	    For each QuestionnaireResponse:
 	    <ol>
-	      <li>Extract relevant resouces into a Composition resource using <a href="http://build.fhir.org/ig/HL7/sdc/extraction.html#definition-extract">Definition Based Extract</a> as defined within the corresponding Questionnaire resource (the equivalent to the SDC $extract operation)</li>
+	      <li>Extract relevant resouces into a Composition resource using <a href="http://hl7.org/fhir/uv/sdc/extraction.html#definition-extract">Definition Based Extract</a> as defined within the corresponding Questionnaire resource (the equivalent to the SDC $extract operation)</li>
 	      <li>Create a Provenance resource linking the QuestionnaireResponse to the extracted Composition resource</li>
 	    </ol>
 	  </li>

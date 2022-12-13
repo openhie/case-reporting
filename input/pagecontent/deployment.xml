@@ -3,6 +3,7 @@
     
     This Implementation Guide contains the following deployment guidance:
     <ul>
+      <li><a href="examples.html">Informative examples</a></li>      
       <li><a href="security_privacy.html">Security and Privacy Considerations</a></li>
       <li><a href="testing.html">Testing</a></li>
       <li><a href="instant_openhie.html">Instant OpenHIE</a> Specifications for the Instant OpenHIE Reference Implemenation</li>
