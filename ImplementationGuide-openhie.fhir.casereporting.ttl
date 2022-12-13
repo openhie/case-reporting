@@ -7,18 +7,18 @@
 
 <http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "openhie.fhir.casereporting"];
+  fhir:Resource.id [ fhir:value "openhie.fhir.casereporting"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>OpenhieCaseReporting</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting</pre><div><p>A FHIR Implementation Guide describing generic interoperability mechanisms for case reporting.</p>\n</div></div>"
-  ];
-  fhir:ImplementationGuide.url [ fhir:value "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting"];
-  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
-  fhir:ImplementationGuide.name [ fhir:value "OpenhieCaseReporting"];
-  fhir:ImplementationGuide.title [ fhir:value "OpenHIE Case Reporting"];
-  fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-26"^^xsd:date];
-  fhir:ImplementationGuide.publisher [ fhir:value "OpenHIE"];
+  ]; # 
+  fhir:ImplementationGuide.url [ fhir:value "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting"]; # 
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"]; # 
+  fhir:ImplementationGuide.name [ fhir:value "OpenhieCaseReporting"]; # 
+  fhir:ImplementationGuide.title [ fhir:value "OpenHIE Case Reporting"]; # 
+  fhir:ImplementationGuide.status [ fhir:value "active"]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-26"^^xsd:date]; # 
+  fhir:ImplementationGuide.publisher [ fhir:value "OpenHIE"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "OpenHIE" ];
@@ -40,8 +40,8 @@
        fhir:ContactPoint.value [ fhir:value "openhie@ohie.org" ];
        fhir:ContactPoint.use [ fhir:value "work" ]
      ]
-  ];
-  fhir:ImplementationGuide.description [ fhir:value "A FHIR Implementation Guide describing generic interoperability mechanisms for case reporting."];
+  ]; # 
+  fhir:ImplementationGuide.description [ fhir:value "A FHIR Implementation Guide describing generic interoperability mechanisms for case reporting."]; # 
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -50,22 +50,27 @@
        fhir:Coding.code [ fhir:value "001" ];
        fhir:Coding.display [ fhir:value "World" ]
      ]
-  ];
-  fhir:ImplementationGuide.packageId [ fhir:value "openhie.fhir.casereporting"];
-  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
+  ]; # 
+  fhir:ImplementationGuide.packageId [ fhir:value "openhie.fhir.casereporting"]; # 
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"]; # 
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
      fhir:index 0
-  ];
+  ]; # 
   fhir:ImplementationGuide.dependsOn [
      fhir:index 0;
      fhir:Element.id [ fhir:value "hl7tx" ];
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment" ];
+       fhir:Extension.valueMarkdown [ fhir:value "Automatically added as a dependency - all IGs depend on HL7 Terminology" ]
+     ];
      fhir:ImplementationGuide.dependsOn.uri [
        fhir:value "http://terminology.hl7.org/ImplementationGuide/hl7.terminology";
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "4.0.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.0.0" ]
   ], [
      fhir:index 1;
      fhir:Element.id [ fhir:value "hl7_fhir_uv_sdc" ];
@@ -75,7 +80,7 @@
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.sdc" ];
      fhir:ImplementationGuide.dependsOn.version [ fhir:value "current" ]
-  ];
+  ]; # 
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
        fhir:index 0;
@@ -1196,7 +1201,7 @@
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
        fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 

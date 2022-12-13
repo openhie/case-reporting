@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c8b1e619-6cde-4334-ba61-7a3795eff408"/>
+  <id value="b1d373b4-d4e0-4d89-bf82-4a8c25a1e793"/>
   <meta>
-    <lastUpdated value="2022-11-01T11:28:37.378+00:00"/>
+    <lastUpdated value="2022-12-13T09:27:38.214+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -184,8 +184,8 @@
         <name value="HIVRiskPopulation"/>
         <status value="draft"/>
         <expansion>
-          <identifier value="urn:uuid:655bf33d-95da-47ca-880b-890f9893314d"/>
-          <timestamp value="2022-11-01T11:28:53+00:00"/>
+          <identifier value="urn:uuid:429ea019-d976-4e38-b42b-93e78e1745f8"/>
+          <timestamp value="2022-12-13T09:27:57+00:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -299,8 +299,8 @@
         <name value="HIVRiskBehavior"/>
         <status value="draft"/>
         <expansion>
-          <identifier value="urn:uuid:99ae55df-a08f-4b5b-9314-aeb1e5018e3e"/>
-          <timestamp value="2022-11-01T11:28:53+00:00"/>
+          <identifier value="urn:uuid:47eca47a-6d97-4b5f-8b7e-38374b61b649"/>
+          <timestamp value="2022-12-13T09:27:57+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -398,7 +398,9 @@
                 </td>
                 <td>http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/CodeSystem/hiv-transmission-route</td>
                 <td>Mother to child</td>
-                <td/>
+                <td>
+                  <div/>
+                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -422,7 +424,7 @@
         <name value="HIVTransmissionRoute"/>
         <title value="HIV Transmission Route"/>
         <status value="draft"/>
-        <date value="2022-11-01T11:28:37+00:00"/>
+        <date value="2022-12-13T09:27:38+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>

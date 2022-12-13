@@ -1,59 +1,47 @@
 {
-  "resourceType": "ValueSet",
-  "id": "vs-ethnicity",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>urn:oid:2.16.840.1.114222.4.11.877</code></li></ul></div>"
+  "resourceType" : "ValueSet",
+  "id" : "vs-ethnicity",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>urn:oid:2.16.840.1.114222.4.11.877</code></li></ul></div>"
   },
-  "url": "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/vs-ethnicity",
-  "version": "0.1.0",
-  "name": "VSEthnicity",
-  "title": "Ethnicity",
-  "status": "draft",
-  "date": "2022-11-01T11:28:37+00:00",
-  "publisher": "OpenHIE",
-  "contact": [
-    {
-      "name": "OpenHIE",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "http://ohie.org"
-        },
-        {
-          "system": "email",
-          "value": "openhie@ohie.org"
-        }
-      ]
+  "url" : "http://openhie.org/fhir/ImplementationGuide/openhie.fhir.casereporting/ValueSet/vs-ethnicity",
+  "version" : "0.1.0",
+  "name" : "VSEthnicity",
+  "title" : "Ethnicity",
+  "status" : "draft",
+  "date" : "2022-12-13T09:27:38+00:00",
+  "publisher" : "OpenHIE",
+  "contact" : [{
+    "name" : "OpenHIE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ohie.org"
     },
     {
-      "name": "OpenHIE",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "openhie@ohie.org",
-          "use": "work"
-        }
-      ]
-    }
-  ],
-  "description": "Ethnicity",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001",
-          "display": "World"
-        }
-      ]
-    }
-  ],
-  "compose": {
-    "include": [
-      {
-        "system": "urn:oid:2.16.840.1.114222.4.11.877"
-      }
-    ]
+      "system" : "email",
+      "value" : "openhie@ohie.org"
+    }]
+  },
+  {
+    "name" : "OpenHIE",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "openhie@ohie.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Ethnicity",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.114222.4.11.877"
+    }]
   }
 }
