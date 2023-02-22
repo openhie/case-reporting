@@ -26,16 +26,11 @@
 
 <!-- no fitting stylesheet found (status/publisher)-->
 
+<link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
 <link href="assets/css/openhie.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
-<!--
-  Questionnaire:
--->
-    <link href="assets/css/lforms.min.css" rel="stylesheet"/>
-
-
-
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -80,7 +75,17 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">OpenHIE Case Reporting</span><br/>0.1.0 - STU1</p>
+          <p><span style="font-size:12pt;font-weight:bold">OpenHIE Case Reporting</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - STU1
+
+
+
+  <img alt="International flag" src="assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -180,12 +185,12 @@
       </div>  <!-- /container -->
     </div>  <!-- /segment-navbar -->
     <!--status-bar-->
-    
+
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
           <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='deployment.html'><b>Deployment guidance</b></a></li><li><b>Useful downloads</b></li>
-          
+
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
@@ -204,7 +209,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">OpenHIE Case Reporting - Local Development build (v0.1.0). See the <a href="http://openhie.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">OpenHIE Case Reporting, published by OpenHIE. This is not an authorized publication; it is the continuous build for version 0.1.0). This version is based on the current content of <a href="https://github.com/openhie/case-reporting">https://github.com/openhie/case-reporting</a> and changes regularly. See the <a href="http://openhie.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Useful downloads</h2>
   
   
@@ -213,44 +218,44 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-	<ns0:p xmlns:ns0="http://www.w3.org/1999/xhtml">
-    Download the entire implementation guide <ns1:a xmlns:ns1="http://www.w3.org/1999/xhtml" href="full-ig.zip">here</ns1:a>
-	</ns0:p>
-	<ns2:p xmlns:ns2="http://www.w3.org/1999/xhtml">
-    Download the implementation guide package (npm) <ns3:a xmlns:ns3="http://www.w3.org/1999/xhtml" href="package.tgz">here</ns3:a>
-	</ns2:p>
-	<ns4:table xmlns:ns4="http://www.w3.org/1999/xhtml">
-		<ns5:tbody xmlns:ns5="http://www.w3.org/1999/xhtml">
-			<ns6:tr xmlns:ns6="http://www.w3.org/1999/xhtml">
-				<ns7:th xmlns:ns7="http://www.w3.org/1999/xhtml">Artifact Definitions</ns7:th>
+	<p>
+    Download the entire implementation guide <a href="full-ig.zip">here</a>
+	</p>
+	<p>
+    Download the implementation guide package (npm) <a href="package.tgz">here</a>
+	</p>
+	<table>
+		<tbody>
+			<tr>
+				<th>Artifact Definitions</th>
 
-				<ns8:td xmlns:ns8="http://www.w3.org/1999/xhtml">
-					<ns9:a xmlns:ns9="http://www.w3.org/1999/xhtml" href="definitions.xml.zip">XML</ns9:a>
-				</ns8:td>
-
-
-				<ns10:td xmlns:ns10="http://www.w3.org/1999/xhtml">
-					<ns11:a xmlns:ns11="http://www.w3.org/1999/xhtml" href="definitions.json.zip">JSON</ns11:a>
-				</ns10:td>
+				<td>
+					<a href="definitions.xml.zip">XML</a>
+				</td>
 
 
-			</ns6:tr>
-			<ns14:tr xmlns:ns14="http://www.w3.org/1999/xhtml">
-				<ns15:th xmlns:ns15="http://www.w3.org/1999/xhtml">Examples</ns15:th>
-
-				<ns16:td xmlns:ns16="http://www.w3.org/1999/xhtml">
-					<ns17:a xmlns:ns17="http://www.w3.org/1999/xhtml" href="examples.xml.zip">XML</ns17:a>
-				</ns16:td>
+				<td>
+					<a href="definitions.json.zip">JSON</a>
+				</td>
 
 
-				<ns18:td xmlns:ns18="http://www.w3.org/1999/xhtml">
-					<ns19:a xmlns:ns19="http://www.w3.org/1999/xhtml" href="examples.json.zip">JSON</ns19:a>
-				</ns18:td>
+			</tr>
+			<tr>
+				<th>Examples</th>
+
+				<td>
+					<a href="examples.xml.zip">XML</a>
+				</td>
 
 
-			</ns14:tr>
-		</ns5:tbody>
-	</ns4:table>
+				<td>
+					<a href="examples.json.zip">JSON</a>
+				</td>
+
+
+			</tr>
+		</tbody>
+	</table>
 </div>
 </div>
 
@@ -273,12 +278,17 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="http://ohie.org">OpenHIE</a>.  Package openhie.fhir.casereporting#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 13, 2022 12:06+0000">2022-12-13</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="http://ohie.org">OpenHIE</a>.  Package openhie.fhir.casereporting#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 22, 2023 20:48+0000">2023-02-22</span>
           <br/>
           <span style="color: #FFFF77">
             <!-- OpenHIE -->
 <!-- active -->
 
+Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a> |
+                 
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://openhie.org/fhir/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC-BY" src="assets/images/cc-by.png" height="17"/></a>
 <!-- no fitting stylesheet found (status/publisher)-->
 
 
